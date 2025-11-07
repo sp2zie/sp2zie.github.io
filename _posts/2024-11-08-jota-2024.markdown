@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "JOTA 2024"
+date:   2024-11-08
+categories: Aktualności
+---
+
+Po raz kolejny mieliśmy przyjemność pomóc harcerzom z [Hufca Gdynia](https://www.zhp.gdynia.pl/)
+w nawiązaniu pierwszych łączności radiowych w ramach międzynarodowej akcji 
+[Jamboree on the Air (JOTA)](https://www.jotajoti.info/jota). 
+
+![JOTA 2024](/assets/images/jota_2024_radio_02.jpg)
+
+Stacja SN2JOTA zainstalowana przez członków klubu aktywna była w ostatni weekend października
+od godzin porannych do późno-wieczornych na wszystkich pasmach.
+
+Młodzi operatorzy i operatorki mieli okazję do nawiązania łączności z wieloma stacjami z Polski i zza granicy.
+Dziękujemy również wszystkim krótkofalowcom, którzy zdecydowali się na poświęcenie trochę czasu, 
+by zrobić łączność z jednym z blisko 40 -tu harcerzy, którzy po raz pierwszy zasiedli przy radiostacji. 
+Przeprowadziliśmy również warsztaty elektroniczne, w ramach których ich uczestnicy mieli okazję zbudować
+odbiornik radiowy. Często był to ich pierwszy kontakt z lutownicą, ale mamy wrażenie, że przynajmniej dla niektórych
+nie ostatni. Wszyscy uczestnicy warsztatów ukończyli je z działającymi radiami zbudowanymi własnymi rękami. 
+To już kolejny raz, kiedy klub SP2ZIE pomaga harcerzom przy organizacji stacji w ramach programu JOTA i zapewne nie ostatni.
+
+![JOTA 2024](/assets/images/jota_2024_radio_01.jpg)
+![JOTA 2024](/assets/images/jota_2024_radio_04.jpg)
+![JOTA 2024](/assets/images/jota_2024_warsztaty_02.jpg)
+![JOTA 2024](/assets/images/jota_2024_warsztaty_03.jpg)
