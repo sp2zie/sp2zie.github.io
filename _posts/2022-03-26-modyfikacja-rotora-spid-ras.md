@@ -7,7 +7,7 @@ categories:
   - Projekty techniczne
 ---
 
-[pw sat3 1 70cm](/assets/images/pw-sat3-1_70cm.png)
+
 
 Koło Naukowe Morski Klub Łączności SZKUNER SP2ZIE przygotowując się do realizacji projektu w zakresie budowy naziemnej stacji do łączności sateli-tarnej na potrzeby komunikacji ze studenckim satelitą PW-Sat3, budowanym przez studentów Politechniki Warszawskiej, podjęło prace zmierzające do po-prawy dokładności pozycjonowania anten wykorzystywanych do śledzenia i nawiązywania łączności z obiektami znajdującymi się w przestrzeni kosmicznej, które przelatują nad terenem Polski. Jednocześnie uznano, za konieczne wyeli-minowanie możliwych błędów pojawiających się w urządzeniach pozycjonują-cych anteny (rotor), celem poprawienia ich niezawodności, która jest nieodzow-na dla zapewnienia stałej i bezpośredniej łączności z obiektem orbitującym w przestrzeni kosmicznej w projektowanej, zdalnie sterowanej stacji naziemnej.
 
@@ -29,11 +29,10 @@ Najprymitywniejszym rozwiązaniem było by dołożenie potencjometru w osi obrot
 
 Modyfikacja polega na rozebraniu górnej części rotora, w celu dostania się do osi obrotu rotora. Trzeba zatem usunąć górną i boczną obudowę rotora oraz odkręcić i zdjąć pierścienie pozycjonujące uchwyt rury elewacji. Warto zaznaczyć położenie wszystkich elementów pisakiem.
 
- IMG20220321085208
-
+![IMG20220321085208](/assets/images/IMG20220321085208.jpg)
  
+![IMG20220321091048](/assets/images/IMG20220321091048.jpg)
 
-IMG20220321091048
 
 Następnie należy odkręcić blaszkę przełącznika krańcowego i delikatni wybić rurę elewacji w kierunku ślimacznicy. Należy z wyczuciem wybijać rurę młotkiem przez klocek drewniany. Rura osadzona jest w dwu łożyskach – jest możliwość, że wraz z rurą wysunie się jedno, bądź oba łożyska.
 
