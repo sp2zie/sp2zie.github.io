@@ -12,4 +12,4 @@ dlatego nasi ludzie Iwona SQ2NNV i Darek SP2MGR z okazji Międzynarodowego Weeke
 Dziękujemy Jarkowi SP1C, Darkowi SQ1OD, Piotrowi SP1GZF i Jurkowi SQ2NIA za ugoszczenie naszych przedstawicieli i za przemiłe spotkanie.
 Mamy nadzieje, że latarnie morskie za rok znów nas połączą...
 
-![2021 08 15 lh sp2mgr](/assets/images/2021_08_15_lh_sp2mgr.jpg)
+![2021 08 15 lh sp2mgr](/assets/images/phocagallery/2021_08_15_lh_sp2mgr.jpg)
