@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Aktywność terenowa
-3Z2LS Latarnia Morska STILO 2017
+title: 3Z2LS Latarnia Morska STILO 2017
 date: 2017-10-14
 author: Dariusz Mankiewicz, SP2HQY
 categories: Aktywność terenowa
