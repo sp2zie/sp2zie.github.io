@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Udział w zawodach
-SP DX RTTY Contest 2017
+title: SP DX RTTY Contest 2017
 date: 2017-10-14
 author: Dariusz Mankiewicz, SP2HQY
 categories: Udział w zawodach
