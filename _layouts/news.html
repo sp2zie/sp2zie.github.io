@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="home">
+    <h1 class="page-heading">Aktualności</h1>
+
+    {{ content }}
+
+    {%- if site.news.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.news_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+        {%- for news in site.news -%}
+        <li>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ news.date | date: date_format }}</span>
+            <h3>
+                <a class="post-link" href="{{ news.url | relative_url }}">
+                    {{ news.title | escape }}
+                </a>
+            </h3>
+            {%- if site.show_excerpts -%}
+            {{ news.excerpt }}
+            {%- endif -%}
+        </li>
+        {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    {%- endif -%}
+
+</div>
