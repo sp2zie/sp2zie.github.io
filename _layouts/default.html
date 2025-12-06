@@ -6,9 +6,20 @@
     {%- include header.html -%}
     <main class="page-content" aria-label="Content">
         <div class="wrapper">
+            <input type="text" id="search-input" placeholder="Szukaj..." size="50">
+            <ul id="results-container"></ul>
             {{ content }}
         </div>
     </main>
     {%- include footer.html -%}
+    <script>
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        limit: 10,
+        fuzzy: true
+      })
+    </script>
 </body>
 </html>
