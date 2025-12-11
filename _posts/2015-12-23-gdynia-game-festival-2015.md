@@ -3,7 +3,7 @@ layout: post
 title: Gdynia Game Festival 2015
 date: 2015-12-23
 author: Dariusz Mankiewicz, SP2HQY
-categories: ???
+categories: Z życia klubu
   - 
 ---
 
