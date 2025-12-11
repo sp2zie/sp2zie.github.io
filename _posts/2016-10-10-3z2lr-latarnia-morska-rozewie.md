@@ -9,7 +9,7 @@ categories: Aktywność terenowa
 
 Postanowiliśmy kontynuować nasze prace badawcze w zakresie badania warunków propagacyjnych w rejonie półwyspu helskiego. W roku 2016 jako obiekt badań wytypowaliśmy Latarnię Morską w Rozewiu. Po uzyskaniu stosownej zgody Urzędu Morskiego i poczynieniu uzgodnień z załogą Latarni w dniu 13 sierpnia 2016 rozpoczęliśmy naszą koleją przygodę.
 
-[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=[VIDEO_ID](https://www.youtube.com/watch?v=9P8ri0OXqZI))
+[![Watch the video](https://img.youtube.com/vi/https://www.youtube.com/watch?v=9P8ri0OXqZI/0.jpg)](https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=9P8ri0OXqZI)
 
 https://www.youtube.com/watch?v=9P8ri0OXqZI
 
