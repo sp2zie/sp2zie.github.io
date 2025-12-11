@@ -9,7 +9,7 @@ categories: Kursy i szkolenia
 
 W naszym klubie możesz zapoznać się z budowa transpondera SART-II firmy Sailor. Nasz egzemplarz został wycofany z eksploatacji z uwagi na upływ jego terminu gwarancji - ale jest kompletny, więc można bez trudu zapoznać się z jego budową wewnętrzną.
 
- Transponder radarowy SART (<span style="color:red">Search And Rescue Transponder</span>) powstał w wyniku odpowiedzi na zapotrzebowanie na system lokalizacji rozbitków na morzu oraz naprowadzania jednostek biorących udział w akcji poszukiwawczo - ratowniczej za pomocą istniejących systemów radarowych, używanych w celach nawigacyjnych na pokładach statków, oraz instalowanych na pokładach samolotów SAR. Podczas konstruowania systemu naprowadzania brano pod uwagę następujące założenia:
+ Transponder radarowy SART ( <span style="color:red">Search And Rescue Transponder</span> ) powstał w wyniku odpowiedzi na zapotrzebowanie na system lokalizacji rozbitków na morzu oraz naprowadzania jednostek biorących udział w akcji poszukiwawczo - ratowniczej za pomocą istniejących systemów radarowych, używanych w celach nawigacyjnych na pokładach statków, oraz instalowanych na pokładach samolotów SAR. Podczas konstruowania systemu naprowadzania brano pod uwagę następujące założenia:
  
  Transponder radarowy
 Transponder radarowy
