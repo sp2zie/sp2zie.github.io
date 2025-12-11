@@ -27,8 +27,7 @@ Do konstrukcji wzmacniacza posłużyła stara karta WiFi. Dojrzały wiek konstru
  
 Wyjście tak zmodyfikowanej karty sieciowej zostało podłączone do nieco zmodyfikowanego wzmacniacza WiFi wykonanego w oparciu o dwa układy YP242034 zakupionego przez chiński portal za około 20 dolarów. Wzmacniacz ten powinien dawać wedle deklaracji sprzedawcy (i danych technicznych układów scalonych) 4W, lecz przy sterowaniu z około 65mW udało się uzyskać jedynie około 1W mocy wyjściowej – być może dalsze modyfikacje pozwolą uzyskać większą moc.
 
-![phoca_thumb_l_wzm_wifi](/assets/images/phocagallery/2019-03-28-EsHail/thumbs
-/phoca_thumb_l_wzm_wifi.jpg)
+![phoca_thumb_l_wzm_wifi](/assets/images/phocagallery/2019-03-28-EsHail/thumbs/phoca_thumb_l_wzm_wifi.jpg)
  
 Jako oświetlacz paraboli wykonana została antena spiralna (heilkalna) obliczona przy pomocy [kalkulatora on-line](http://jcoppens.com/ant/helix/calc.en.php). Założono częstotliwość 2,4GHz oraz 5 zwojów. Po wykonaniu anteny okazało się, że minimalny SWR ma ona jednak na częstotliwości 2,5GHz, niemniej jednak SWR na 2,4GHz jest akceptowalny (<2). Jako zwierciadło paraboliczne zastosowano antenę satelitarną offsetową o średnicy około 1m. Po dokładnym naprowadzeniu anteny na satelitę na wykresie waterfall odbiornika pojawił się sygnał z własnej stacji o sile około 10dB ponad poziom tła. Czytelność sygnału bardzo dobra i śmiało można by prowadzić korespondencję.
 
