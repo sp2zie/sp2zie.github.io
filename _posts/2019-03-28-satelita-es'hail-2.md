@@ -23,17 +23,18 @@ Do generacji sygnału SSB użyty został transceiver SDR Adalm-Pluto oraz oprogr
  
 Do konstrukcji wzmacniacza posłużyła stara karta WiFi. Dojrzały wiek konstrukcji karty jest jej zaletą, gdyż do jej budowy zostały użyte większe i o mniejszej skali integracji elementy niż w nowocześniejszych rozwiązaniach, niemniej jednak możliwe jest dokonanie podobnych modyfikacji w nowocześniejszych urządzeniach. W omawianej karcie jako wzmacniacz wyjściowy w.cz. zastosowany został układ HFA3983. Umożliwia on uzyskanie mocy wyjściowej rzędu 18dBm (63mW), dodatkowo mamy do dyspozycji cały tor nadawczy oraz filtry. Modyfikacja karty polega na usunięciu większości elementów aktywnych i pozostawienie wyłącznie wzmacniacza w.cz. Należy również usunąć układ przełączający odbiornik i nadajnik i w jego miejsce wstawić zworkę, oraz dolutować kabelek z gniazdem do źródła sygnału oraz podać napięcie na pin 3 układu. Modyfikacje pokazane zostały na zdjęciach poniżej.
 
-Karta wifi przed i po modyfykacją
+![phoca_thumb_l_modyf_przed1](/assets/images/phocagallery/2019-03-28-EsHail/thumbs/phoca_thumb_l_modyf_przed1.jpg)
  
 Wyjście tak zmodyfikowanej karty sieciowej zostało podłączone do nieco zmodyfikowanego wzmacniacza WiFi wykonanego w oparciu o dwa układy YP242034 zakupionego przez chiński portal za około 20 dolarów. Wzmacniacz ten powinien dawać wedle deklaracji sprzedawcy (i danych technicznych układów scalonych) 4W, lecz przy sterowaniu z około 65mW udało się uzyskać jedynie około 1W mocy wyjściowej – być może dalsze modyfikacje pozwolą uzyskać większą moc.
 
-wzmacniacz wifi 4W
+![phoca_thumb_l_wzm_wifi](/assets/images/phocagallery/2019-03-28-EsHail/thumbs
+/phoca_thumb_l_wzm_wifi.jpg)
  
 Jako oświetlacz paraboli wykonana została antena spiralna (heilkalna) obliczona przy pomocy [kalkulatora on-line](http://jcoppens.com/ant/helix/calc.en.php). Założono częstotliwość 2,4GHz oraz 5 zwojów. Po wykonaniu anteny okazało się, że minimalny SWR ma ona jednak na częstotliwości 2,5GHz, niemniej jednak SWR na 2,4GHz jest akceptowalny (<2). Jako zwierciadło paraboliczne zastosowano antenę satelitarną offsetową o średnicy około 1m. Po dokładnym naprowadzeniu anteny na satelitę na wykresie waterfall odbiornika pojawił się sygnał z własnej stacji o sile około 10dB ponad poziom tła. Czytelność sygnału bardzo dobra i śmiało można by prowadzić korespondencję.
 
-oswietlacz
+![phoca_thumb_l_oswietlacz](/assets/images/phocagallery/2019-03-28-EsHail/thumbs/phoca_thumb_l_oswietlacz.jpg)
 
- antena
+ ![antena](/assets/images/phocagallery/2019-03-28-EsHail/antena.jpg)
  
 Koleją próbą było sprawdzenie czytelności sygnału nadawanego przy pomocy tylko pierwszego stopnia wzmacniacza w.cz., czyli zmodyfikowanej karty sieciowej. Okazuje się, że już 65mW oraz antena o średnicy około 1m wystarczy by przy odrobinie samozaparcia robić łączności foniczne, a z pewnością wystarczyło by do modulacji CW czy PSK. Sygnał odebrany z satelity był silnie zaszumiony, jednak czytelny (jego czytelność można określić na 3-4).
 
