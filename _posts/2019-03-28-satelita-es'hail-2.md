@@ -8,8 +8,8 @@ categories:
 ---
 
 W listopadzie 2018 roku na orbitę wystrzelony został geostacjonarny satelita Es’hail 2. Satelita został skonstruowany przez firmę Mitsubishi Electric na zlecenie rządu Kataru przy udziale Niemieckiego oddziału AMSAT. Poza dostarczaniem sygnału telewizji cyfrowej na sputniku znajduje się również liniowy przekaźnik amatorski. Umożliwia on nawiązywanie dwukierunkowej łączności przez radioamatorów z blisko połowy globu i w nomenklaturze amatorskiej otrzymał nazwę Qatar-OSCAR-100. Przekaźnik przeznaczony jest dla transmisji wąskopasmowych (takich jak SSB, CW, SSTV, PSK itp.) oraz szerokopasmowych transmisji cyfrowej telewizji amatorskich. Transponder wąskopasmowy przekazuje pasmo 2400,0MHz do 24000,3MHz, do dyspozycji radioamatorów jest około 250kHz, czyli tylko nieco mniej ile w paśmie 80m (3,5MHz-3,8MHz), umożliwia więc równoczesną pracę wielu stacji.
- 
- footprint
+
+![footprint](/assets/images/phocagallery/2019-03-28-EsHail/footprint.jpg)
 
 Jak wspomniano uplink (czyli częstotliwość na której satelita odbiera) to okolice 2,4GHz, natomiast downlink (częstotliwość nadawcza satelity) leży w paśmie 10,48955GHz-10,4898GHz (Tnx SP5MG). Dla radioamatora nie mającego doświadczenia mikrofalowego może to brzmieć odstraszająco, niemniej jednak odbiór jak i nadawanie nie jest bardzo skomplikowane i nie wymaga dużych nakładów finansowych ani sprzętowych.
  Do odbioru satelity wystarczy zwyczajna antena satelitarna o niewielkich rozmiarach wraz z normalnym konwerterem LNB oraz najprostszy odbiornik SDR  (np. RTL-SDR), bądź odbiornik mogący odbierać częstotliwości około 739MHz (10489MHz-9750MHz). Przydają się konwertery LNB z syntezą częstotliwości w celu zapewnienia lepszej stabilności częstotliwości odbieranego sygnału. Można również odbierać satelitę za pomocą [odbiorników Web-SDR](https://eshail.batc.org.uk/nb/).
