@@ -7,9 +7,9 @@ categories:
   - Per radio ad astra
 ---
 
-Co zrobić aby usłyszeć???….
+**Co zrobić aby usłyszeć???….**
 
-czyli słów kilka o wzmacniaczu antenowym z filtrem pasmowym
+**czyli słów kilka o wzmacniaczu antenowym z filtrem pasmowym**
  
 Planując odbiór słabych sygnałów i budując stację odbiorczą musimy zmierzyć się nie tylko z zakłóceniami zewnętrznymi, ale także z ograniczeniami stwarzanymi przez użyte części i materiały. Trzeba bowiem pamiętać, że każdy pasywny element, w tym linie transmisyjne wprowadzają tłumienie.
 
