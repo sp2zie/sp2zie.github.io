@@ -9,11 +9,8 @@ categories: Aktywność terenowa
 
 Postanowiliśmy kontynuować nasze prace badawcze w zakresie badania warunków propagacyjnych w rejonie półwyspu helskiego. W roku 2016 jako obiekt badań wytypowaliśmy Latarnię Morską w Rozewiu. Po uzyskaniu stosownej zgody Urzędu Morskiego i poczynieniu uzgodnień z załogą Latarni w dniu 13 sierpnia 2016 rozpoczęliśmy naszą koleją przygodę.
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/[VIDEO_ID](https://www.youtube.com/watch?v=9P8ri0OXqZI)"
-title="YouTube video player" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=[VIDEO_ID](https://www.youtube.com/watch?v=9P8ri0OXqZI))
+
 https://www.youtube.com/watch?v=9P8ri0OXqZI
 
 Podobnie jak w latach poprzednich uzyskaliśmy znak wywoławczy odpowiadający nazwie znaku nawigacyjnego 3Z2LR (Latarnia Rozewie). Korzystając ze sprawdzonych rozwiązań użyliśmy zestawu sprzętowego, który dobrze sprawował się na wyprawie w roku 2015. Na wyposażeniu mieliśmy Yaesu FT-1000 MP MarkV oraz Icoma 7000. Anteny to sprawdzony Windom na pasma KF oraz X-510 na pasma UKF. Jednocześnie prowadziliśmy badania z zastosowaniem anten pionowych przy wykorzystaniu skrzynki antenowej CG 3000.
