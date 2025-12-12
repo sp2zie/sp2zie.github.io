@@ -18,6 +18,7 @@ Operatorem łączności był Jędrzej SQ2DK.
 
 Pytania zadawali mali studenci Polskiej Akademii Dzieci w wieku od 6 do 15 lat, dla których zorganizowana przez nas łączność stanowi silny impuls rozwojowy i motywuje do jeszcze wydatniejszej pracy nad własnym pasjami naukowymi. Ważne jest bowiem przełamywanie barier mentalnych i kruszenie niewiary w swoje możliwości.
 
-Najważniejsze to podążanie za swoimi marzeniami. „Róbcie to, co kochacie i co robicie najlepiej” – mówił do młodych uczestników łączności Luca Parmitano z pokładu Międzynarodowej Stacji Kosmicznej.
+Najważniejsze to podążanie za swoimi marzeniami.
+<span style="color: red;">_„Róbcie to, co kochacie i co robicie najlepiej"_</span> – mówił do młodych uczestników łączności Luca Parmitano z pokładu Międzynarodowej Stacji Kosmicznej.
 
 Zapis łączności można znaleźć pod tym linkiem, zaś więcej zdjęć z kontaktu z ISS można znaleźć w naszej galerii.
