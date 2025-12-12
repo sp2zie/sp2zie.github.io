@@ -1,0 +1,18 @@
+<style>
+  .image-gallery { display: grid; grid-template-columns: repeat(auto-fill,minmax(200px, 1fr)); padding: 4px; }
+  .box { padding: 10px; margin: 2px; }
+  .img-gallery { width: 100%; height: 200px; object-fit: cover; transition: transform 0.3s; }
+  .img-gallery:hover { transform: scale(1.05); }
+</style>
+<div class="image-gallery">
+    {% for file in site.static_files %}
+        {% if file.path contains include.folder and file.extname == '.jpg' %}
+            {% assign title = file.path | split: '/' | last | replace: file.extname, '' %}
+            <div class="box">
+                <a href="{{ file.path | relative_url }}" title="{{ title }}">
+                    <img src="{{ file.path }}" alt="{{ title }}" class="img-gallery" />
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
