@@ -19,4 +19,4 @@ Tłumienie kabla antenowego zależne jest od jego budowy, długości oraz częst
 
 Charakteryzuje się wzmocnieniem około 20dB, liczbą szumową około 1dB. Wzmacniacz ten doskonale znosi nawet bardzo silne sygnały, które nie spowodują interferencji. Zasilany jest napięciem 12V-15V i pobiera dość dużo prądu (około 400mA), generując sporo ciepła, które powinno zostać z obudowy odebrane. Filtr i wzmacniacz zostały przykręcone do blachy albuminowej i połączone krótkimi odcinkami niskostratnego kabla koncentrycznego. Całość została umieszczona w wodoszczelnej obudowie po skrzynce antenowej Motorola F2260A. Umożliwi to bezpieczne umieszczenie na maszcie w bezpośrednim sąsiedztwie anteny odbiorczej.
 
-Zdjęcia konstrukcji możecie obejrzeć w naszej [galerii] (link do galerii).
+{% include image-gallery.html folder="assets/images/phocagallery/201805015-wzmacniacz-antenowy/thumbs" %}
