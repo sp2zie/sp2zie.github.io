@@ -1,0 +1,10 @@
+---
+layout: post
+title: Startuje nasza bramka APRS SP2ZIE-2
+date: 2025-12-16
+author: Michał Lewczuk, SP2XDM
+categories: Z życia klubu
+  - 
+---
+
+Dnia 21.05.2005 roku po serii testów startuje nasz bramka APRS.
