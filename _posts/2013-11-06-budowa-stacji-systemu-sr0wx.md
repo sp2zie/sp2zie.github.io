@@ -3,8 +3,8 @@ layout: post
 title: Budowa stacji systemu SR0WX
 date: 2013-11-06
 author: Jędrzej Marsz, SQ2DK
-categories: Projekty techniczne
-  - 
+categories: 
+  - Projekty techniczne
 ---
 
 Obecnie z siedziby klubu pracuje stacja systemu SR0WX.
@@ -31,6 +31,3 @@ Sprzęt został dość ciasno upakowany w środku obudowy, dlatego też konieczn
 Wkrótce przewidujemy testowe uruchomienie stacji z siedziby klubu.
  
 Zdjęcia terminala oraz radia:
-
-
-

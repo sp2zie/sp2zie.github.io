@@ -3,25 +3,19 @@ layout: post
 title: Zapoznaj się z transporderem SART
 date: 2016-11-24
 author: Michał Lewczuk, SP2XDM
-categories: Kursy i szkolenia
-  - 
+categories: 
+  - Kursy i szkolenia
 ---
 
 W naszym klubie możesz zapoznać się z budowa transpondera SART-II firmy Sailor. Nasz egzemplarz został wycofany z eksploatacji z uwagi na upływ jego terminu gwarancji - ale jest kompletny, więc można bez trudu zapoznać się z jego budową wewnętrzną.
 
- Transponder radarowy SART (Search And Rescue Transponder) powstał w wyniku odpowiedzi na zapotrzebowanie na system lokalizacji rozbitków na morzu oraz naprowadzania jednostek biorących udział w akcji poszukiwawczo - ratowniczej za pomocą istniejących systemów radarowych, używanych w celach nawigacyjnych na pokładach statków, oraz instalowanych na pokładach samolotów SAR. Podczas konstruowania systemu naprowadzania brano pod uwagę następujące założenia:
- 
- Transponder radarowy
-Transponder radarowy
-Transponder radarowy Transponder radarowy
+Transponder radarowy SART (Search And Rescue Transponder) powstał w wyniku odpowiedzi na zapotrzebowanie na system lokalizacji rozbitków na morzu oraz naprowadzania jednostek biorących udział w akcji poszukiwawczo - ratowniczej za pomocą istniejących systemów radarowych, używanych w celach nawigacyjnych na pokładach statków, oraz instalowanych na pokładach samolotów SAR. Podczas konstruowania systemu naprowadzania brano pod uwagę następujące założenia:
 
- Transponder radarowy
-Transponder radarowy
-Transponder radarowy Transponder radarowy
+![transponder](/assets/images/phocagallery/20170301-transponder/thumbs/phoca_thumb_l_20161124_181544_1489595403783_resized.jpg)
 
- Transponder radarowy
-Transponder radarowy
-Transponder radarowy Transponder radarowy
+![transponder](/assets/images/phocagallery/20170301-transponder/thumbs/phoca_thumb_l_20161124_181548_1489595402656_resized.jpg)
+
+![transponder](/assets/images/phocagallery/20170301-transponder/thumbs/phoca_thumb_l_20161124_181555_1489595401216_resized.jpg)
 
 - Urządzenie musiało posiadać prostą budowę, umożliwiającą uruchomienie i zamontowanie w tratwie ratunkowej przez niewykwalifikowaną osobę,
 a także na tyle zwarte, by mógł je przenosić człowiek w sytuacji zagrożenia;

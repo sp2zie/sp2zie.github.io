@@ -3,8 +3,8 @@ layout: post
 title: Członkowie klubu SP2ZIE wzięli udział w ćwiczeniach antykryzysowych w Gniewinie
 date: 2011-09-28
 author: Michał Lewczuk, SP2XDM
-categories: Aktywność terenowa
-  - 
+categories: 
+  - Aktywność terenowa
 ---
 
 24 września 2011 roku w Gniewinie, w godzinach 11-16  odbyły się ćwiczenia służb ratowniczych. Przeprowadzenie ćwiczeń miało na celu sprawdzenie przygotowania, gotowości poszczególnych służb i ich reakcji w przypadku równoczesnego zaistnienia niebezpiecznych zdarzeń na kilku obiektach użyteczności publicznej, które mogą być zaangażowane w tworzenie zaplecza socjalnego mistrzostw Europy w piłce nożnej – Euro 2012.
@@ -49,4 +49,4 @@ Zdjęcia z akcji ewakuacji hotelu, a także zebrania podsumowującego ćwiczenia
 
 Warto przy okazji nadmienić, iż PZK otrzymało zaproszenie do udziału w konferencji "Wolontariat w bezpieczeństwie powiatu wejherowskiego", która ma odbyć się 21 października 2011 roku w gmachu starostwa powiatowego w Wejherowie.
 
-Więcej zdjęć można zobaczyć w naszej galerii.
+{% include image-gallery.html folder="assets/images/phocagallery/20110924-antykryzysowe/thumbs" %}

@@ -3,8 +3,8 @@ layout: post
 title: SP DX RTTY Contest 2015
 date: 2015-08-31
 author: Dariusz Mankiewicz, SP2HQY
-categories: Udział w zawodach
-  - 
+categories: 
+  - Udział w zawodach
 ---
 
 Zachęceni wynikami poprzednich zawodów i w tym roku (2015) postanowiliśmy spróbować swoich sił w rywalizacji na falach eteru. Podobnie jak w roku poprzednim wybór padł na zawody SP DX RTTY Contest 2015. Mimo niezbyt rozbudowanych systemów antenowych, ponownie (jak w CQ WW RTTY 2014) na miejsce startu wybraliśmy nasz klub. Również zestaw urządzeń radiowych postanowiliśmy powielić (w końcu nie zmienia się mistrzowskiego składu  ;-), a w CQ WW RTTY 2014 uzyskanie II miejsca w Polsce nie jest bez znaczenia). Tak więc w dniu 25 kwietnia 2015 roku wystartowaliśmy w składzie: Robert  SQ2WHH, Jędrzej SQ2DK, Darek SP2HQY.
@@ -17,4 +17,6 @@ Po ogłoszeniu wyników okazało się, że komisja zaliczyła nam 644 QSO i 94 m
 
 Na podkreślenie zasługuje osiągnięcie najwyższego wśród stacji MO SP współczynnika bezbłędnie potwierdzonych łączności  (%QSO=94,71%) i to przy wykorzystaniu jednie mocy do 100W.
 
-Zatem idzie nam coraz lepiej … czy to nasze ostatnie słowo w contestingu … czas pokaże … a zdjęcia z naszego startu znajdziecie w galerii.
+Zatem idzie nam coraz lepiej … czy to nasze ostatnie słowo w contestingu … czas pokaże … a zdjęcia z naszego startu znajdziecie poniżej.
+
+{% include image-gallery.html folder="assets/images/phocagallery/20150425-sp-dx-rtty-2015/thumbs" %}
