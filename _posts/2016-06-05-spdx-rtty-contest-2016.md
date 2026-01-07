@@ -3,8 +3,8 @@ layout: post
 title: SPDX RTTY Contest 2016
 date: 2016-06-05
 author: Dariusz Mankiewicz, SP2HQY
-categories: Udział w zawodach
-  - 
+categories: 
+  - Udział w zawodach
 ---
 
 W tym roku ponownie postanowiliśmy wziąć udział w największych krajowych zawodach radiowych rozgrywanych emisjami cyfrowymi, czyli SPDX RTTY Contest 2016. Wcześniej w kolejnych latach startując w kategorii MOSP poprawialiśmy swoje wyniki (2014 – IV miejsce w Polsce, 2015 – III miejsce w Polsce,) więc liczyliśmy na kolejny dobry wynik. Jednak zawody zakończyliśmy niezwykle zaskoczeni, ale o tym w dalszej części.
@@ -21,4 +21,6 @@ Dzięki zaangażowaniu zespołu, w tych niezwykle słabych warunkach propagacyjn
 
 Ta ilość łączności i punktów wśród zgłaszających plasuje nas na razie na .... I miejscu w Polsce!!!
 
-Mamy nadzieję na wysoki współczynnik potwierdzenia łączności, co pozwoli utrzymać osiągnięte wyniki. Czekamy zatem na ogłoszenia Komisji zawodów, a resztę zdjęć z naszego startu znajdziecie w galerii.
+Mamy nadzieję na wysoki współczynnik potwierdzenia łączności, co pozwoli utrzymać osiągnięte wyniki. Czekamy zatem na ogłoszenia Komisji zawodów, a resztę zdjęć z naszego startu znajdziecie poniżej.
+
+{% include image-gallery.html folder="assets/images/phocagallery/2016-04-23-spdx-rtty-contest/thumbs" %}
