@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Planowany odbiór ARISS TV – odsłona II
-date: 2015-111-04
+date: 2015-11-04
 author: Dariusz Mankiewicz, SP2HQY
-categories: Amateur Radio on the ISS (ARISS)
-  - 
+categories: 
+  - Amateur Radio on the ISS (ARISS)
 ---
 
-Po wykonaniu oświetlacza i zamontowaniu go na antenie offsetowej postanowiliśmy rozpocząć próby odbioru sygnałów w paśmie dedykowanym dla ARISS HamTV , czyli w paśmie 2,4 GHz. W tym celu antenę wyposażyliśmy w konwerter BT-480 produkcji Anhui Bowei Electronics Technology Co. Ltd., a następnie przenieśliśmy czaszę naszej anteny na nieduży maszt kratowy wraz z rotorem Az-El. Zdjęcia z naszych prac znajdziecie w galerii, a opis gdy klikniecie zakładkę więcej …
+Po wykonaniu oświetlacza i zamontowaniu go na antenie offsetowej postanowiliśmy rozpocząć próby odbioru sygnałów w paśmie dedykowanym dla ARISS HamTV , czyli w paśmie 2,4 GHz. W tym celu antenę wyposażyliśmy w konwerter BT-480 produkcji Anhui Bowei Electronics Technology Co. Ltd., a następnie przenieśliśmy czaszę naszej anteny na nieduży maszt kratowy wraz z rotorem Az-El.
 
 Nowa lokalizacja anteny stała się pewnym wyzwaniem z uwagi na konieczność kalibracji sterownika. Trzeba bowiem pamiętać, że użyta przez nas antena nie patrzy wprost na obiekt (satelitę), lecz jako antena offsetowa jest dodatkowo nachylona pod kątem, który musi zostać uwzględniony przy określaniu współrzędnych położenia anteny. Na szczęście mamy w naszych szeregach doświadczonego nawigatora, który szybko poradził sobie z tym problemem wykorzystując swoje umiejętności (Vy Tnx Jędrzej).
 
@@ -20,3 +20,5 @@ Pierwsze próby odbioru sygnałów testowych generowanych z lokalizacji Kolegi M
 Sprawdzaliśmy również odbiór z wykorzystaniem przerobionych konwerterów MMDS (Multichannel Multipoint Distribution Service)
 
 Pierwsze próby napawają optymizmem, choć mamy już pewne przemyślenia na temat potencjalnych ulepszeń, ale o tym po próbach odbioru sygnałów ARISS HamTV.
+
+{% include image-gallery.html folder="assets/images/phocagallery/20151003-ARISS-HamTV-cz2/thumbs" %}

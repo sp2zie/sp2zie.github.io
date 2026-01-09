@@ -1,0 +1,306 @@
+	  Akcja dla: JOTA 2024	JOTA 2024 (Alias: jota-2024)
+Kategoria: Aktywnośc radioamatorska » Stacje okolicznościowe
+Public	Jędrzej Marsz, SQ2DK	Wszystkie	08-11-24	22042	0	0	151
+	  Akcja dla: Rybitwia Mielizna 2024	 Rybitwia Mielizna 2024 (Alias: rybitwia-mielizna-2024)
+Kategoria: Aktywnośc radioamatorska » Aktywność terenowa
+Public	Jędrzej Marsz, SQ2DK	Wszystkie	08-11-24	1666	0	0	150
+	  Akcja dla: Kontroler stacji	Kontroler stacji (Alias: kontroler-stacji)
+Kategoria: Projekty techniczne
+Public	Jędrzej Marsz, SQ2DK	Wszystkie	29-12-23	2358	0	0	149
+	  Akcja dla: SN20ISS	SN20ISS (Alias: sn20iss)
+Kategoria: Aktywnośc radioamatorska » Stacje okolicznościowe
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	18-12-23	2496	0	0	148
+	  Akcja dla: PW-Sat2 Epilog	 PW-Sat2 Epilog (Alias: pw-sat2-epilog)
+Kategoria: » Projekty techniczne » Per radio ad astra
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	18-12-23	3211	0	0	147
+	  Akcja dla: PW-Sat2 odbiory sygnałów	 PW-Sat2 odbiory sygnałów (Alias: pw-sat2-odbiory-sygnalow)
+Kategoria: » Projekty techniczne » Per radio ad astra
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	18-12-23	1648	0	0	146
+	  Akcja dla: SP DX RTTY Contest 2020	SP DX RTTY Contest 2020 (Alias: sp-dx-rtty-contest-2020)
+Kategoria: Aktywnośc radioamatorska » Udział w zawodach
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	18-12-23	1632	0	0	145
+	  Akcja dla: Budowa dipleksera 2m / 70cm	Budowa dipleksera 2m / 70cm (Alias: budowa-dipleksera-2m-70cm)
+Kategoria: Projekty techniczne
+Public	Jędrzej Marsz, SQ2DK	Wszystkie	11-12-23	1153	0	0	144
+	  Akcja dla: Konstrukcja masztu balastowego	Konstrukcja masztu balastowego (Alias: konstrukcja-masztu-balastowego)
+Kategoria: Projekty techniczne
+Public	Jędrzej Marsz, SQ2DK	Wszystkie	10-12-23	1087	0	0	142
+	  Akcja dla: Przekaźniki koncentryczne	Przekaźniki koncentryczne (Alias: przekaz-konc)
+Kategoria: Projekty techniczne
+Public	Jędrzej Marsz, SQ2DK	Wszystkie	10-12-23	1260	0	0	141
+	  Akcja dla: Per radio ad astra II - budowa stacji	Per radio ad astra II - budowa stacji (Alias: per-radio-ad-astra-ii-budowa-stacji)
+Kategoria: Projekty techniczne
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	09-12-23	1088	0	0	140
+	  Akcja dla: Per radio ad astra II - badanie zakłóceń	Per radio ad astra II - badanie zakłóceń (Alias: per-radio-ad-astra-ii-badanie-zaklocen)
+Kategoria: Projekty techniczne
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	09-12-23	1138	0	0	139
+	  Akcja dla: Per radio ad astra II - początek	Per radio ad astra II - początek (Alias: per-radio-ad-astra-ii-poczatek)
+Kategoria: Projekty techniczne
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	09-12-23	1900	0	0	138
+	  Akcja dla: Modyfikacja rotora SPID RAS	Modyfikacja rotora SPID RAS (Alias: modyfikacja-rotora-spid-ras)
+Kategoria: Projekty techniczne
+Public	Jędrzej Marsz, SQ2DK	Wszystkie	26-03-22	2634	0	0	137
+	  Akcja dla: Latarnia Morska - Krynica Morska 2021	 Latarnia Morska - Krynica Morska 2021 (Alias: latarnia-morska-krynica-morska-2021)
+Kategoria: Aktywnośc radioamatorska » Aktywność terenowa
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	26-08-21	3084	0	0	136
+	  Akcja dla: Satelita Es'hail 2	Satelita Es'hail 2 (Alias: satelita-es-hail-2)
+Kategoria: Projekty techniczne » Projekty techniczne
+Public	Jędrzej Marsz, SQ2DK	Wszystkie	28-03-19	13109	0	0	135
+	  Akcja dla: Aktualności na Facebooku	Aktualności na Facebooku (Alias: aktualnosci-na-facebooku)
+Kategoria: Nowości » Z życia klubu
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	01-12-18	1063	0	0	143
+	  Akcja dla: Przygotowania do odbioru sygnałów PW-Sat2 cz. III	Przygotowania do odbioru sygnałów PW-Sat2 cz. III (Alias: przygotowania-do-odbioru-sygnalow-pw-sat2-cz-iii)
+Kategoria: » Projekty techniczne » Per radio ad astra
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	15-05-18	5642	0	0	134
+	  Akcja dla: Przygotowania do odbioru sygnałów PW-Sat2 cz. II	Przygotowania do odbioru sygnałów PW-Sat2 cz. II (Alias: przygotowania-do-odbioru-sygnalow-pw-sta2-cz-ii)
+Kategoria: » Projekty techniczne » Per radio ad astra
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	08-05-18	5850	0	0	133
+	  Akcja dla: Przygotowania do odbioru sygnałów PW-Sat2 cz.I	Przygotowania do odbioru sygnałów PW-Sat2 cz.I (Alias: przygotowania-do-odbioru-pw-sat2-cz-i)
+Kategoria: » Projekty techniczne » Per radio ad astra
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	01-05-18	6450	0	0	131
+	  Akcja dla: Odbiór sygnałów satelity PW-SAT2 przez uczniów III LO w Gdyni	Odbiór sygnałów satelity PW-SAT2 przez uczniów III LO w Gdyni (Alias: odbior-sygnalow-satelity-pw-sat2-przez-uczniow-iii-lo-w-gdyni)
+Kategoria: » Projekty techniczne » Per radio ad astra
+Public	Michał Lewczuk, SP2XDM	Wszystkie	13-03-18	4691	0	0	130
+	  Akcja dla: Stacja systemu SR0WX - v2017	Stacja systemu SR0WX - v2017 (Alias: stacja-systemu-sr0wx-v2017)
+Kategoria: Projekty techniczne » Projekty techniczne
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	01-11-17	5958	0	0	132
+	  Akcja dla: 3Z2LS Latarnia Morska STILO 2017	3Z2LS Latarnia Morska STILO 2017 (Alias: 3z2ls-latarnia-morska-stilo-2017)
+Kategoria: Aktywnośc radioamatorska » Aktywność terenowa
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	14-10-17	4527	0	0	129
+	  Akcja dla: SP DX RTTY Contest 2017	SP DX RTTY Contest 2017 (Alias: sp-dx-rtty-contest-2017)
+Kategoria: Aktywnośc radioamatorska » Udział w zawodach
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	14-10-17	4251	0	0	128
+	  Akcja dla: Prawa autorskie i wyłączenie odpowiedzialności	Prawa autorskie i wyłączenie odpowiedzialności (Alias: prawa-autorskie-i-wylaczenie-odpowiedzialnosci)
+Kategoria: Uncategorised
+Public	Michał Lewczuk, SP2XDM	Wszystkie	08-03-17	6426	0	0	125
+	  Akcja dla: Zmiany na stronie	Zmiany na stronie (Alias: zmiany-na-stronie)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	08-03-17	3872	0	0	124
+	  Akcja dla: Zapoznaj się z transporderem SART	Zapoznaj się z transporderem SART (Alias: transporder-sart)
+Kategoria: Działalność naukowa » Kursy i szkolenia
+Public	Michał Lewczuk, SP2XDM	Wszystkie	24-11-16	5344	0	0	126
+	  Akcja dla: Pierwsze miejsce w SPDX RTTY 2016 Multi Operator	Pierwsze miejsce w SPDX RTTY 2016 Multi Operator (Alias: sp2zie-1-miejsce-w-spdx-rtty-2016-multi-operator)
+Kategoria: Aktywnośc radioamatorska » Udział w zawodach
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	15-10-16	3303	0	0	127
+	  Akcja dla: 3Z2LR Latarnia Morska Rozewie 2016	3Z2LR Latarnia Morska Rozewie 2016 (Alias: 3z2lr-latania-morska-rozewie)
+Kategoria: Aktywnośc radioamatorska » Aktywność terenowa
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	10-10-16	5518	0	0	123
+	  Akcja dla: SPDX RTTY Contest 2016	SPDX RTTY Contest 2016 (Alias: sp-dx-rtty-contest-2016)
+Kategoria: Aktywnośc radioamatorska » Udział w zawodach
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	05-06-16	7796	0	0	122
+	  Akcja dla: Anteny ... znów anteny ...	Anteny ... znów anteny ... (Alias: anteny-znow-anteny)
+Kategoria: Nowości » Z życia klubu
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	06-05-16	5448	0	0	121
+	  Akcja dla: SP2ZIE Team w POLSA	SP2ZIE Team w POLSA (Alias: sp2zie-teamwpolsa)
+Kategoria: Nowości » Z życia klubu
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	15-02-16	4905	0	0	120
+	  Akcja dla: Gdynia Game Festival 2015	Gdynia Game Festival 2015 (Alias: gdynia-game-festival)
+Kategoria: Nowości » Z życia klubu
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	23-12-15	5029	0	0	119
+	  Akcja dla: Konferencja Kół Naukowych 2015	Konferencja Kół Naukowych 2015 (Alias: konferencja-kol-naukowych)
+Kategoria: Nowości » Z życia klubu
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	18-12-15	5092	0	0	118
+	  Akcja dla: Planowany obiór ARISS TV – odsłona II	Planowany obiór ARISS TV – odsłona II (Alias: planowany-odbior-ariss-tv-odslona-ii)
+Kategoria: Działalność naukowa » Amateur Radio on the ISS (ARISS)
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	04-11-15	7174	0	0	117
+	  Akcja dla: 3Z2LKM Latarnia Krynica Morska 2015	3Z2LKM Latarnia Krynica Morska 2015 (Alias: 3z2lkm-latarnia-krynica-2015)
+Kategoria: Aktywnośc radioamatorska » Aktywność terenowa
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	31-08-15	6489	0	0	116
+	  Akcja dla: SP DX RTTY Contest 2015	SP DX RTTY Contest 2015 (Alias: sp-dx-rtty-contest-2015)
+Kategoria: Aktywnośc radioamatorska » Udział w zawodach
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	31-08-15	6557	0	0	115
+	  Akcja dla: Planowany odbiór ARISS TV	Planowany odbiór ARISS TV (Alias: planowany-odbior-ariss-tv)
+Kategoria: Działalność naukowa » Amateur Radio on the ISS (ARISS)
+Public	Michał Lewczuk, SP2XDM	Wszystkie	21-04-15	6244	0	0	114
+	  Akcja dla: Aktywność SSTV z ISS	Aktywność SSTV z ISS (Alias: aktywnosc-sstv-z-iss)
+Kategoria: Działalność naukowa » Amateur Radio on the ISS (ARISS)
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	02-01-15	6909	0	0	113
+	  Akcja dla: Studia techniczne - kampania promocyjna 2014	Studia techniczne - kampania promocyjna 2014 (Alias: studiatechniczne-2014)
+Kategoria: Nowości » Z życia klubu
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	17-12-14	6306	0	0	112
+	  Akcja dla: CQ WW RTTY 2014	CQ WW RTTY 2014 (Alias: cq-ww-rtty-2014)
+Kategoria: Aktywnośc radioamatorska » Udział w zawodach
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	17-12-14	7217	0	0	111
+	  Akcja dla: Anteny... anteny ...	Anteny... anteny ... (Alias: anteny-anteny)
+Kategoria: Nowości » Z życia klubu
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	17-12-14	6695	0	0	110
+	  Akcja dla: 3Z2LJ Latarnia Jastarnia 2014	3Z2LJ Latarnia Jastarnia 2014 (Alias: 3z2lj-latarnia-jastarnia-2014)
+Kategoria: Aktywnośc radioamatorska » Aktywność terenowa
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	29-09-14	6909	0	0	109
+	  Akcja dla: SP DX RTTY Contest 2014	SP DX RTTY Contest 2014 (Alias: sp-dx-rtty-contest-2014)
+Kategoria: Aktywnośc radioamatorska » Udział w zawodach
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	20-07-14	7718	0	0	108
+	  Akcja dla: Dni Otwarte 2014	Dni Otwarte 2014 (Alias: dni-otwarte-2014)
+Kategoria: Nowości » Z życia klubu
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	02-07-14	6585	0	0	107
+	  Akcja dla: Budowa stacji systemu SR0WX	 Budowa stacji systemu SR0WX (Alias: budowa-stacji-systemu-sr0wx)
+Kategoria: Projekty techniczne » Projekty techniczne
+Public	Jędrzej Marsz, SQ2DK	Wszystkie	06-11-13	12908	0	0	106
+	  Akcja dla: Dlaczego warto wybrać studia techniczne?	Dlaczego warto wybrać studia techniczne? (Alias: dlaczego-warto-wybra-studia-techniczne)
+Kategoria: Nowości » Z życia klubu
+Public	Jędrzej Marsz, SQ2DK	Wszystkie	06-11-13	6774	0	0	105
+	  Akcja dla: SP2ZIE Team ponownie łączy się z ISS	SP2ZIE Team ponownie łączy się z ISS (Alias: sp2zie-team-ponownie-czy-si-z-iss)
+Kategoria: Działalność naukowa » Amateur Radio on the ISS (ARISS)
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	04-11-13	8476	0	0	104
+	  Akcja dla: 3Z2LH Latarnia Hel 2013	3Z2LH Latarnia Hel 2013 (Alias: 3z2lh-latarnia-hel-2013)
+Kategoria: Aktywnośc radioamatorska » Aktywność terenowa
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	16-10-13	6952	0	0	103
+	  Akcja dla: Członkowie klubu na XI KSK	Członkowie klubu na XI KSK (Alias: czonkowie-klubu-na-xi-ksk)
+Kategoria: Aktywnośc radioamatorska » Aktywność terenowa
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	02-07-12	7244	0	0	102
+	  Akcja dla: Nowy ńjus	Nowy ńjus (Alias: nowy-jus)
+Kategoria: O klubie » Historia
+Public	Michał Lewczuk, SP2XDM	Wszystkie	25-05-12	34	0	0	100
+	  Akcja dla: Pozycja stacji ISS i transmisja na żywo	Pozycja stacji ISS i transmisja na żywo (Alias: pozycja-stacji-iss-i-transmisja-na-ywo)
+Kategoria: Działalność naukowa » Amateur Radio on the ISS (ARISS)
+Public	Michał Lewczuk, SP2XDM	Wszystkie	10-01-12	6111	0	0	98
+	  Akcja dla: Przemienniki SR2UVG, SR2GS i SR2GT	Przemienniki SR2UVG, SR2GS i SR2GT (Alias: przemienniki-sr2uvg-sr2gs-i-sr2gt)
+Kategoria: Projekty techniczne » Projekty techniczne
+Public	Michał Lewczuk, SP2XDM	Wszystkie	07-01-12	13602	0	0	97
+	  Akcja dla: Łączność ARISS z Dworu Artusa w mediach	Łączność ARISS z Dworu Artusa w mediach (Alias: czno-ariss-z-dworu-artusa-w-mediach)
+Kategoria: Działalność naukowa » Amateur Radio on the ISS (ARISS)
+Public	Michał Lewczuk, SP2XDM	Wszystkie	03-01-12	10146	0	0	95
+	  Akcja dla: Transkrypcja sesji łączności ARISS 31.12.2011	Transkrypcja sesji łączności ARISS 31.12.2011 (Alias: transkrypcja-sesji-cznoci-ariss-31122011)
+Kategoria: Działalność naukowa » Amateur Radio on the ISS (ARISS)
+Public	Michał Lewczuk, SP2XDM	Wszystkie	03-01-12	3927	0	0	99
+	  Akcja dla: Sylwestrowa rozmowa z ISS zakończona sukcesem!	Sylwestrowa rozmowa z ISS zakończona sukcesem! (Alias: sylwestrowa-rozmowa-z-iss-zakoczona-sukcesem)
+Kategoria: Działalność naukowa » Amateur Radio on the ISS (ARISS)
+Public		Wszystkie	02-01-12	8665	0	0	96
+	  Akcja dla: Życzenia noworoczne przesłane prosto z Międzynarodowej Stacji Kosmicznej!	Życzenia noworoczne przesłane prosto z Międzynarodowej Stacji Kosmicznej! (Alias: yczenia-noworoczne-przesane-prosto-z-midzynarodowej-stacji-kosmicznej-1)
+Kategoria: Działalność naukowa » Amateur Radio on the ISS (ARISS)
+Public	Michał Lewczuk, SP2XDM	Wszystkie	28-12-11	9416	0	0	93
+	  Akcja dla: 19 stycznia 2012 roku - Dni Otwarte Morskiego Klubu Łączności Szkuner SP2ZIE - Koła Studenckiego Akademii Morskiej w Gdyni	19 stycznia 2012 roku - Dni Otwarte Morskiego Klubu Łączności Szkuner SP2ZIE - Koła Studenckiego Akademii Morskiej w Gdyni (Alias: 19-stycznia-2012-roku-dni-otwarte-morskiego-klubu-cznoci-szkuner-sp2zie-koa-studenckiego-akademii-morskiej-w-gdyni)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	27-12-11	6980	0	0	92
+	  Akcja dla: Awaria serwera	Awaria serwera (Alias: awaria-serwera)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	27-12-11	4795	0	0	91
+	  Akcja dla: Montaż anten X-510N i X-30N	Montaż anten X-510N i X-30N (Alias: montaz-anten-x-510n-i-x-30n)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	03-12-11	8445	0	0	89
+	  Akcja dla: Po szkolenieu SRC	Po szkolenieu SRC (Alias: po-szkolenieu-src)
+Kategoria: Działalność naukowa » Kursy i szkolenia
+Public	Michał Lewczuk, SP2XDM	Wszystkie	19-11-11	8119	0	0	88
+	  Akcja dla: Klub SP2ZIE organizuje Szkolenie na świadectwo operatora łączności bliskiego zasięgu SRC (GMDSS)	Klub SP2ZIE organizuje Szkolenie na świadectwo operatora łączności bliskiego zasięgu SRC (GMDSS) (Alias: klub-sp2zie-organizuje-szkolenie-na-wiadectwo-operatora-cznoci-bliskiego-zasigu-src-gmdss)
+Kategoria: Działalność naukowa » Kursy i szkolenia
+Public	Krystian Górski, SQ2KL	Wszystkie	24-10-11	5774	0	0	86
+	  Akcja dla: Członkowie klubu SP2ZIE na konferencji ''Wolontariat w bezpieczeństwie powiatu wejherowskiego''	Członkowie klubu SP2ZIE na konferencji ''Wolontariat w bezpieczeństwie powiatu wejherowskiego'' (Alias: czonkowie-klubu-sp2zie-na-konferencji-wolontariat-w-bezpieczestwie-powiatu-wejherowskiego)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	21-10-11	8319	0	0	87
+	  Akcja dla: Członkowie klubu SP2ZIE wzięli udział w ćwiczeniach antykryzysowych w Gniewinie	Członkowie klubu SP2ZIE wzięli udział w ćwiczeniach antykryzysowych w Gniewinie (Alias: czonkowie-klubu-sp2zie-wzili-udzia-w-wiczeniach-antykryzysowych-w-gniewinie)
+Kategoria: Aktywnośc radioamatorska » Aktywność terenowa
+Public	Michał Lewczuk, SP2XDM	Wszystkie	28-09-11	8331	0	0	85
+	  Akcja dla: Podniesienie anteny przemienników SR2C i SR2SB	Podniesienie anteny przemienników SR2C i SR2SB (Alias: podniesienie-anteny-przemiennikow-sr2c-i-sr2sb)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	30-06-11	7098	0	0	84
+	  Akcja dla: Remont klubowej anteny A4S	Remont klubowej anteny A4S (Alias: remont-klubowej-anteny-a4s)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	25-06-11	9304	0	0	83
+	  Akcja dla: IX Bałtycki Festiwal nauki 2011	IX Bałtycki Festiwal nauki 2011 (Alias: batycki-festiwal-nauki-2011)
+Kategoria: Aktywnośc radioamatorska » Aktywność terenowa
+Public	Michał Lewczuk, SP2XDM	Wszystkie	01-06-11	8290	0	0	82
+	  Akcja dla: Egzamin dla operatorów w służbie radiokomunikacyjnej amatorskiej	Egzamin dla operatorów w służbie radiokomunikacyjnej amatorskiej (Alias: egzamin-dla-operatorow-w-subie-radiokomunikacyjnej-amatorskiej)
+Kategoria: Działalność naukowa » Kursy i szkolenia
+Public	Michał Lewczuk, SP2XDM	Wszystkie	16-05-11	4676	0	0	81
+	  Akcja dla: Szkolenie na świadectwo operatora łączności bliskiego zasięgu SRC (GMDSS).	Szkolenie na świadectwo operatora łączności bliskiego zasięgu SRC (GMDSS). (Alias: szkolenie-na-wiadectwo-operatora-cznoci-bliskiego-zasigu-src-gmdss-w-subie-radiokomunikacyjnej-morskiej-i-eglugi-rodldowej)
+Kategoria: Działalność naukowa » Kursy i szkolenia
+Public	Michał Lewczuk, SP2XDM	Wszystkie	12-04-11	7234	0	0	80
+	  Akcja dla: Nasze anteny krótkofalarskie a niekompetencja urzędników z SADEPIDU w świetle przepisów	Nasze anteny krótkofalarskie a niekompetencja urzędników z SADEPIDU w świetle przepisów (Alias: nasze-anteny-krotkofalarskie-a-niekompetencja-urzdnikow-z-sadepidu-w-wietle-przepisow)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	01-04-11	8267	0	0	78
+	  Akcja dla: Krótko o technicznych aspektach związanych z AIS	Krótko o technicznych aspektach związanych z AIS (Alias: krotko-o-technicznych-aspektach-zwizanych-z-ais)
+Kategoria: Działalność naukowa » Automatic Identification System (AIS)
+Public	Jędrzej Marsz, SQ2DK	Wszystkie	18-03-11	7460	0	0	77
+	  Akcja dla: Nasza karta QSL i Dyplom SN2009TSR	Nasza karta QSL i Dyplom SN2009TSR (Alias: nasza-karta-qsl-i-dyplom-sn2009tsr)
+Kategoria: Stacje okolicznościowe » Tall Ships' Races 2009 Gdynia on the AIR
+Public	Roman Henning, SQ2RH	Wszystkie	07-03-11	4832	0	0	73
+	  Akcja dla: W przygotowaniu	W przygotowaniu (Alias: w-przygotowaniu)
+Kategoria: Działalność naukowa » Automatic Identification System (AIS)
+Public	Michał Lewczuk, SP2XDM	Wszystkie	07-03-11	27	0	0	71
+	  Akcja dla: Nowa strona klubu	Nowa strona klubu (Alias: nowa-strona-klubu)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	05-03-11	7524	0	0	58
+	  Akcja dla: Kontakt	Kontakt (Alias: kontakt)
+Kategoria: O klubie » Kontakt
+Public	Michał Lewczuk, SP2XDM	Wszystkie	05-03-11	19429	0	0	53
+	  Akcja dla: O nas	O nas (Alias: o-nas)
+Kategoria: O klubie » O nas
+Public	Roman Henning, SQ2RH	Wszystkie	05-03-11	21112	0	0	48
+	  Akcja dla: Historia klubu	Historia klubu (Alias: historia-klubu)
+Kategoria: O klubie » Historia
+Public	Dariusz Mankiewicz, SP2HQY	Wszystkie	05-03-11	6651	0	0	47
+	  Akcja dla: WOŚP 2011 z pokładu Horyzontu II	WOŚP 2011 z pokładu Horyzontu II (Alias: wosp-2011-z-pokadu-horyzontu-ii)
+Kategoria: Aktywnośc radioamatorska » Aktywność terenowa
+Public	Michał Lewczuk, SP2XDM	Wszystkie	10-01-11	7456	0	0	69
+	  Akcja dla: Wymiana anten UKF	Wymiana anten UKF (Alias: wymiana-anten-ukf)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	22-12-10	7604	0	0	68
+	  Akcja dla: Pierwsza próba odbioru sygnału z sond kosmicznych	Pierwsza próba odbioru sygnału z sond kosmicznych (Alias: pierwsza-proba-odbioru-sygnau-z-sond-kosmicznych)
+Kategoria: Działalność naukowa » Nasłuch sond kosmicznych
+Public	Michał Lewczuk, SP2XDM	Wszystkie	19-09-10	7238	0	0	70
+	  Akcja dla: Egzamin państwowy dla kandydatów na operatorów w służbie radiokomunikacyjnej amatorskiej	Egzamin państwowy dla kandydatów na operatorów w służbie radiokomunikacyjnej amatorskiej (Alias: 23-10-2010-to-termin-kolejnego-egzaminu-pastwowy-dla-kandydatow-na-operatorow-w-subie-radiokomunikacyjnej-amatorskiej)
+Kategoria: Działalność naukowa » Kursy i szkolenia
+Public	Michał Lewczuk, SP2XDM	Wszystkie	13-09-10	8254	0	0	46
+	  Akcja dla: Nasz klubowicz nowym prezesem Pomorskiego OT PZK	Nasz klubowicz nowym prezesem Pomorskiego OT PZK (Alias: nasz-klubowicz-nowym-prezesem-pomorskiego-ot-pzk)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	29-08-10	5796	0	0	54
+	  Akcja dla: Dostawa anten i przełączników polaryzacji z firmy WiMo.De oraz rotora Azy-Ele z Radomia.	Dostawa anten i przełączników polaryzacji z firmy WiMo.De oraz rotora Azy-Ele z Radomia. (Alias: dostawa-anten-i-przecznikow-polaryzacji-z-firmy-wimode-oraz-rotora-azy-ele-z-radomia)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	19-02-10	5310	0	0	60
+	  Akcja dla: Nowa antena kierunkowa Cushcraft A4S	Nowa antena kierunkowa Cushcraft A4S (Alias: -nowa-antena-kierunkowa-cushcraft-a4s)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	08-12-09	8389	0	0	55
+	  Akcja dla: Ostatni egzamin z telegrafii w SP.	Ostatni egzamin z telegrafii w SP. (Alias: -ostatni-egzamin-z-telegrafii-w-sp)
+Kategoria: Działalność naukowa » Kursy i szkolenia
+Public	Michał Lewczuk, SP2XDM	Wszystkie	15-11-09	4676	0	0	61
+	  Akcja dla: Logi / Logs	Logi / Logs (Alias: logi-logs)
+Kategoria: Stacje okolicznościowe » Tall Ships' Races 2009 Gdynia on the AIR
+Public	Roman Henning, SQ2RH	Wszystkie	20-08-09	5166	0	0	76
+	  Akcja dla: Wiadomości / News	Wiadomości / News (Alias: wiadomoci-news)
+Kategoria: Stacje okolicznościowe » Tall Ships' Races 2009 Gdynia on the AIR
+Public	Roman Henning, SQ2RH	Wszystkie	10-07-09	4823	0	0	75
+	  Akcja dla: O Tall Ships' Races 2009 Gdynia on the AIR	O Tall Ships' Races 2009 Gdynia on the AIR (Alias: o-tall-ships-races-2009-gdynia-on-the-air)
+Kategoria: Stacje okolicznościowe » Tall Ships' Races 2009 Gdynia on the AIR
+Public	Roman Henning, SQ2RH	Wszystkie	07-07-09	5966	0	0	74
+	  Akcja dla: Podziekowania	Podziekowania (Alias: podziekowania)
+Kategoria: Stacje okolicznościowe » Tall Ships' Races 2009 Gdynia on the AIR
+Public	Roman Henning, SQ2RH	Wszystkie	07-07-09	4774	0	0	72
+	  Akcja dla: Pierwszy w SP CubeSAT Workshop, Gdynia 22-24 maja 2009	Pierwszy w SP CubeSAT Workshop, Gdynia 22-24 maja 2009 (Alias: pierwszy-w-sp-cubesat-workshop-gdynia-22-24-maja-2009)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	25-05-09	5100	0	0	56
+	  Akcja dla: Modernizacja przemiennika SR2Z	Modernizacja przemiennika SR2Z (Alias: modernizacja-przemiennika-sr2z)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	29-04-09	5353	0	0	57
+	  Akcja dla: Ruszają przygotowania do TALL SHIPS' RACES on the AIR Gdynia 2009	Ruszają przygotowania do TALL SHIPS' RACES on the AIR Gdynia 2009 (Alias: ruszaj-przygotowania-do-tall-ships-races-on-the-air-gdynia-2009)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	09-03-09	5438	0	0	59
+	  Akcja dla: SP2ZIE jako zapasowa stacja naziemna do łączności z pierwszym polskim nanosatelitą PW-SAT	SP2ZIE jako zapasowa stacja naziemna do łączności z pierwszym polskim nanosatelitą PW-SAT (Alias: sp2zie-jako-zapasowa-stacja-naziemna-do-cznoci-z-pierwszym-polskim-nanosatelit-pw-sat)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	03-04-08	5664	0	0	62
+	  Akcja dla: Gdyński 2m przemiennik SR2Z przenieśiony do Pomieczyna	Gdyński 2m przemiennik SR2Z przenieśiony do Pomieczyna (Alias: gdyski-2m-przemiennik-sr2z-przenieiony-do-pomieczyna)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	21-10-07	5956	0	0	63
+	  Akcja dla: Wyłączenie węzła Packet Radio [SR2BGA] oraz [SR2DGA]	Wyłączenie węzła Packet Radio [SR2BGA] oraz [SR2DGA] (Alias: wyczenie-wza-packet-radio-sr2bga-oraz-sr2dga)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	24-07-07	5569	0	0	64
+	  Akcja dla: Startuje nasza bramka APRS SP2ZIE-2	Startuje nasza bramka APRS SP2ZIE-2 (Alias: -startuje-nasza-bramka-aprs-sp2zie-2)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	21-05-05	5896	0	0	65
+	  Akcja dla: SR2Z - 2m Przemiennik Gdyński	SR2Z - 2m Przemiennik Gdyński (Alias: sr2z-2m-przemiennik-gdyski)
+Kategoria: Projekty techniczne » Projekty techniczne
+Public	Michał Lewczuk, SP2XDM	Wszystkie	31-03-05	24750	0	0	49
+	  Akcja dla: ARISS - Pierwszy kontakt radiowy z ISS w Polsce	ARISS - Pierwszy kontakt radiowy z ISS w Polsce (Alias: ariss-pierwszy-kontakt-radiowy-z-iss-w-polsce)
+Kategoria: Działalność naukowa » Amateur Radio on the ISS (ARISS)
+Public	Michał Lewczuk, SP2XDM	Wszystkie	05-03-05	9020	0	0	51
+	  Akcja dla: Łączność z ISS w ramach programu ARISS	Łączność z ISS w ramach programu ARISS (Alias: -czno-z-iss-w-ramach-programu-ariss)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	04-10-04	6155	0	0	66
+	  Akcja dla: Węzły packet-radio SR2BGA i SR2DGA	Węzły packet-radio SR2BGA i SR2DGA (Alias: packiet-radio-sr2bga-sr2dga)
+Kategoria: Projekty techniczne » Projekty techniczne
+Public	Michał Lewczuk, SP2XDM	Wszystkie	31-07-01	13088	0	0	52
+	  Akcja dla: Uruchamiamy gdyński węzeł Packet Radio	Uruchamiamy gdyński węzeł Packet Radio (Alias: -uruchamiamy-gdyski-wze-packet-radio)
+Kategoria: Nowości » Z życia klubu
+Public	Michał Lewczuk, SP2XDM	Wszystkie	20-06-01	5507	0	0	67
+	  Akcja dla: Bramka APRS	Bramka APRS (Alias: bramka-aprs)
+Kategoria: Projekty techniczne » Projekty techniczne
+Public	Michał Lewczuk, SP2XDM	Wszystkie	-	17956	0	0	50

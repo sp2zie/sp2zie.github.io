@@ -3,8 +3,8 @@ layout: post
 title: SP2ZIE Team ponownie łączy się z ISS
 date: 2013-11-04
 author: Dariusz Mankiewicz, SP2HQY
-categories: Amateur Radio on the ISS (ARISS)
-  - 
+categories: 
+  - Amateur Radio on the ISS (ARISS)
 ---
 
 
@@ -21,4 +21,6 @@ Pytania zadawali mali studenci Polskiej Akademii Dzieci w wieku od 6 do 15 lat, 
 Najważniejsze to podążanie za swoimi marzeniami.
 <span style="color: red;">_„Róbcie to, co kochacie i co robicie najlepiej"_</span> – mówił do młodych uczestników łączności Luca Parmitano z pokładu Międzynarodowej Stacji Kosmicznej.
 
-Zapis łączności można znaleźć pod tym linkiem, zaś więcej zdjęć z kontaktu z ISS można znaleźć w naszej galerii.
+Zapis łączności można znaleźć pod tym linkiem.
+
+{% include image-gallery.html folder="assets/images/phocagallery/20131005-ARISS_Gedania/thumbs" %}

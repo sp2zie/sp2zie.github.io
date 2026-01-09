@@ -3,8 +3,8 @@ layout: post
 title: Pierwsza próba odbioru sygnału z sond kosmicznych
 date: 2010-09-19
 author: Michał Lewczuk, SP2XDM
-categories: Nasłuch sond kosmicznych
-  - 
+categories: 
+  - Nasłuch sond kosmicznych
 ---
 
 
@@ -12,10 +12,10 @@ categories: Nasłuch sond kosmicznych
 
 Tekst w przygotowaniu.
  
- 
- Więcej zdjęć znajdziecie w galerii.
- 
+
 Więcej informacji na temat radioastronomii w Polsce:
 - [Katedra Radioastronomii](http://www.astro.uni.torun.pl/index.php)
 - [Służba czasu i częstotliwości](http://epsrv.astro.uni.torun.pl/%7Eep/czas/)
 - [Torun Centre for Astronomy](http://epsrv.astro.uni.torun.pl)
+
+{% include image-gallery.html folder="assets/images/phocagallery/20100918-radioteleskop/thumbs" %}

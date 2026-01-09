@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Aktualności na Facebooku
-date: 2025-12-16
+date: 2018-12-01
 author: Dariusz Mankiewicz, SP2HQY
-categories: Z życia klubu
-  - 
+categories: 
+  - Z życia klubu
 ---
 
 2025-12-16-aktualnosci-na-facebooku.md

@@ -3,8 +3,8 @@ layout: post
 title: Członkowie klubu na XI KSK
 date: 2012-07-02
 author: Dariusz Mankiewicz, SP2HQY
-categories: Aktywność terenowa
-  - 
+categories: 
+  - Aktywność terenowa
 ---
 
 
@@ -21,5 +21,5 @@ Na miejscu członkowie SP2ZIE Team umożliwili obserwowanie przelotu balonu za p
 Dane przemiennika SR0FLY
 
 przemiennik cross-bandowy 2m/70cm – QRG 2m – 145,587.5MHz, QRG 70cm – 439,512.5MHz. Przemiennik oparty na motoroli MTX838 i GP600, sterownik SP3VSS przystosowany do przemiennika cross-bandowego. Ograniczenie jednej transmisji 15 sekund, roger-beep na obu pasmach. Brak blokad typu CTCSS, pojawienie się nośnej na jednym paśmie powoduje nadawanie na drugim.
- 
-Więcej zdjęć z udziału SP2ZIE Team w XI KSK można znaleźć w galerii.
+
+{% include image-gallery.html folder="assets/images/phocagallery/20120616-XI_KSK/thumbs" %}

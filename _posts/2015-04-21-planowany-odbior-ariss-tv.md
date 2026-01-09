@@ -3,8 +3,8 @@ layout: post
 title: Planowany odbiór ARISS TV
 date: 2015-04-21
 author: Michał Lewczuk, SP2XDM
-categories: Amateur Radio on the ISS (ARISS)
-  - 
+categories: 
+  - Amateur Radio on the ISS (ARISS)
 ---
 
 
@@ -17,5 +17,6 @@ Materiały:
 - gniazdo N (odzysk),
 - folia Cu 0,05 - dopasowanie impedancji.
 
- Zamontujemy to w ognisku anteny offsetowej [TRIAX TD110](https://www.triax.com/FindProduct.aspx?category=%7B07346A80-D6F6-4283-8A82-0C6C9C8E809F%7D) i spróbujemy odebrac ARRIS TV. Część prac już za nami...
-Więcej zdjęć w galerii.
+Zamontujemy to w ognisku anteny offsetowej [TRIAX TD110](https://www.triax.com/FindProduct.aspx?category=%7B07346A80-D6F6-4283-8A82-0C6C9C8E809F%7D) i spróbujemy odebrac ARRIS TV. Część prac już za nami...
+
+{% include image-gallery.html folder="assets/images/phocagallery/LHCP/thumbs" %}

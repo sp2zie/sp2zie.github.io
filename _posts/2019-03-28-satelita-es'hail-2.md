@@ -37,9 +37,11 @@ Jako oświetlacz paraboli wykonana została antena spiralna (heilkalna) obliczon
  
 Koleją próbą było sprawdzenie czytelności sygnału nadawanego przy pomocy tylko pierwszego stopnia wzmacniacza w.cz., czyli zmodyfikowanej karty sieciowej. Okazuje się, że już 65mW oraz antena o średnicy około 1m wystarczy by przy odrobinie samozaparcia robić łączności foniczne, a z pewnością wystarczyło by do modulacji CW czy PSK. Sygnał odebrany z satelity był silnie zaszumiony, jednak czytelny (jego czytelność można określić na 3-4).
 
-Sygnał modulujący nadajnik
-Sygnał nadawany z mocą około 1W odebrany z satelty
-Sygnał nadawany z mocą około 65mW odebrany z satelty
+[Sygnał modulujący nadajnik](/assets/audio/Es_hail_org.mp3)
+
+[Sygnał nadawany z mocą około 1W odebrany z satelity](/assets/audio/Es_hail_1W.mp3)
+
+[Sygnał nadawany z mocą około 65mW odebrany z satelity](/assets/audio/Es_hail_65mW.mp3)
 
 Próby zostały wykonane w konfiguracji eksperymentalnej by sprawdzić możliwości nawiązania łączności. W ramach dalszych przygotowań trzeba będzie między innymi usprawnić wzmacniacz końcowy. Wzmacniacz ten powinien oddawać znacznie większą moc – wbudowana w niego przetwornica DC-DC 6V nie jest wystarczająco wydajna prądowo, co z pewnością jest jedną z przyczyn słabych parametrów. Wzmacniacz wykonany z karty sieciowej również powinien oddawać większą moc by w pełni wysterowywać następny stopień. Dla wygody również dobrze było by wykonać upconverter, tak by móc korzystać z radiotelefonu SSB z pasma 70cm.
  
