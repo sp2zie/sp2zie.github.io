@@ -3,8 +3,8 @@ layout: post
 title: Łączność ARISS z Dworu Artusa w mediach
 date: 2012-01-03
 author: Michał Lewczuk, SP2XDM
-categories: Amateur Radio on the ISS (ARISS)
-  - 
+categories: 
+  - Amateur Radio on the ISS (ARISS)
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ac6BQkzFSgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -3,8 +3,8 @@ layout: post
 title: Odbiór sygnałów satelity PW-SAT2 przez uczniów III LO w Gdyni
 date: 2018-03-13
 author: Michał Lewczuk, SP2XDM
-categories: Per radio ad astra
-  - 
+categories: 
+  - Per radio ad astra
 ---
 
 **Charakterystyka**

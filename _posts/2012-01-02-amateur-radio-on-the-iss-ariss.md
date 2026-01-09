@@ -3,8 +3,8 @@ layout: post
 title: Amateur Radio on the ISS (ARISS)
 date: 2012-01-02
 author: 
-categories: Amateur Radio on the ISS (ARISS)
-  - 
+categories: 
+  - Amateur Radio on the ISS (ARISS)
 ---
 
 Udało się! Zaplanowana na 31.12.2011 łączność z Międzynarodową Stacją Kosmiczną została nawiązana! Rozmawialiśmy z astronautami ok. 12 minut.  Pierwszy sygnał odebraliśmy kiedy ISS znajdowała się nad Atlantykiem, łączność została zakończona, gdy stacja przemieściła się nad Morze Kaspijskie.

@@ -3,8 +3,8 @@ layout: post
 title: SP2ZIE Team w POLSA
 date: 2016-02-15
 author: Dariusz Mankiewicz, SP2HQY
-categories: Z życia klubu
-  - 
+categories: 
+  - Z życia klubu
 ---
 
 W dniu 10.02.2016 roku zostaliśmy zaproszeni do Polskiej Agencji Kosmicznej (POLSA) przez jej Wice Prezesa prof. Marka Moszyńskiego. Wizyta została zainicjowana przez gdańskie środowisko miłośników kosmosu, którzy zaszczepili przedstawicieli POLSA informacjami o projektach realizowanych przez Morski Klub Łączności SZKUNER SP2ZIE na polu eksploracji kosmosu.
