@@ -15,3 +15,5 @@ Podobnie jak w latach poprzednich uzyskaliśmy znak wywoławczy odpowiadający n
 Niestety w przeciwieństwie do lat poprzednich tym razem pogoda nie rozpieszczała nas. Było deszczowo i stosunkowo chłodno. Jednakże i to nie odstraszyło stałej ekipy w składzie Wojtek SP2ALT, Piotr SP2LQP, Robert SQ2WHH, Darek SP2HQY, do której dołączyli Ida SQ2OTS i Arek SP2AS.
 Przeprowadzono ok. 500 QSO, które potwierdziły nasze obawy co do warunków propagacyjnych. Nadto ponownie stwierdziliśmy spory poziom zakłóceń, co potwierdza wyniki naszych wcześniejszych badań. Zdjęcia z naszej aktywności z najdziecie w galerii, a wyniki radiowe na [www.qrz.com](https://www.qrz.com)
 Mimo to nie czujemy się zniechęceni i myślimy już o kolejnym znaku nawigacyjnym, tym razem bardziej na zachód.
+
+{% include image-gallery.html folder="assets/images/phocagallery/3z2lr/thumbs" %}
