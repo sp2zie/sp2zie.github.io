@@ -3,8 +3,7 @@ layout: post
 title: Modyfikacja rotora SPID RAS
 date: 2022-03-26
 author: Jędrzej Marsz, SQ2DK
-categories:
-  - Projekty techniczne
+categories: projekty
 ---
 
 Koło Naukowe Morski Klub Łączności SZKUNER SP2ZIE przygotowując się do realizacji projektu w zakresie budowy naziemnej stacji do łączności sateli-tarnej na potrzeby komunikacji ze studenckim satelitą PW-Sat3, budowanym przez studentów Politechniki Warszawskiej, podjęło prace zmierzające do po-prawy dokładności pozycjonowania anten wykorzystywanych do śledzenia i nawiązywania łączności z obiektami znajdującymi się w przestrzeni kosmicznej, które przelatują nad terenem Polski. Jednocześnie uznano, za konieczne wyeli-minowanie możliwych błędów pojawiających się w urządzeniach pozycjonują-cych anteny (rotor), celem poprawienia ich niezawodności, która jest nieodzow-na dla zapewnienia stałej i bezpośredniej łączności z obiektem orbitującym w przestrzeni kosmicznej w projektowanej, zdalnie sterowanej stacji naziemnej.

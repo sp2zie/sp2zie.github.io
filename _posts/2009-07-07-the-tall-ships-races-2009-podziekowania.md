@@ -3,8 +3,7 @@ layout: post
 title: Tall Ships' Races 2009 Podziekowania 
 date: 2009-07-07
 author: Roman Henning, SQ2RH
-categories: 
-  - Tall Ships' Races 2009 Gdynia on the AIR
+categories: radio
 ---
 
 Wielkie podziękowania dla Kolegów **Wiesław SP2DX**, **Piotra SP2AYC**, **Bogdana SP2EBG** i **Rafała SQ2IHP**, którzy odpowiedzieli na nasz apel i przygotowali samodzielnie lub pomogli w przygotowaniu tłumaczenia regulaminu naszej zabawy eterowej na inne języki.

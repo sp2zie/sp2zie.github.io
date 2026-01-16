@@ -3,8 +3,7 @@ layout: post
 title: Remont klubowej anteny A4S
 date: 2011-06-25
 author: Michał Lewczuk, SP2XDM
-categories: 
-  - Z życia klubu
+categories: klub
 ---
 
 

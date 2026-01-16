@@ -3,8 +3,7 @@ layout: post
 title: SP DX RTTY Contest 2020
 date: 2023-12-18
 author: Dariusz Mankiewicz, SP2HQY
-categories: 
-  - Udział w zawodach
+categories: zawody
 ---
 
 Mimo pandemicznego czasu… a może właśnie z jego powodu po 2 latach przerwy postanowiliśmy wystartować w kolejnych zawodach SP DX RTTY Contest 2020. Korzystając ze sprawdzonych rozwiązań (radio FT-950, wzmacniacz Ameritron, soft N1MM) oraz lokalizacji zapewniającej bezpieczeństwo septyczne (QTH Gołubie Kaszubskie), a także anteny typu HexBeam, Vertical GAP Tytan DX oraz dipole na niskie pasma wystartowaliśmy w okrojonym składzie. Warunki propagacyjne nie były euforyczne, choć pozwoliły nam na 418 łączności (QSO) z 138 krajami na 6 kontynentach. Dzięki temu znów zajęliśmy…. I miejsce (!!!) w kategorii MOSP (stacje polskie z wieloma operatorami).

@@ -3,8 +3,7 @@ layout: post
 title: Satelita Es'hail 2
 date: 2019-03-28
 author: Jędrzej Marsz, SQ2DK
-categories:
-  - Projekty techniczne
+categories: projekty
 ---
 
 W listopadzie 2018 roku na orbitę wystrzelony został geostacjonarny satelita Es’hail 2. Satelita został skonstruowany przez firmę Mitsubishi Electric na zlecenie rządu Kataru przy udziale Niemieckiego oddziału AMSAT. Poza dostarczaniem sygnału telewizji cyfrowej na sputniku znajduje się również liniowy przekaźnik amatorski. Umożliwia on nawiązywanie dwukierunkowej łączności przez radioamatorów z blisko połowy globu i w nomenklaturze amatorskiej otrzymał nazwę Qatar-OSCAR-100. Przekaźnik przeznaczony jest dla transmisji wąskopasmowych (takich jak SSB, CW, SSTV, PSK itp.) oraz szerokopasmowych transmisji cyfrowej telewizji amatorskich. Transponder wąskopasmowy przekazuje pasmo 2400,0MHz do 24000,3MHz, do dyspozycji radioamatorów jest około 250kHz, czyli tylko nieco mniej ile w paśmie 80m (3,5MHz-3,8MHz), umożliwia więc równoczesną pracę wielu stacji.

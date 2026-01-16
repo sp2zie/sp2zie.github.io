@@ -3,8 +3,7 @@ layout: post
 title: Studia techniczne - kampania promocyjna 2014
 date: 2014-12-17
 author: Dariusz Mankiewicz, SP2HQY
-categories: 
-  - Z życia klubu
+categories: klub
 ---
 
 Po raz kolejny zachęcaliśmy absolwentów szkół średnich do studiów technicznych oczywiście ze wskazaniem na Akademię Morską. Podobnie jak w latach poprzednich uczestniczyliśmy w kampanii promocyjnej kierunków matematycznych, technicznych i przyrodniczych, w ramach której w dniu 20.11.2014 roku odbyło się spotkanie akademickie z uczniami szkół ponadgimnazjalnych na terenie Akademii Morskiej w Gdyni.

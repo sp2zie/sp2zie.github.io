@@ -3,8 +3,7 @@ layout: post
 title: ARISS - Pierwszy kontakt radiowy z ISS w Polsce
 date: 2005-03-01
 author: Michał Lewczuk, SP2XDM
-categories: 
-  - Amateur Radio on ISS (ARISS)
+categories: projekty
 ---
 
 Dnia 6 października 2004 roku o godzinie 13.57 czasu lokalnego przeprowadzono pierwszą w Polsce radioamatorską łączność radiową z astronautą przebywającym na Międzynarodowej Stacji Kosmicznej (ISS). Było to ukoronowanie ponaddwuletnich przygotowań ekipy Morskiego Klubu Łączności "Szkuner" SP2ZIE i Koła Naukowego Radioelektroniki przy Akademii Morskiej w Gdyni.

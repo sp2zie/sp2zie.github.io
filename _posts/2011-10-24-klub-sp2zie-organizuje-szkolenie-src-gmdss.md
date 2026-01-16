@@ -3,8 +3,8 @@ layout: post
 title: Klub SP2ZIE organizuje Szkolenie na świadectwo operatora łączności bliskiego zasięgu SRC (GMDSS)
 date: 2011-10-24
 author: Krystian Górski, SQ2KL
-categories: 
-  - Kursy i szkolenia
+categories: projekty
+
 ---
 
 Termin szkolenia SRC to 19 listopada 2011 roku (sobota) godz: 10:00 Zajęcia zaczyna się o 10:00 i trwają do 14:00-15:00 Szkolenie przygotowujące odbędzie się w Gdyni, Al. Jana Pawła II/9 (dawny Skwer Kościuszki) budynek YK "STAL", Gdynia. Termin egzaminu SRC to 21 listopada 2011 godz: 13:00 (poniedziałek) w Szkole Morskiej w Gdyni (ul. Hryniewickiego). Opłatę za szkolenie przygotowujące w kwocie 150 PLN należy wnieść na konto bankowe: Polbank EFG 93234000091040401000014653

@@ -3,8 +3,7 @@ layout: post
 title: Rybitwia Mielizna 2024
 date: 2024-11-07
 author: Jędrzej Marsz, SQ2DK
-categories:
-  - Aktualności
+categories: radio
 ---
 
 Udało się nam w końcu zrealizować już o dłuższego czasu planowany wyjazd terenowy na Rybitwią Mieliznę. Choć oficjalnie nazywa się mielizną, w dużej części wystaje ponad wodę tworząc wyspę. Przebiega przez środek Zatoki Puckiej, ma w zależności od warunków tylko kilka metrów szerokości, za to kilka kilometrów długości. Jak to z wyspami bywa, można się tam dostać łodzią. Z tego co nam wiadomo, nikt wcześniej nie aktywował radiowo tego ciekawego miejsca.

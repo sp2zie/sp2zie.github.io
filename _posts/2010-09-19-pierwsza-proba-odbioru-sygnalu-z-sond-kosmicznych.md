@@ -3,8 +3,7 @@ layout: post
 title: Pierwsza próba odbioru sygnału z sond kosmicznych
 date: 2010-09-19
 author: Michał Lewczuk, SP2XDM
-categories: 
-  - Nasłuch sond kosmicznych
+categories: projekty
 ---
 
 

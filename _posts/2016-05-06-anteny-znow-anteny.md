@@ -3,8 +3,7 @@ layout: post
 title: Anteny ... znów anteny ...
 date: 2016-05-06
 author: Dariusz Mankiewicz, SP2HQY
-categories: 
-  - Z życia klubu
+categories: klub
 ---
 
 Czym byłoby radio bez anteny.... nawet najlepszy odbiornik bez anteny nie jest wart...

@@ -3,8 +3,7 @@ layout: post
 title: Per radio ad astra II - badanie zakłóceń
 date: 2023-12-09
 author: Dariusz Mankiewicz, SP2HQY
-categories: 
-  - Projekty techniczne
+categories: projekty
 ---
 
 W ramach przygotowania do budowy i eksploatacji radiowej stacji naziemnej do komunikacji z planowanym satelitą PW-Sat3 członkowie Koła Naukowego Morski Klub Łączności SP2ZIE SZKUNER podjęli się zbadania spektrum radiowego częstotliwości planowanych do komunikacji z tym satelitą by ustalić warunki jakie musi spełnić stacja. Wcześniejsze doświadczenia wskazywały na możliwość wystąpienia silnych zakłóceń na wybranej do komunikacji z satelitą PW-Sat3 częstotliwości. Wstępnie ustalono występowanie uciążliwych zakłóceń występujących w okolicach pasma 437 MHz - 438 MHz, często również występujących w szerszym paśmie 436 MHz – 439 MHz. Zakłócenia te występują w postaci silnego sygnału przemiatającego z dużą częstością (kilkadziesiąt razy na sekundę) powyższy zakres częstotliwości. Występują zarówno w dzień, jak i w nocy z niewielkimi zmianami intensywności 24 h / dobę, 7 dni w tygodniu. Mimo dużej siły zakłóceń, przy braku innego sygnału, przy użyciu normalnego radiotelefonu FM można ich nie zauważyć, są jednak nie do zignorowania w przypadku próby odbioru sygnałów zmodulowanych amplitudowo (AM/SSB). Wpływają bardzo istotnie na możliwość odebrania transmisji cyfrowych.

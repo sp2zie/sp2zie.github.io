@@ -3,8 +3,7 @@ layout: post
 title: Nasze balony
 date: 2025-12-26
 author: Paweł Skrzypkowski, SQ2IPS
-categories: 
-  - Z życia klubu
+categories: klub
 ---
 
 Lista ostatnio wykonanych klubowych lotów balonowych.

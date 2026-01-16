@@ -3,8 +3,7 @@ layout: post
 title: Przekaźniki koncentryczne
 date: 2023-12-10
 author: Jędrzej Marsz, SQ2DK
-categories: 
-  - Projekty techniczne
+categories: projekty
 ---
 
 W praktyce radiowej często zachodzi potrzeba przełączania sygnałów wysokiej częstotliwości. O ile dla sygnałów o niewielkiej amplitudzie można bez trudu to zadanie realizować za pomocą układów elektronicznych (scalone przełączniki w.cz., diody pin itp.) o tyle w wypadku przełączania nadawanie-odbiór, gdzie przełączane sygnały mogą się różnić o nawet 200dB trudno to wykonać w oparciu o przełączniki elektroniczne. W takich przypadkach często stosuje się przekaźniki mechaniczne, gdzie za pomocą elektromagnesu przełączane są styki mechaniczne. Dla stosunkowo niewielkich częstotliwości można stosować tradycyjne przekaźniki, dla wysokich częstotliwości nie zdają one jednak egzaminu. Dla przekaźnika pracującego z sygnałami wysokiej częstotliwości należy wsiąść pod uwagę kilka parametrów a wśród nich: impedancję falową (Zo), tłumienie przenoszenia (Ap), izolacje między portami (tłumienie przesłuchu) (Ai) oraz maksymalną przenoszoną moc dla określonej częstotliwości (Pmax). Z dodatkowych parametrów można wymienić: rodzaj zastosowanych złącz w.cz., napięcie i prąd cewki oraz szybkość przełączania.

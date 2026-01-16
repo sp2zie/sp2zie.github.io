@@ -3,8 +3,7 @@ layout: post
 title: Bramka APRS
 date: 2005-05-31
 author: Michał Lewczuk, SP2XDM
-categories: 
-  - Projekty techniczne
+categories: projekty
 ---
 
  W połowie maja 2005 w celach testowych uruchomiliśmy w klubie bramke Igate oraz DIGI regionalne APRS. Ponieważ w rejonie Trójmiasta dotychczas nie było stacji o stałym charakterze pracujacej 24h/7d fakt ten należało zmienić. Lokalizacja w klubie SP2ZIE nie jest najszczesliwszą jaka można sobie wyobrazic dla tego celu ze wzgledu na pracujacy wówczas z tej samej lokalizacji wezel PR na czestotliwosci oddalonej zaledwie o 150kHz od 144.800, ale wychodziliśmy z założenia, iż po okreśie testowym DIGI zostanie przeniesione w bardziej korzystną lokalizację.

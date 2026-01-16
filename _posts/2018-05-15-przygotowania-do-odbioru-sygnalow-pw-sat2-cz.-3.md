@@ -3,8 +3,7 @@ layout: post
 title: Przygotowania do odbioru sygnałów PW-Sat2 cz. III
 date: 2018-05-15
 author: Dariusz Mankiewicz, SP2HQY
-categories:
-  - Per radio ad astra
+categories: projekty
 ---
 
 Co zrobić, aby usłyszeć... czyli słów kilka o wzmacniaczu antenowym z filtrem pasmowym

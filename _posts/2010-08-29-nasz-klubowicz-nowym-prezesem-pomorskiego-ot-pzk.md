@@ -3,8 +3,7 @@ layout: post
 title: Nasz klubowicz nowym prezesem Pomorskiego OT PZK
 date: 2010-08-29
 author: Michał Lewczuk, SP2XDM
-categories: 
-  - Z życia klubu
+categories: klub
 ---
 
 

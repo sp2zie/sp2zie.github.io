@@ -3,8 +3,7 @@ layout: post
 title: Aktywność SSTV z ISS
 date: 2015-01-02
 author: Dariusz Mankiewicz, SP2HQY
-categories: 
-  - Amateur Radio on the ISS (ARISS)
+categories: projekty
 ---
 
 W dniach 18 i 20 grudnia 2014 roku odbyła się pierwsza seria aktywności SSTV (Slow Scan Television) z pokładu Międzynarodowej Stacji Kosmiczna przeprowadzona pod znakiem RS0ISS. Seria ta składała się z dwunastu obrazów przygotowanych specjalnie z okazji 80-lecia urodzin pierwszego kosmonauty planety Ziemia - Jurija A. Gagarina. Obrazy tej serii przedstawiają znaczki z J. A. Gagarinem z lat 1961-1991 wydane przez Pocztę ZSRR oraz z lat 2001-2011 wydane w Rosji.

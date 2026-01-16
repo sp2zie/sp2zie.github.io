@@ -3,8 +3,8 @@ layout: post
 title: Zapoznaj się z transporderem SART
 date: 2016-11-24
 author: Michał Lewczuk, SP2XDM
-categories: 
-  - Kursy i szkolenia
+categories: projekty
+
 ---
 
 W naszym klubie możesz zapoznać się z budowa transpondera SART-II firmy Sailor. Nasz egzemplarz został wycofany z eksploatacji z uwagi na upływ jego terminu gwarancji - ale jest kompletny, więc można bez trudu zapoznać się z jego budową wewnętrzną.

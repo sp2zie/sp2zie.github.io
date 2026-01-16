@@ -3,8 +3,7 @@ layout: post
 title: Łączność ARISS z Dworu Artusa w mediach
 date: 2012-01-03
 author: Michał Lewczuk, SP2XDM
-categories: 
-  - Amateur Radio on the ISS (ARISS)
+categories: projekty
 ---
 
 Łączność z Międzynarodową Stacją Kosmiczną zrealizowana z historycznego Dworu Artusa w Gdańsku spotkała się z szerokim
