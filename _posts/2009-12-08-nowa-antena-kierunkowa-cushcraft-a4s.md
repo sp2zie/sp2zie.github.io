@@ -8,5 +8,3 @@ categories:
 ---
 
 Od listopada br. posiadamy nową antenę kierunkową na trzy górne pasma 20, 15 i 10m firmy Cushcraft model A4S.
-
-{% include image-gallery.html folder="assets/images/phocagallery/20180429-antena-wx7036/thumbs" %}

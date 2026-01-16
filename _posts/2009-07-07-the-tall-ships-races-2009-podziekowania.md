@@ -20,3 +20,5 @@ Autorami tych zdjęć są: Kacper Kowalski, Z. Grabowiecki, Halina Wasielke-Cie�
 
 
 Wielkie podziękowania dla firmy ICOM POLSKA z Sopotu, za odpowiedź na nasz apel i wypożyczenie dla stacji SN2009TSR dwóch najnowszych transiwerów krótkofalowych IC-7600, IC-7200 oraz dodatkowego osprzętu jak AT-180, PS-126, AH-2B.
+
+{% include image-gallery.html folder="assets/images/phocagallery/TSR2009/thumbs" %}

@@ -31,3 +31,5 @@ Na zakończenie wystąpił Starosta, który dziękując wszystkim za przedstawio
 Pomorski oddział PZK na konferencji reprezentowali koledzy: Dariusz Mankiewicz, SP2HQY i Michał Lewczuk, SP2XDM. Przedstawiliśmy [prezentację] pokazującą kim jesteśmy, jakie mamy cele i w czym wyraża się nasza użyteczność w sytuacjach kryzysowych. Prezentacja została dobrze odebrana przez uczestników, w trakcie przerwy spotkaliśmy się z przejawami zainteresowania ze strony przedstawicieli władz powiatu. Po przerwie i wykładzie Powiatowego Centrum Pomocy Rodzinie Pan Naczelnik Kazimierz Grubba przekazał informację o planach zacieśnienia współpracy [Wydziału Bezpieczeństwa i Zarządzania Kryzysowego w Wejherowie](http://bezpiecznypowiat.pl) z [Pomorskim Oddziałem PZK](https://otpzk.gdansk.pl).
 
 Poniżej załączam kilka zdjęć z konferencji. Relację z jej rozpoczęcia przedstawia na swojej stronie [Twoja Telewizja Morska](https://telewizjattm.pl/serwis-informacyjny/2011-10-21/16749-za-bezpieczenstwo-odpowiadamy-my-sami.html).
+
+{% include image-gallery.html folder="assets/images/phocagallery/20111021-Konferencja_Wejherowo/thumbs" %}

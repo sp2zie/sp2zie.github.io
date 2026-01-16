@@ -25,3 +25,7 @@ Dodatkowo rozmowa będzie retransmitowana przez: przekaźniki krótkofalarskiej 
 Termin grudniowy łączności ARISS, a więc przypadający na ostatnie dni roku został wybrany głównie ze względu na kończące się uroczystości obchodów roku Jana Heweliusza, jednego z najwybitniejszych astronomów Polski. Z tego względu łączność z astronautą przebywającym na pokładzie Stacji stanowić ma w pewnym sensie ukoronowanie tychże obchodów oraz wyróżnienie dla Gdańska, będącego jednym z najważniejszych miast  polskiej kultury i nauki.
 
 Konkretny dzień i konkretna godzina została określona przez osoby  pracujące w amerykańskiej agencji kosmicznej NASA i zajmujące się  planowaniem działań astronautów. Oczywiście przed zatwierdzeniem terminu konieczne stało się jego zweryfikowanie względem istniejącego  harmonogramu prac załogi Międzynarodowej Stacji Kosmicznej - z tego względu wcześniejsze terminy musiały zostać odrzucone. W tym czasie  bowiem, astronauci będą prowadzić inne zajęcia związane z  funkcjonowaniem kompleksu orbitalnego.
+
+Poniżej kilka zdjęć z przygotowań do łączności ARISS
+
+{% include image-gallery.html folder="assets/images/phocagallery/20111229-ARISS_Przygotowania/thumbs" %}

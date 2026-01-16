@@ -28,3 +28,7 @@ Po zakończonej rozmowie na sali rozległy się gromkie oklaski. Nadszedł czas 
 Odpowiedzi astronauty były  słyszalne w całej Europie na częstotliwości 145.800MHz. Z tego co nam wiadomo kilka osób słuchało nas na żywo. Krótkofalowcy odbiór określili jako dobry
 
 Realizacja łączności w Muzeum Historycznym Miasta Gdańska to wyczyn organizacyjny. Poziom trudności był o rząd wielkości od typowej łączności ARISS. Konfiguracja radiostacji podstawowej i zapasowych daleko odbiega od typowej konfiguracji. Cześć rozwiązań zostało wykorzystanych po raz pierwszy w łączności ARISS. O szczegółach technicznych tej fascynującej ekspedycji w następnym artykule.
+
+Poniżej kilka zdjęć z prowadzonej łącności ARISS
+
+{% include image-gallery.html folder="assets/images/phocagallery/20111231-ARISS_Lacznosc/thumbs" %}
