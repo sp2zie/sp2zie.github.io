@@ -7,6 +7,10 @@ categories:
   - Tall Ships' Races 2009 Gdynia on the AIR
 ---
 
+Poniżej znajdziesz chronologiczne aktualizacje dotyczące akcji radiowej "The Tall Ships' Races 2009 Gdynia on the AIR",
+obejmujące informacje o aktywności eterowej, konkursie dyplomowym oraz uroczystościach związanych ze Zlotem Żaglowców w
+Gdyni.
+
 **28-02-2010**
 <br>
 Zakończenie akcji dyplomowej związanej z "The Tall Ships' Races 2009 Gdynia on the AIR"

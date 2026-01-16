@@ -7,7 +7,7 @@ categories:
   - Per radio ad astra
 ---
 
-**Z czym przyjdzie nam się zmierzyć …. czyli o zakłóceniach w paśmie 70cm.**
+Z czym przyjdzie nam się zmierzyć... czyli o zakłóceniach w paśmie 70cm.
 
 Satelita PW-Sat2 nadawać ma swoją telemetrię na częstotliwości 435,275MHz, czyli w wycinku satelitarnym pasma 70cm. Zgodnie z krajową tablicą przeznaczeń częstotliwości (oraz bandplanem 70cm) częstotliwości między 434,79MHz a 438,00MHz przeznaczone są między innymi dla amatorskiej służby satelitarnej. Innymi użytkownikami tych częstotliwości poza amatorami mogą być służby cywilno-rządowe oraz rządowe (radiolokacja) a także mogą służyć do satelitarnych badań Ziemi. Z praktycznych obserwacji wynika, iż służby rządowe nie używają tych częstotliwości lub używają ich niezwykle sporadycznie. Teoretycznie więc ten wycinek spektrum powinien być czysty i jedynymi transmisjami, które na nim można by na nim słyszeć to satelitarne. Nie mniej diabeł tkwi w szczegółach....
 

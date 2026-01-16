@@ -7,7 +7,7 @@ categories:
   - Z życia klubu
 ---
 
-TODO: Tutaj jakiś jeden akapit wstępu, żeby tabelka nie pokazywała się na liście postów...
+Lista ostatnio wykonanych klubowych lotów balonowych.
 
 | data | typ | nadajniki | miejsce startu | uwagi | odzyskany | link | 
 |-|-|-|-|--|-|-|

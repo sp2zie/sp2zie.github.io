@@ -7,6 +7,9 @@ categories:
   - Amateur Radio on the ISS (ARISS)
 ---
 
+Łączność z Międzynarodową Stacją Kosmiczną zrealizowana z historycznego Dworu Artusa w Gdańsku spotkała się z szerokim
+odzewem w mediach, w tym w telewizji, radio oraz prasie.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ac6BQkzFSgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
  
 Powyższy materiał został przygotowany przez stację [Twoja Telewizja Morska] i wyemitowany 2 stycznia 2012 w skróconej formie w bloku informacyjnym pt. ,,[Kosmonauci połączyli się z Gdańskiem](https://telewizjattm.pl/serwis-informacyjny/2012-01-02/17617-kosmonauci-polaczyli-sie-z-gdanskiem.html)''. 31.12.2011 na antenie Pierwszego Programu  Telewizji Polskiej  w ostatnich wiadomościach wieczornych 2011 roku została wyemitowana [skrócona relacja z naszej łączności].

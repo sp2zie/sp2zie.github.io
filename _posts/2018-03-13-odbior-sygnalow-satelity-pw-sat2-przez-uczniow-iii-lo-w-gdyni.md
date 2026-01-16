@@ -7,6 +7,10 @@ categories:
   - Per radio ad astra
 ---
 
+Projekt "Per radio ad astra" umożliwia uczniom III Liceum Ogólnokształcącego w Gdyni kontakt z techniką kosmiczną
+poprzez odbiór sygnałów z polskiego satelity studenckiego PW-SAT2, realizowany we współpracy z Kołem Naukowym Morski
+Klub Łączności SP2ZIE SZKUNER Akademii Morskiej w Gdyni.
+
 **Charakterystyka**
 
   Projekt pod nazwą Per radio ad astra ma na celu umożliwienie młodzieży licealnej kontaktu z techniką kosmiczną poprzez odbiór sygnałów emitowanych przez sztuczne satelity ziemi, ze szczególnym uwzględnieniem obiektów konstruowanych przez polskich studentów w ramach programu PW-Sat. Projekt pozwoli na przygotowanie programu edukacyjnego, rozwiązań technicznych oraz zasad i form współpracy pomiędzy placówkami dydaktycznymi oraz naukowymi, których celem będzie poszerzenie wiedzy o elementach nauki wykorzystywanej w eksploracji kosmosu oraz wzmożenie zainteresowania polską myślą techniczną wykorzystywaną w podboju kosmosu.
