@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Konstrukcja masztu balastowego
 date: 2023-12-10
 author: Jędrzej Marsz, SQ2DK

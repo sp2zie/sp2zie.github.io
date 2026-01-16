@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Dostawa anten i przełączników polaryzacji z firmy WiMo.De oraz rotora Azy-Ele z Radomia.
 date: 2009-02-19
 author: Michał Lewczuk, SP2XDM

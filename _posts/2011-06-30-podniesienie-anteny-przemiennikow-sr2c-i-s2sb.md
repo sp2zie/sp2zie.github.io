@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Podniesienie anteny przemienników SR2C i SR2SB
 date: 2011-06-30
 author: Michał Lewczuk, SP2XDM

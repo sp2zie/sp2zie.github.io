@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Modyfikacja rotora SPID RAS
 date: 2022-03-26
 author: Jędrzej Marsz, SQ2DK

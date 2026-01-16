@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 3Z2LKM Latarnia Krynica Morska 2015
 date: 2015-08-31
 author: Dariusz Mankiewicz, SP2HQY

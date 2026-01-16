@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: SR2Z - 2m Przemiennik Gdyński
 date: 2005-03-31
 author: Michał Lewczuk, SP2XDM

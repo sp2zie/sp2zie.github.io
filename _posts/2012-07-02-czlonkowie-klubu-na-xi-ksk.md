@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Członkowie klubu na XI KSK
 date: 2012-07-02
 author: Dariusz Mankiewicz, SP2HQY

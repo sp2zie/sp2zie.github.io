@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Krótko o technicznych aspektach związanych z AIS
 date: 2011-03-18
 author: Jędrzej Marsz, SQ2DK

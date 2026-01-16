@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: O Tall Ships' Races 2009 Gdynia on the AIR
 date: 2009-07-07
 author: Roman Henning, SQ2RH

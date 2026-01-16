@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Anteny ... znów anteny ...
 date: 2016-05-06
 author: Dariusz Mankiewicz, SP2HQY

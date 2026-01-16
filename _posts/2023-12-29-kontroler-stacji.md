@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Kontroler stacji
 date: 2023-12-29
 author: Jędrzej Marsz, SQ2DK

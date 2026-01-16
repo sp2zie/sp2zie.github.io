@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Pierwsze miejsce w SPDX RTTY 2016 Multi Operator
 date: 2016-10-15
 author: Dariusz Mankiewicz, SP2HQY

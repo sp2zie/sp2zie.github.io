@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Bramka APRS
 date: 2005-05-31
 author: Michał Lewczuk, SP2XDM

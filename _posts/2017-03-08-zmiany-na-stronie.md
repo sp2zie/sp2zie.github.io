@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Zmiany na stronie
 date: 2017-03-08
 author: Michał Lewczuk, SP2XDM

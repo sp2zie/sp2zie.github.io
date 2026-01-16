@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Łączność ARISS z Dworu Artusa w mediach
 date: 2012-01-03
 author: Michał Lewczuk, SP2XDM

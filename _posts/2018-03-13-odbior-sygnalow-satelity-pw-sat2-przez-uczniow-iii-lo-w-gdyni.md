@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Odbiór sygnałów satelity PW-SAT2 przez uczniów III LO w Gdyni
 date: 2018-03-13
 author: Michał Lewczuk, SP2XDM

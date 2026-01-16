@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Łączność z ISS w ramach programu ARISS
 date: 2004-10-04
 author: Michał Lewczuk, SP2XDM

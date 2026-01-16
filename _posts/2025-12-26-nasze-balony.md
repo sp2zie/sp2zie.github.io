@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Nasze balony
 date: 2025-12-26
 author: Paweł Skrzypkowski, SQ2IPS

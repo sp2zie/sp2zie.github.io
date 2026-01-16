@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: PW-Sat2 Epilog
 date: 2023-12-23
 author: Dariusz Mankiewicz, SP2HQY

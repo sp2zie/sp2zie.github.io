@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Ruszają przygotowania do TALL SHIPS' RACES on the AIR Gdynia 2009
 date: 2009-03-07
 author: Michał Lewczuk, SP2XDM

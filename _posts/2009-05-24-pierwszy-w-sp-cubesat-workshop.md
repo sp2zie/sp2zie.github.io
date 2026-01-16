@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Pierwszy w SP CubeSAT Workshop, Gdynia 22-24 maja 2009
 date: 2009-05-24
 author: Michał Lewczuk, SP2XDM

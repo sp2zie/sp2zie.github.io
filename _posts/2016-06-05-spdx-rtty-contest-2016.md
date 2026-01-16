@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: SPDX RTTY Contest 2016
 date: 2016-06-05
 author: Dariusz Mankiewicz, SP2HQY

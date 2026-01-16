@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Wyłączenie węzła Packet Radio [SR2BGA] oraz [SR2DGA]
 date: 2007-07-24
 author: Michał Lewczuk, SP2XDM

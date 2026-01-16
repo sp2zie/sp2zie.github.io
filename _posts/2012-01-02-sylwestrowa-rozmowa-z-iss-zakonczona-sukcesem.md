@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Sylwestrowa rozmowa z ISS zakończona sukcesem!
 date: 2012-01-02
 author: Dariusz Mankiewicz, SP2HQY

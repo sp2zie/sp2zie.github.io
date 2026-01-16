@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Konferencja Kół Naukowych 2015
 date: 2015-12-18
 author: Dariusz Mankiewicz, SP2HQY

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Budowa dipleksera 2m / 70cm
 date: 2023-12-11
 author: Jędrzej Marsz, SQ2DK

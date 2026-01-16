@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 3Z2LJ Latarnia Jastarnia 2014
 date: 2014-09-29
 author: Dariusz Mankiewicz, SP2HQY

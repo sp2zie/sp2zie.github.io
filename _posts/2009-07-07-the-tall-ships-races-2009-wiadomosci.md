@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Wiadomości / News
 date: 2009-07-07
 author: Roman Henning, SQ2RH

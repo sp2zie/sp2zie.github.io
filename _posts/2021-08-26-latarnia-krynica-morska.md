@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Latarnia Morska - Krynica Morska 2021
 date: 2021-08-26
 author: Dariusz Mankiewicz, SP2HQY

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Nowa antena kierunkowa Cushcraft A4S
 date: 2009-12-08
 author: Michał Lewczuk, SP2XDM
