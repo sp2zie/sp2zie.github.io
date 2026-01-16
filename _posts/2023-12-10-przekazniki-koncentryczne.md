@@ -26,171 +26,76 @@ Pomiary zostały wykonane dla następujących modeli przekaźników:
 
 Wyniki przedstawiono w poniższej tabeli - podane wartości dla pasma 70cm:
 
-<table border="1" style="width: 100%;" cellpadding="0" cellspacing="0"><colgroup> <col width="43*" /> <col width="43*" /> <col width="43*" /> <col width="43*" /> <col width="43*" /> <col width="43*" /> </colgroup>
+<table class="table table-bordered table-striped table-hover">
+<thead>
+<tr>
+<th></th>
+<th>CX-140D</th>
+<th>CX-600N</th>
+<th>565-413-000</th>
+<th>R570-4621-00</th>
+<th>919C70100</th>
+</tr>
+</thead>
 <tbody>
-<tr valign="top">
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>&nbsp;</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>CX-140D</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>CX-600N</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>565-413-000</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>R570-4621-00</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>919C70100</p>
-</td>
+<tr>
+<td>Złącza</td>
+<td>N / brak</td>
+<td>N</td>
+<td>SMA</td>
+<td>SMA</td>
+<td>SMA</td>
 </tr>
-<tr valign="top">
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>Złącza</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>N / brak</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>N</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>SMA</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>SMA</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>SMA</p>
-</td>
+<tr>
+<td>Napięcie cewki</td>
+<td>12V</td>
+<td>12V</td>
+<td>26V</td>
+<td>12V / TTL</td>
+<td>26V</td>
 </tr>
-<tr valign="top">
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>Napięcie cewki</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>12V</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>12V</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>26V</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>12V / TTL</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>26V</p>
-</td>
+<tr>
+<td>Max moc</td>
+<td>200W</td>
+<td>800W</td>
+<td>200W</td>
+<td>200W</td>
+<td>50W</td>
 </tr>
-<tr valign="top">
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>Max moc</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>200W</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>800W</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>200W</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>200W</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>50W</p>
-</td>
+<tr>
+<td>Tłumienie</td>
+<td>0,2dB</td>
+<td>0,3dB</td>
+<td>&lt;0,1dB</td>
+<td>&lt;0,1dB</td>
+<td>&lt;0,1dB</td>
 </tr>
-<tr valign="top">
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>Tłumienie</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>0,2dB</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>0,3dB</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>&lt;0,1dB</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>&lt;0,1dB</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>&lt;0,1dB</p>
-</td>
+<tr>
+<td>Izolacja</td>
+<td>32,5dB</td>
+<td>40dB</td>
+<td>110dB</td>
+<td>&gt;80dB</td>
+<td>&gt;80dB</td>
 </tr>
-<tr valign="top">
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>Izolacja</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>32,5dB</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>40dB</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>110dB</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>&gt;80dB</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>&gt;80dB</p>
-</td>
+<tr>
+<td>Czas załączania</td>
+<td>13ms</td>
+<td>26ms</td>
+<td>7ms</td>
+<td>3ms</td>
+<td>7,3ms</td>
 </tr>
-<tr valign="top">
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>Czas załączania</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>13ms</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>26ms</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>7ms</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>3ms</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>7,3ms</p>
-</td>
-</tr>
-<tr valign="top">
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>Czas rozłączania</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>9ms</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>17ms</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>6ms</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>3ms</p>
-</td>
-<td style="border: medium; padding: 0cm; width: 17%;">
-<p>4ms</p>
-</td>
+<tr>
+<td>Czas rozłączania</td>
+<td>9ms</td>
+<td>17ms</td>
+<td>6ms</td>
+<td>3ms</td>
+<td>4ms</td>
 </tr>
 </tbody>
 </table>
-
 
 Poza przekaźnikiem CX-140D, gdzie zmierzona izolacja jest znacznie gorsza o przeszło 10dB gorsza od deklarowanej przez producenta parametry w większości pokrywają się z parametrami deklarowanymi przez producentów. Widać tu wyraźną różnicę w jakości przekaźników przeznaczonych na rynek profesjonalny i wojskowy w stosunku do przekaźników przeznaczonych głównie na rynek amatorski (Tohtsu).
 
