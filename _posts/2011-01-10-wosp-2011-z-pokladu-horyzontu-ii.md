@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: WOŚP 2011 z pokładu Horyzontu II
 date: 2011-01-10
 author: Michał Lewczuk, SP2XDM

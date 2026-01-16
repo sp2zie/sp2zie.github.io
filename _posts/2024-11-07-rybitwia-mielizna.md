@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Rybitwia Mielizna 2024
 date: 2024-11-07
 author: Jędrzej Marsz, SQ2DK

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Egzamin dla operatorów w służbie radiokomunikacyjnej amatorskiej
 date: 2011-05-16
 author: Michał Lewczuk, SP2XDM

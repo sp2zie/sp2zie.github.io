@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Satelita Es'hail 2
 date: 2019-03-28
 author: Jędrzej Marsz, SQ2DK

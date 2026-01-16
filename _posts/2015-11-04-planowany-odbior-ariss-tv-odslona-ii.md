@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Planowany odbiór ARISS TV – odsłona II
 date: 2015-11-04
 author: Dariusz Mankiewicz, SP2HQY

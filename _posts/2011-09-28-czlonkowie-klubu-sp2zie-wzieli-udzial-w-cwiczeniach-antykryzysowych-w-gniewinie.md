@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Członkowie klubu SP2ZIE wzięli udział w ćwiczeniach antykryzysowych w Gniewinie
 date: 2011-09-28
 author: Michał Lewczuk, SP2XDM

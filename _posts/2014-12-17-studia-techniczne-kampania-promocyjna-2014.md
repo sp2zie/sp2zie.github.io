@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Studia techniczne - kampania promocyjna 2014
 date: 2014-12-17
 author: Dariusz Mankiewicz, SP2HQY

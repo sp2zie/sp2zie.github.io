@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Uruchamiamy gdyński węzeł Packet Radio
 date: 2001-07-15
 author: Michał Lewczuk, SP2XDM

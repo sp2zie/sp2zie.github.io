@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: IX Bałtycki Festiwal nauki 2011
 date: 2011-06-01
 author: Michał Lewczuk, SP2XDM

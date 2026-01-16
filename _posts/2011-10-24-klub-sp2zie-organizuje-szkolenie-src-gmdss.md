@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Klub SP2ZIE organizuje Szkolenie na świadectwo operatora łączności bliskiego zasięgu SRC (GMDSS)
 date: 2011-10-24
 author: Krystian Górski, SQ2KL

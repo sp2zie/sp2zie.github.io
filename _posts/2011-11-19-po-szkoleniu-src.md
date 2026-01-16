@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Po szkolenieu SRC
 date: 2011-11-19
 author: Michał Lewczuk, SP2XDM

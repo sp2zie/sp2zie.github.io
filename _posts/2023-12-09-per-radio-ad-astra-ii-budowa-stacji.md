@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Per radio ad astra II - budowa stacji
 date: 2023-12-09
 author: Dariusz Mankiewicz, SP2HQY

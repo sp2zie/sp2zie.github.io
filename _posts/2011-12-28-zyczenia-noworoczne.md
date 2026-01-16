@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Życzenia noworoczne przesłane prosto z Międzynarodowej Stacji Kosmicznej!
 date: 2011-12-28
 author: Michał Lewczuk, SP2XDM

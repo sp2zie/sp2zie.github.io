@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Stacja systemu SR0WX - v2017
 date: 2017-11-01
 author: Dariusz Mankiewicz, SP2HQY

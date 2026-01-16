@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: SP DX RTTY Contest 2014
 date: 2014-07-20
 author: Dariusz Mankiewicz, SP2HQY

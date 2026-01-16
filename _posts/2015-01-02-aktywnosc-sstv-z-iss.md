@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Aktywność SSTV z ISS
 date: 2015-01-02
 author: Dariusz Mankiewicz, SP2HQY

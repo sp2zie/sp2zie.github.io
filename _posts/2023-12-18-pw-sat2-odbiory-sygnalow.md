@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: PW-Sat2 odbiory sygnałów
 date: 2023-12-18
 author: Dariusz Mankiewicz, SP2HQY

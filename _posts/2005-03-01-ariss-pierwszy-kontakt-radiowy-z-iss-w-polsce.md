@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: ARISS - Pierwszy kontakt radiowy z ISS w Polsce
 date: 2005-03-01
 author: Michał Lewczuk, SP2XDM

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Transkrypcja sesji łączności ARISS 31.12.2011
 date: 2012-01-03
 author: Michał Lewczuk, SP2XDM

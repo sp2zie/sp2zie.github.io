@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Modernizacja przemiennika SR2Z
 date: 2009-04-20
 author: Michał Lewczuk, SP2XDM

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Nowa strona klubu
 date: 2011-03-05
 author: Michał Lewczuk, SP2XDM

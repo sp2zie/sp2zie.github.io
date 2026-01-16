@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Montaż anten X-510N i X-30N
 date: 2011-12-03
 author: Michał Lewczuk, SP2XDM

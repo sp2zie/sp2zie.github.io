@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Przygotowania do odbioru sygnałów PW-Sat2 cz. III
 date: 2018-05-15
 author: Dariusz Mankiewicz, SP2HQY

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 3Z2LR Latarnia Morska Rozewie 2016
 date: 2016-10-10
 author: Dariusz Mankiewicz, SP2HQY

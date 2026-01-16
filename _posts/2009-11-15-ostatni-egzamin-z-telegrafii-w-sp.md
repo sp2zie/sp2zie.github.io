@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Ostatni egzamin z telegrafii w SP
 date: 2009-11-15
 author: Michał Lewczuk, SP2XDM

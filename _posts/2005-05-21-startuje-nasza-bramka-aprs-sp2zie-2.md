@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Startuje nasza bramka APRS SP2ZIE-2
 date: 2005-05-21
 author: Michał Lewczuk, SP2XDM

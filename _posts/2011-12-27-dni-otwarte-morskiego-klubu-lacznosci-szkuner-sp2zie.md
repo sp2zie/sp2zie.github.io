@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 19 stycznia 2012 roku - Dni Otwarte Morskiego Klubu Łączności Szkuner SP2ZIE - Koła Studenckiego Akademii Morskiej w Gdyni
 date: 2011-12-27
 author: Michał Lewczuk, SP2XDM

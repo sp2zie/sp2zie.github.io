@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: SP DX RTTY Contest 2020
 date: 2023-12-18
 author: Dariusz Mankiewicz, SP2HQY

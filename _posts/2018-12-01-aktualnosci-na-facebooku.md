@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Aktualności na Facebooku
 date: 2018-12-01
 author: Dariusz Mankiewicz, SP2HQY

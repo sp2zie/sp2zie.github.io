@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Awaria serwera
 date: 2011-12-27
 author: Michał Lewczuk, SP2XDM
