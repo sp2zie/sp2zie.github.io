@@ -3,7 +3,7 @@ layout: post
 title: Egzamin państwowy dla kandydatów na operatorów w służbie radiokomunikacyjnej amatorskiej
 date: 2010-09-13
 author: Michał Lewczuk, SP2XDM
-categories: projekty
+category: projekty
 
 ---
 

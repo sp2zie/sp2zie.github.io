@@ -3,7 +3,7 @@ layout: post
 title: Konstrukcja masztu balastowego
 date: 2023-12-10
 author: Jędrzej Marsz, SQ2DK
-categories: projekty
+category: projekty
 ---
 
 Jednym z założeń projektu było skonstruowanie zapasowej stacji, którą można będzie wywieźć w praktycznie dowolne miejsce i zainstalować w terenie.

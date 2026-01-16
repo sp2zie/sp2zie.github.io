@@ -3,7 +3,7 @@ layout: post
 title: PW-Sat2 odbiory sygnałów
 date: 2023-12-18
 author: Dariusz Mankiewicz, SP2HQY
-categories: projekty 
+category: projekty 
 ---
 
 Satelita PW-Sat2 został wyniesiony na orbitę 3 grudnia 2018 roku na pokładzie rakiety Falcon 9 podczas misji Spaceflight SSO-A: SmallSat Express. Na pokładzie rakiety wraz z satelitą PW-Sat2 znajdowały się 63 inne urządzenia. Pierwsze minuty lotu satelitów na orbicie minęły na procesie separacji poszczególnych adapterów startowych (tzw. FreeFlyer) od górnego stopnia rakiety Falcon 9. Około 45 minuty lotu nastąpiło odłączenie ostatniego z nich, w którym znajdował się PW-Sat2. Około 10 minut po północy polskiego czasu satelita został uwolniony z zasobnika i 40 minut później zaczął nadawać sygnał na Ziemię. Pierwsze informacje o odebranych danych z satelity przez radioamatorów ze Stanów Zjednoczonych pojawiły się nad ranem, a około godziny 9 zarejestrowane zostały pierwsze dane telemetryczne w Gliwicach w stacji naziemnej Future Processing i w Warszawie na Wydziale Elektroniki i Technik Informacyjnych PW.

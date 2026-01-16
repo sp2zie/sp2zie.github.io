@@ -3,7 +3,7 @@ layout: post
 title: Gdyński 2m przemiennik SR2Z przeniesiony do Pomieczyna
 date: 2007-10-21
 author: Michał Lewczuk, SP2XDM
-categories: klub
+category: klub
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: Budowa dipleksera 2m / 70cm
 date: 2023-12-11
 author: Jędrzej Marsz, SQ2DK
-categories: projekty
+category: projekty
 ---
 
 Diplekser jest urządzeniem umożliwiającym podłączenie dwu anten z różnych pasm do jednego odbiornika / nadajnika, bądź też na odwrót – dwu nadajników / odbiorników do jednej (wielopasmowej) anteny. Jest to urządzenie pasywne, składające się z dwu filtrów – dolnoprzepustowego oraz górnoprzepustowego z jednym wspólnym wejściem / wyjściem.

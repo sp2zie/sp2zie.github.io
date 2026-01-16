@@ -3,7 +3,7 @@ layout: post
 title: Planowany odbiór ARISS TV
 date: 2015-04-21
 author: Michał Lewczuk, SP2XDM
-categories: projekty
+category: projekty
 ---
 
 

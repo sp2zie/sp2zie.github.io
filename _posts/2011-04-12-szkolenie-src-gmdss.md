@@ -3,7 +3,7 @@ layout: post
 title: Szkolenie na świadectwo operatora łączności bliskiego zasięgu SRC (GMDSS)
 date: 2011-04-12
 author: Michał Lewczuk, SP2XDM
-categories: projekty
+category: projekty
 
 ---
 

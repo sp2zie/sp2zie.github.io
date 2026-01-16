@@ -3,7 +3,7 @@ layout: post
 title: Przygotowania do odbioru sygnałów PW-Sat2 cz. II
 date: 2018-05-08
 author: Dariusz Mankiewicz, SP2HQY
-categories: projekty
+category: projekty
 ---
 
 Z czym przyjdzie nam się zmierzyć... czyli o zakłóceniach w paśmie 70cm.

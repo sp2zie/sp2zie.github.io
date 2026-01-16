@@ -3,7 +3,7 @@ layout: post
 title: Wiadomości / News
 date: 2009-07-07
 author: Roman Henning, SQ2RH
-categories: radio
+category: radio
 ---
 
 Poniżej znajdziesz chronologiczne aktualizacje dotyczące akcji radiowej "The Tall Ships' Races 2009 Gdynia on the AIR",

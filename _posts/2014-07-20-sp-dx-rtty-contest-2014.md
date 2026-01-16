@@ -3,7 +3,7 @@ layout: post
 title: SP DX RTTY Contest 2014
 date: 2014-07-20
 author: Dariusz Mankiewicz, SP2HQY
-categories: zawody
+category: zawody
 ---
 
 Mimo, że nie jesteśmy contestmenami, ani nie mamy inklinacji do częstych startów w zawodach radioamatorskich, w tym roku postanowiliśmy spróbować swoich sił i na tym polu.

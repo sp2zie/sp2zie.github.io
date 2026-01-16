@@ -3,7 +3,7 @@ layout: post
 title: Krótko o technicznych aspektach związanych z AIS
 date: 2011-03-18
 author: Jędrzej Marsz, SQ2DK
-categories: projekty
+category: projekty
 ---
 
 Obecnie prawie wszystkie statki morskie wyposażane są zgodnie z konwencją o bezpieczeństwie na morzu w transponder AIS. AIS jest to system automatycznej identyfikacji statków – Automatic Identyfication System. Pozwala on statkom oraz stacjom brzegowym wyposażonym w podobne transpondery na nadawanie własnej pozycji oraz parametrów ruchu oraz odbiór takich informacji nadawanych przez inne jednostki. Głównym zadaniem systemu jest poprawa bezpieczeństwa (w rozumieniu safety i security) żeglugi, poprzez umożliwienie monitorowanie ruchu na akwenie wraz z jednoznaczną identyfikacją jednostek.

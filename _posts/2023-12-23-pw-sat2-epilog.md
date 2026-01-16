@@ -3,7 +3,7 @@ layout: post
 title: PW-Sat2 Epilog
 date: 2023-12-23
 author: Dariusz Mankiewicz, SP2HQY
-categories: projekty 
+category: projekty 
 ---
 
 Projekt pod nazwą Per radio ad astra realizowany przez studentów Koła Naukowego Morski Klub Łączności SZKUNER SP2ZIE Uniwersytetu Morskiego w Gdyni miał na celu umożliwienie młodzieży licealnej kontaktu z techniką kosmiczną poprzez odbiór sygnałów emitowanych przez sztuczne satelity ziemi, ze szczególnym uwzględnieniem obiektów konstruowanych przez polskich studentów w ramach programu PW-Sat2. Projekt pozwolił na przygotowanie programu edukacyjnego, rozwiązań technicznych oraz zasad i form współpracy pomiędzy placówkami dydaktycznymi oraz naukowymi, których celem było poszerzenie wiedzy o elementach nauki wykorzystywanej w eksploracji kosmosu oraz wzmożenie zainteresowania polską myślą techniczną wykorzystywaną w podboju kosmosu. Nawiązana współpraca z III Liceum Ogólnokształcącym w Gdyni przyniosła wymierne wyniki w postaci odebranych sygnałów, zgromadzonych danych i dostarczenia materiału badawczego.

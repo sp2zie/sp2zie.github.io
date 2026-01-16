@@ -3,7 +3,7 @@ layout: post
 title: Zapoznaj się z transporderem SART
 date: 2016-11-24
 author: Michał Lewczuk, SP2XDM
-categories: projekty
+category: projekty
 
 ---
 

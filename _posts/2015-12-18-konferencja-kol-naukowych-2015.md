@@ -3,7 +3,7 @@ layout: post
 title: Konferencja Kół Naukowych 2015
 date: 2015-12-18
 author: Dariusz Mankiewicz, SP2HQY
-categories: klub
+category: klub
 ---
 
 Koło Naukowe „Morski Klub Łączności SZKUNER SP2ZIE” Akademii Morskiej w od początku działalności podejmuje działania mające na celu poszerzanie horyzontów wiedzy, rozwijanie prac badawczych i konstrukcyjnych oraz doskonalenie umiejętności w służbie radiokomunikacyjnej oraz morskiej. Powyższe w wydatny sposób przyczynia się do podnoszenia poziomu kwalifikacji zawodowych studentów oraz przyczynia się do zwiększenia osiągnięć naukowych na polu radioelektroniki, co pozytywnie wpływa na promocję Akademii Morskiej w Gdyni w Polsce i za granicą.
