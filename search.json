@@ -1,6 +1,5 @@
 ---
 layout: none
-skip_nav: true
 ---
 [
   {% for post in site.posts %}
