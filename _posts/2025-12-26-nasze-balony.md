@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Klubowe loty balonowe
-date: 2025-12-26
+date: 2026-01-20
 author: Paweł Skrzypkowski, SQ2IPS
 category: klub
 ---
 
-Lista ostatnio wykonanych klubowych lotów balonowych.
+Lista wykonanych przez klub lotów balonowych. Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowania rozwijanego oprogramowania amatorskiego do radiosond M20 https://github.com/sq2ips/m20-custom-firmware.
 
 <div class="table-responsive">
   <table class="table table-striped table-bordered table-hover">
@@ -48,6 +48,24 @@ Lista ostatnio wykonanych klubowych lotów balonowych.
         <td>Błąd w interpretacji wysokości z GPS - przepełnienie na 600m</td>
         <td>nie - Lądowanie w Bałtyku</td>
         <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/d/HJgOZLq7k/basic?var-Payload=SP2ZIE&from=2025-12-04T16:15:28.826Z&to=2025-12-04T20:18:07.709Z&orgId=1&refresh=1m&timezone=utc">Horus</a>, <a href="https://grafana.v2.sondehub.org/d/HJgOZLq7k/basic?var-Payload=SP2ZIE-11&from=2025-12-04T16:15:28.826Z&to=2025-12-04T20:18:07.709Z&orgId=1&refresh=1m&timezone=utc">APRS</a></td>
+      </tr>
+      <tr>
+        <td>2026-01-22</td>
+        <td>floater</td>
+        <td>M20 - Horus Binary V3</td>
+        <td>Gdynia</td>
+        <td>Planowany lot - Testy nowego protokołu Horus Binary V3</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2026-01-25</td>
+        <td>floater</td>
+        <td>M20 - Horus Binary V3</td>
+        <td>Chmielno</td>
+        <td>Planowany lot z okazji 34 finału WOŚP</td>
+        <td>-</td>
+        <td>-</td>
       </tr>
     </tbody>
   </table>
