@@ -63,7 +63,7 @@ Lista wykonanych przez klub lotów balonowych. Loty są organizowane z okazji r�
         <td>floater</td>
         <td>M20 - Horus Binary V3</td>
         <td>Chmielno</td>
-        <td>Lot z okazji 34 finału WOŚP, prawdopodobne rozszczelnienie balonu lub jego oblodzenie. Opadanie po osiągnięciu ~3100m</td>
+        <td>Lot z okazji 34 finału WOŚP, kierunkowa antena GPS, prawdopodobne rozszczelnienie balonu lub jego oblodzenie. Opadanie po osiągnięciu ~3100m</td>
         <td>nie - lądowanie w lesie</td>
         <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/d/HJgOZLq7k/basic?orgId=1&from=2026-01-25T14:43:32.019Z&to=2026-01-25T18:38:52.165Z&timezone=utc&var-Payload=SN2WOSP&refresh=1m">Horus</a> (znak SN2WOSP), <a href="https://grafana.v2.sondehub.org/d/HJgOZLq7k/basic?orgId=1&from=2026-01-25T14:43:32.019Z&to=2026-01-25T18:38:52.165Z&timezone=utc&var-Payload=SP2ZIE-11&refresh=1m">APRS</a></td>
       </tr>
