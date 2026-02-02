@@ -4,6 +4,7 @@ title: SP2ZIE Team ponownie łączy się z ISS
 date: 2013-11-04
 author: Dariusz Mankiewicz, SP2HQY
 category: projekty
+subcategory: ariss
 ---
 
 

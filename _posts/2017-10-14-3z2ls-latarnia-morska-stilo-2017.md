@@ -4,6 +4,7 @@ title: 3Z2LS Latarnia Morska STILO 2017
 date: 2017-10-14
 author: Dariusz Mankiewicz, SP2HQY
 category: radio
+subcategory: latarnie
 ---
 
 Tegoroczne lato nie zachęcało do jakichkolwiek aktywności terenowych. Obfite opady deszczu oraz stosunkowo niskie temperatury nie skłaniały do snucia wyjazdowych planów. Jednak SP2ZIE Team postanowił nie poddawać się i zaplanowaliśmy kolejną wyprawę, aby kontynuować badania propagacyjne w rejonie znaków nawigacyjnych. W tym roku pod lupę a właściwie pod antenę wzięliśmy Latarnię Morską w Stilo.

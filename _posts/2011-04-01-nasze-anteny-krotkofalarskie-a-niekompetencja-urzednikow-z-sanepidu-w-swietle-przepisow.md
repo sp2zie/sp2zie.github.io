@@ -3,7 +3,8 @@ layout: page
 title: Nasze anteny krótkofalarskie a niekompetencja urzędników z SANEPIDU w świetle przepisów
 date: 2011-04-01
 author: Michał Lewczuk, SP2XDM
-category: klub
+category: archiwum
+subcategory: klub
 ---
 
 

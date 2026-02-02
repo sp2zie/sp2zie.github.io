@@ -4,6 +4,7 @@ title: Życzenia noworoczne przesłane prosto z Międzynarodowej Stacji Kosmiczn
 date: 2011-12-28
 author: Michał Lewczuk, SP2XDM
 category: projekty
+subcategory: ariss
 ---
 
 

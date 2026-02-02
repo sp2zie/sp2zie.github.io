@@ -4,6 +4,7 @@ title: Per radio ad astra II - początek
 date: 2023-12-09
 author: Dariusz Mankiewicz, SP2HQY
 category: projekty
+subcategory: pw-sat3
 ---
 
 Projekt pod nazwą Per Radio Ad Astra II ma na celu zaprojektowanie i wykonanie naziemnej stacji nadawczo odbiorczej, a następnie przetestowanie i wykorzystanie wykonanej stacji do dwustronnej radiowej łączności satelitarnej. Projekt pozwoli na komunikację dwustronną z odpowiednio do tego przystosowanymi sztucznymi satelitami ziemi, ze szczególnym uwzględnieniem obiektów konstruowanych przez polskich studentów w ramach programu PW-Sat3. W ramach projektu planowane jest przetestowanie innowacyjnych rozwiązań w zakresie technik odbioru sygnału satelitarnego z jednoczesnym wykorzystaniem wielu odbiorników przy zastosowaniu technologii sumowania sygnałów przesuniętych w fazie.

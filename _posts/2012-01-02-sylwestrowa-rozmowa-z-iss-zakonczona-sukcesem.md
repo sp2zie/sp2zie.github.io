@@ -4,6 +4,7 @@ title: Sylwestrowa rozmowa z ISS zakończona sukcesem!
 date: 2012-01-02
 author: Dariusz Mankiewicz, SP2HQY
 category: projekty
+subcategory: ariss
 ---
 
 Udało się! Zaplanowana na 31.12.2011 łączność z Międzynarodową Stacją Kosmiczną została nawiązana! Rozmawialiśmy z astronautami ok. 12 minut.  Pierwszy sygnał odebraliśmy kiedy ISS znajdowała się nad Atlantykiem, łączność została zakończona, gdy stacja przemieściła się nad Morze Kaspijskie.

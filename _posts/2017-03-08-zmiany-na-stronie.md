@@ -3,7 +3,8 @@ layout: page
 title: Zmiany na stronie
 date: 2017-03-08
 author: Michał Lewczuk, SP2XDM
-category: klub
+category: archiwum
+subcategory: klub
 ---
 
 Od dzisiaj na stronie naszego klubu pojawiły się istotne zmiany. W pewnym sensie można powiedzieć, że strona powstała od nowa, ponieważ do jej działania został użyty system zarządzania treścią. Zmiany te spowodowane są w pierwszej kolejności wymogami bezpieczeństwa. Stary system od dłuższego czasu nie posiadał już wsparcia ani dostępnych poprawek zabezpieczeń, podobnie jak i użyte do budowy strony komponenty firm trzecich.

@@ -4,6 +4,7 @@ title: 3Z2LR Latarnia Morska Rozewie 2016
 date: 2016-10-10
 author: Dariusz Mankiewicz, SP2HQY
 category: radio
+subcategory: latarnie
 ---
 
 Postanowiliśmy kontynuować nasze prace badawcze w zakresie badania warunków propagacyjnych w rejonie półwyspu helskiego. W roku 2016 jako obiekt badań wytypowaliśmy Latarnię Morską w Rozewiu. Po uzyskaniu stosownej zgody Urzędu Morskiego i poczynieniu uzgodnień z załogą Latarni w dniu 13 sierpnia 2016 rozpoczęliśmy naszą koleją przygodę.

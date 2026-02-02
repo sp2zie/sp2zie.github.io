@@ -4,6 +4,7 @@ title: Latarnia Morska - Krynica Morska 2021
 date: 2021-08-26
 author: Dariusz Mankiewicz, SP2HQY
 category: radio
+subcategory: latarnie
 ---
 
 Latarnie Morskie i radio... to jest to co #SP2ZIE Team lubi najbardziej...

@@ -3,7 +3,8 @@ layout: page
 title: SP2ZIE jako zapasowa stacja naziemna do łączności z pierwszym polskim nanosatelitą PW-SAT
 date: 2009-01-31
 author: Michał Lewczuk, SP2XDM
-category: klub
+category: projekty
+subcategory: pw-sat1
 ---
 
 

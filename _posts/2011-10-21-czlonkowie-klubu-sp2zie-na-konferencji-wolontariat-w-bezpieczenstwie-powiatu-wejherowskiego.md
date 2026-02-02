@@ -3,7 +3,8 @@ layout: page
 title: Członkowie klubu SP2ZIE na konferencji ''Wolontariat w bezpieczeństwie powiatu wejherowskiego''
 date: 2011-10-21
 author: Michał Lewczuk, SP2XDM
-category: klub
+category: archiwum
+subcategory: klub
 ---
 
 

@@ -4,6 +4,7 @@ title: Per radio ad astra II - budowa stacji
 date: 2023-12-09
 author: Dariusz Mankiewicz, SP2HQY
 category: projekty
+subcategory: pw-sat3
 ---
 
 Koło Naukowe Morski Klub Łączności SZKUNER SP2ZIE po przeanalizowaniu wyników badań zakłóceń w zakresie częstotliwości 437 MHz dokonał weryfikacji przyjętych rozwiązań projektowych realizowanych w ramach budowy naziemnej stacji do łączności satelitarnej na potrzeby satelity studenckiego PW-Sat3. Wnioski płynące z badań wskazały na konieczność przeniesienia projektowanych stacji w miejsca o niższym poziomie sygnałów niepożądanych oraz zaprojektowania i wykonania rozwiązań umożliwiających zdalne sterowanie stacjami.

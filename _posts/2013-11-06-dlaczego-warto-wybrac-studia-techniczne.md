@@ -3,7 +3,8 @@ layout: page
 title: Dlaczego warto wybrać studia techniczne?
 date: 2013-11-06
 author: Jędrzej Marsz, SQ2DK
-category: klub
+category: archiwum
+subcategory: klub
 ---
 
 

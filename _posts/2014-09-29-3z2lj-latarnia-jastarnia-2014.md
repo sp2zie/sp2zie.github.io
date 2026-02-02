@@ -4,6 +4,7 @@ title: 3Z2LJ Latarnia Jastarnia 2014
 date: 2014-09-29
 author: Dariusz Mankiewicz, SP2HQY
 category: radio
+subcategory: latarnie
 ---
 
 Nasze sierpniowe wypady latarniane stają się powoli nową świecką tradycją ;-).  W tym roku odwiedziliśmy kolejny brzegowy znak nawigacyjny jakim jest Latarnia Morska w Jastarni.

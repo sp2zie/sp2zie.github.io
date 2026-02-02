@@ -4,6 +4,7 @@ title: 3Z2LKM Latarnia Krynica Morska 2015
 date: 2015-08-31
 author: Dariusz Mankiewicz, SP2HQY
 category: radio
+subcategory: latarnie
 ---
 
 Zgodnie z zapowiedziami z roku 2014 postanowiliśmy kontynuować nasze badania propagacyjne w rejonie Zatoki Gdańskiej. W roku 2015 wzięliśmy na celownik Latarnię Morską w Rozewiu i odwiedziliśmy …. Latarnię Morską w Krynicy Morskiej ;-)

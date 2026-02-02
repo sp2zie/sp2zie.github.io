@@ -4,6 +4,7 @@ title: Odbiór sygnałów satelity PW-SAT2 przez uczniów III LO w Gdyni
 date: 2018-03-13
 author: Michał Lewczuk, SP2XDM
 category: projekty
+subcategory: pw-sat2
 ---
 
 Projekt "Per radio ad astra" umożliwia uczniom III Liceum Ogólnokształcącego w Gdyni kontakt z techniką kosmiczną

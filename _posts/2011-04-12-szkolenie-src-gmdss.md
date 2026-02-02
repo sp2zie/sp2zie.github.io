@@ -3,8 +3,8 @@ layout: page
 title: Szkolenie na świadectwo operatora łączności bliskiego zasięgu SRC (GMDSS)
 date: 2011-04-12
 author: Michał Lewczuk, SP2XDM
-category: projekty
-
+category: radio
+subcategory: szkolenia
 ---
 
 Morski Klub Łączności SP2ZIE "Szkuner" wraz ze [Szkołą Żeglarska 4winds](http://www.4winds.pl/) zapraszają na szkolenie przygotowujące do egzaminu na świadectwo operatora łączności bliskiego zasięgu SRC (GMDSS) w służbie radiokomunikacyjnej morskiej i żeglugi śródlądowej.

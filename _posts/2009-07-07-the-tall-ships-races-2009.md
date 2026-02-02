@@ -4,6 +4,7 @@ title: O Tall Ships' Races 2009 Gdynia on the AIR
 date: 2009-07-07
 author: Roman Henning, SQ2RH
 category: radio
+subcategory: tsr2009
 ---
 
 The Tall Ships' Races (daw. Operacja Żagiel) to zlot największych żaglowców przeważnie połączony z regatami oraz imprezami okolicznościowymi, organizowany przez Sail Training Association mający propagować ideę wychowania młodzieży na pokładach wielkich żaglowców.

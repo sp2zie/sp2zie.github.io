@@ -4,6 +4,7 @@ title: Przygotowania do odbioru sygnałów PW-Sat2 cz. I
 date: 2018-05-01
 author: Dariusz Mankiewicz, SP2HQY
 category: projekty
+subcategory: pw-sat2
 ---
 
 Rozpoczęliśmy przygotowania do odbioru sygnałów PW-Sat2. Na pierwszy ogień poszła …. oczywiście antena. Jako, że przybyły zamówione w niemieckiej firmie Wi-Mo części a wśród nich 18-to elementowa krzyżowa antena Yagi-Uda WX7036 nie trzeba było zbytnio czekać i prace ruszyły.

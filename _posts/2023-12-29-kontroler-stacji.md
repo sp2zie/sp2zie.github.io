@@ -4,6 +4,7 @@ title: Kontroler stacji
 date: 2023-12-29
 author: Jędrzej Marsz, SQ2DK
 category: projekty
+subcategory: pw-sat3
 ---
 
 Zgodnie z założeniami, stacja naziemna SP2ZIE ma posiadać przedwzmacniacz antenowy (LNA) wraz z filtrem pasmowym umieszczone przy samej antenie. Wymusza to przełączanie nadawanie / odbiór, gdyż moc nadajnika może zniszczyć przedwzmacniacz. Zdecydowano się też na zastosowanie oddzielnego toru kablowego (kabli koncentrycznych) nadawczego oraz odbiorczego.

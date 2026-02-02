@@ -3,7 +3,8 @@ layout: page
 title: Wymiana anten UKF
 date: 2010-12-22
 author: Michał Lewczuk, SP2XDM
-category: klub
+category: archiwum
+subcategory: klub
 ---
 
 

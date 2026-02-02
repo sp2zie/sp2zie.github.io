@@ -3,7 +3,8 @@ layout: page
 title: Awaria serwera
 date: 2011-12-27
 author: Michał Lewczuk, SP2XDM
-category: klub
+category: archiwum
+subcategory: klub
 ---
 
  W najmniej sprzyjających okolicznościach serwer udostępniający naszą stronę został wyłączony z przyczyn od nas niezależnych. O wyłączeniu nie zostaliśmy powiadomieni z wyprzedzeniem, dlatego tez nie udało się przenieść strony na inny serwer. Obecnie czynimy starania by przywrócić dane z kopii zapasowych, ale wszystko wskazuje, iż z powodu sezonu świąteczno-noworocznego będzie to możliwe dopiero po Nowym Roku.

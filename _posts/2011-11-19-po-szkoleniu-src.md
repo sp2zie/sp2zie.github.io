@@ -3,8 +3,8 @@ layout: page
 title: Po szkolenieu SRC
 date: 2011-11-19
 author: Michał Lewczuk, SP2XDM
-category: projekty
-
+category: radio
+subcategory: szkolenia
 ---
 
 19 listopada 2011 w szkole żeglarskiej 4WINDS odbyło się szkolenie Radiooperatora Krótkiego Zasięgu w służbie radiokomunikacyjnej morskiej SRC (Short Range Certificate), zorganizowane przez klub SP2ZIE. W szkoleniu wzięli udział zarówno członkowie klubu, jak i inne osoby zainteresowane zdobyciem uprawnień do korzystania z morskiej łączności VHF.

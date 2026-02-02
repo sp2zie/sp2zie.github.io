@@ -4,6 +4,7 @@ title: Przygotowania do odbioru sygnałów PW-Sat2 cz. III
 date: 2018-05-15
 author: Dariusz Mankiewicz, SP2HQY
 category: projekty
+subcategory: pw-sat2
 ---
 
 Co zrobić, aby usłyszeć... czyli słów kilka o wzmacniaczu antenowym z filtrem pasmowym
