@@ -20,20 +20,33 @@
     </div>
 
     <div class="carousel-masthead">
-        <div class="container inner">
-            <div class="d-flex align-items-center justify-content-between brand-row">
-                <a href="/" class="d-flex align-items-center text-decoration-none text-white">
-                    <span class="seal" aria-hidden="true">
-                        <img src="/assets/images/logo/logo-kolo.jpg" alt="">
-                    </span>
-                    <div class="ms-3">
-                        <p class="title">{{ site.title | default: "SP2ZIE" | escape }}</p>
-                        <p class="subtitle">{{ site.description | escape }}</p>
-                    </div>
-                </a>
-            </div>
-        </div>
+  <div class="container inner">
+    <div class="d-flex align-items-center justify-content-between brand-row">
+      <a href="/" class="d-flex align-items-center text-decoration-none text-white">
+        <span class="seal" aria-hidden="true">
+      <img src="/assets/images/logo/logo-kolo.jpg" alt="">
+    </span>
+    <div class="ms-3">
+      <p class="title">{{ site.title | default: "SP2ZIE" | escape }}</p>
+      <p class="subtitle">{{ site.description | escape }}</p>
     </div>
+  </a>
+
+  <a
+    href="https://umg.edu.pl/"
+    class="d-flex align-items-center ms-3"
+    style="z-index: 5;"
+    aria-label="Uniwersytet Morski w Gdyni"
+  >
+    <img
+      src="/assets/images/logo/logo-umg.png"
+      alt="Uniwersytet Morski w Gdyni"
+      style="height: 96px; width: auto; filter: drop-shadow(0 2px 8px rgba(0,0,0,.25));"
+    >
+  </a>
+</div>
+  </div>
+</div>
 
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
             data-bs-slide="prev" style="z-index: 4;">
