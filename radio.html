@@ -5,22 +5,79 @@ permalink: /radio/
 
 <div class="container mt-4">
     <div class="row">
-        {% for post in site.posts %}
-            {% if post.categories contains 'radio' %}
-                <div class="col-12 mb-4">
-                    <h2 class="h4">
-                        <a href="{{ post.url | relative_url }}" class="text-decoration-none">
-                            {{ post.title | escape }}
-                        </a>
-                    </h2>
-                    <div class="mb-2">
-                        <small class="text-muted">{{ post.date | date: site.date_format }}</small>
+        <div class="col-12 mb-4">
+            <h1 class="h3">Radio</h1>
+            <p class="text-muted">Wybierz kategorię, aby zobaczyć szczegóły.</p>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+        <div class="col">
+            <a href="/radio/szkolenia/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Szkolenia</h5>
+                        <p class="card-text text-muted">Szkolenia i egzaminy dla operatorów radiokomunikacyjnych, SRC GMDSS oraz inne kursy związane z łącznością radiową.</p>
                     </div>
-                    {% if site.show_excerpts %}
-                    <p class="text-muted">{{ post.excerpt }}</p>
-                    {% endif %}
                 </div>
-            {% endif %}
-        {% endfor %}
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="/radio/latarnie/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Latarnie morskie</h5>
+                        <p class="card-text text-muted">Aktywacje latarni morskich w ramach międzynarodowych zawodów i programów (International Lighthouse Lightship Weekend).</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="/radio/tsr2009/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Tall Ships Races 2009</h5>
+                        <p class="card-text text-muted">Szczególna aktywność stacji klubowej podczas zlotu żaglowców w Gdyni w 2009 roku - łączności i wydarzenia specjalne.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="/radio/wosp/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Wielka Orkiestra Świątecznej Pomocy</h5>
+                        <p class="card-text text-muted">Udział klubu w akcjach Wielkiej Orkiestry Świątecznej Pomocy - łączności i wsparcie organizacyjne.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="/radio/terenowe/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Prace terenowe</h5>
+                        <p class="card-text text-muted">Aktywności polowe, wyjazdy i prace terenowe klubowe - operacje z terenu, testy sprzętu i inne działania poza klubem.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="/radio/qo-100/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">QO-100 / Es'hail 2</h5>
+                        <p class="card-text text-muted">Łączności przez satelitę geostacjonarny Es'hail 2 (QO-100) - pierwszy satelita amatorski w orbicie geostacjonarnej.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
     </div>
 </div>
