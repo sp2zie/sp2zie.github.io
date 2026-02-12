@@ -48,5 +48,3 @@ Oto znaki okolicznościowe, pod którymi można było nas usłyszeć na falach e
 - SN550N - 550 rocznica urodzin Mikołaja Kopernika, Gdynia 2023
 
 I Ty możesz realizować swoje pasje z nami, zapraszamy.
-
-Przeczytaj o naszej [historii](/historia/) i zobacz [listę członków naszego klubu](/czlonkowie/).
