@@ -1,19 +1,86 @@
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"
      style="max-height: 450px; overflow: hidden; position: relative;">
     
-    <!-- Logo klubu - lewy górny róg -->
-    <a href="/" class="position-absolute logo-link" style="top: 20px; left: 20px; z-index: 100; pointer-events: auto;"
-       onclick="event.stopPropagation(); event.preventDefault(); window.location.href='/'; return false;">
-        <img src="/assets/images/logo/logo-kolo.jpg" alt="SP2ZIE"
-             class="rounded-circle shadow" style="width: 160px; height: 160px; object-fit: cover; pointer-events: none;">
-    </a>
+    <style>
+        .carousel-logo-panel {
+            position: absolute;
+            left: 12px;
+            bottom: 12px;
+            z-index: 5;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 10px;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.35);
+            background: rgba(10, 20, 35, 0.45);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.28);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+        }
 
-    <!-- Logo UMG - prawy górny róg -->
-    <a href="https://www.umg.edu.pl/" class="position-absolute logo-link" style="top: 20px; right: 20px; z-index: 100; pointer-events: auto;"
-       onclick="event.stopPropagation(); event.preventDefault(); window.location.href='https://www.umg.edu.pl/'; return false;">
-        <img src="/assets/images/logo/logo-umg.png" alt="UMG"
-             class="shadow" style="height: 140px; width: auto; filter: drop-shadow(0 2px 4px rgba(0,0,0,.5)); pointer-events: none;">
-    </a>
+        .carousel-logo-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+        }
+
+        .carousel-logo-link img {
+            transition: transform 0.2s ease, filter 0.2s ease;
+        }
+
+        .carousel-logo-kolo {
+            width: 56px;
+            height: 56px;
+            object-fit: cover;
+        }
+
+        .carousel-logo-umg {
+            height: 46px;
+            width: auto;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.45));
+        }
+
+        @media (min-width: 768px) {
+            .carousel-logo-panel {
+                top: 16px;
+                bottom: auto;
+                left: 16px;
+                flex-direction: column;
+                gap: 8px;
+                padding: 10px;
+            }
+
+            .carousel-logo-kolo {
+                width: clamp(70px, 8vw, 96px);
+                height: clamp(70px, 8vw, 96px);
+            }
+
+            .carousel-logo-umg {
+                height: clamp(56px, 6.8vw, 78px);
+            }
+        }
+
+        @media (hover: hover) {
+            .carousel-logo-link:hover img {
+                transform: translateY(-1px) scale(1.03);
+            }
+        }
+    </style>
+
+    <!-- Logotypy - nowoczesny panel responsywny -->
+    <div class="carousel-logo-panel" aria-label="Logotypy partnerów">
+        <a href="/" class="logo-link carousel-logo-link" aria-label="Strona główna SP2ZIE">
+            <img src="/assets/images/logo/logo-kolo.jpg" alt="SP2ZIE"
+                 class="rounded-circle shadow carousel-logo-kolo">
+        </a>
+
+        <a href="https://www.umg.edu.pl/" class="logo-link carousel-logo-link" aria-label="Uniwersytet Morski w Gdyni">
+            <img src="/assets/images/logo/logo-umg.png" alt="UMG"
+                 class="shadow carousel-logo-umg">
+        </a>
+    </div>
     
     <div class="carousel-inner">
         <div class="carousel-item active">
