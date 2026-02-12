@@ -3,7 +3,8 @@ layout: page
 title: Węzły packet-radio SR2BGA i SR2DGA
 date: 2001-07-31
 author: Michał Lewczuk, SP2XDM
-category: projekty
+category: archiwum
+subcategory: packet
 ---
 
 
