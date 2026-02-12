@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /czlonkowie/
 title: Członkowie klubu
 ---
 

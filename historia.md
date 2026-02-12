@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Historia klubu
+permalink: /historia/
 author: Dariusz Mankiewicz SP2HQY
 ---
 
