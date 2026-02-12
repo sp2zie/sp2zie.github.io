@@ -1,27 +1,61 @@
 ---
 layout: default
 permalink: /klub/
-title: Aktualności klubowe
 ---
 
 <div class="container mt-4">
     <div class="row">
-        {% for post in site.posts %}
-            {% if post.categories contains 'klub' %}
-                <div class="col-12 mb-4">
-                    <h2 class="h4">
-                        <a href="{{ post.url | relative_url }}" class="text-decoration-none">
-                            {{ post.title | escape }}
-                        </a>
-                    </h2>
-                    <div class="mb-2">
-                        <small class="text-muted">{{ post.date | date: site.date_format }}</small>
+        <div class="col-12 mb-2">
+            <h1 class="h3">Informacje o klubie</h1>
+            <p class="text-muted">Informacje, historia, członkowie i archiwum klubu SP2ZIE</p>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+        <div class="col">
+            <a href="/o-nas/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">O nas</h5>
+                        <p class="card-text text-muted">Informacje o klubie, krótkofalarstwie i naszych znakach okolicznościowych</p>
                     </div>
-                    {% if site.show_excerpts %}
-                    <p class="text-muted">{{ post.excerpt }}</p>
-                    {% endif %}
                 </div>
-            {% endif %}
-        {% endfor %}
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="/historia/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Historia klubu</h5>
+                        <p class="card-text text-muted">Kalendarium wydarzeń i osiągnięć klubu od 1995 roku</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="/czlonkowie/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Członkowie</h5>
+                        <p class="card-text text-muted">Lista członków klubu z znakami wywoławczymi i funkcjami</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="/archiwum/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Archiwum</h5>
+                        <p class="card-text text-muted">Archiwalne wpisy i dokumenty klubowe</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
     </div>
 </div>

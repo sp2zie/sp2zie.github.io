@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /o-nas/
 title: Klub krótkofalarski SP2ZIE "Szkuner" w Gdyni
 ---
 
