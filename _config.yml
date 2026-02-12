@@ -7,3 +7,5 @@ baseurl: ""
 url: "https://www.sp2zie.pl"
 show_excerpts: true
 date_format: "%Y-%m-%d"
+plugins:
+  - jekyll-sitemap
