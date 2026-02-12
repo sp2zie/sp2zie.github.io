@@ -2,16 +2,18 @@
      style="max-height: 450px; overflow: hidden; position: relative;">
     
     <!-- Logo klubu - lewy górny róg -->
-    <div class="position-absolute" style="top: 20px; left: 20px; z-index: 3;">
-        <img src="/assets/images/logo/logo-kolo.jpg" alt="SP2ZIE" 
-             class="rounded-circle shadow" style="width: 160px; height: 160px; object-fit: cover;">
-    </div>
-    
+    <a href="/" class="position-absolute logo-link" style="top: 20px; left: 20px; z-index: 100; pointer-events: auto;"
+       onclick="event.stopPropagation(); event.preventDefault(); window.location.href='/'; return false;">
+        <img src="/assets/images/logo/logo-kolo.jpg" alt="SP2ZIE"
+             class="rounded-circle shadow" style="width: 160px; height: 160px; object-fit: cover; pointer-events: none;">
+    </a>
+
     <!-- Logo UMG - prawy górny róg -->
-    <div class="position-absolute" style="top: 20px; right: 20px; z-index: 3;">
-        <img src="/assets/images/logo/logo-umg.png" alt="UMG" 
-             class="shadow" style="height: 140px; width: auto; filter: drop-shadow(0 2px 4px rgba(0,0,0,.5));">
-    </div>
+    <a href="https://www.umg.edu.pl/" class="position-absolute logo-link" style="top: 20px; right: 20px; z-index: 100; pointer-events: auto;"
+       onclick="event.stopPropagation(); event.preventDefault(); window.location.href='https://www.umg.edu.pl/'; return false;">
+        <img src="/assets/images/logo/logo-umg.png" alt="UMG"
+             class="shadow" style="height: 140px; width: auto; filter: drop-shadow(0 2px 4px rgba(0,0,0,.5)); pointer-events: none;">
+    </a>
     
     <div class="carousel-inner">
         <div class="carousel-item active">
