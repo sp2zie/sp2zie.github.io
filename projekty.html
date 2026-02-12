@@ -5,22 +5,85 @@ permalink: /projekty/
 
 <div class="container mt-4">
     <div class="row">
-        {% for post in site.posts %}
-            {% if post.categories contains 'projekty' %}
-                <div class="col-12 mb-4">
-                    <h2 class="h4">
-                        <a href="{{ post.url | relative_url }}" class="text-decoration-none">
-                            {{ post.title | escape }}
-                        </a>
-                    </h2>
-                    <div class="mb-2">
-                        <small class="text-muted">{{ post.date | date: site.date_format }}</small>
+        <div class="col-12 mb-4">
+            <h1 class="h3">Projekty klubowe</h1>
+            <p class="text-muted">Wybierz kategorię projektu, aby zobaczyć szczegóły.</p>
+        </div>
+    </div>
+
+    {% assign projekty_posts = site.posts | where: 'category', 'projekty' %}
+    {% assign pw_sat1_posts = projekty_posts | where: 'subcategory', 'pw-sat1' %}
+    {% assign pw_sat2_posts = projekty_posts | where: 'subcategory', 'pw-sat2' %}
+    {% assign pw_sat3_posts = projekty_posts | where: 'subcategory', 'pw-sat3' %}
+    {% assign ariss_posts = projekty_posts | where: 'subcategory', 'ariss' %}
+    {% assign inne_count = 0 %}
+    {% for post in projekty_posts %}
+        {% unless post.subcategory %}
+            {% assign inne_count = inne_count | plus: 1 %}
+        {% endunless %}
+    {% endfor %}
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+        <div class="col">
+            <a href="/projekty/pw-sat1/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">PW-Sat1</h5>
+                        <p class="card-text text-muted">Współpraca przy budowie zapasowej stacji naziemnej do łączności z pierwszym polskim nanosatelitą PW-Sat.</p>
+                        <span class="badge bg-primary">{{ pw_sat1_posts | size }} post{{ pw_sat1_posts | size | pluralize: '', 'ów' }}</span>
                     </div>
-                    {% if site.show_excerpts %}
-                    <p class="text-muted">{{ post.excerpt }}</p>
-                    {% endif %}
                 </div>
-            {% endif %}
-        {% endfor %}
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="/projekty/pw-sat2/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">PW-Sat2</h5>
+                        <p class="card-text text-muted">Budowa stacji odbiorczej i odbiór sygnałów z drugiego polskiego satelity studenckiego.</p>
+                        <span class="badge bg-primary">{{ pw_sat2_posts | size }} post{{ pw_sat2_posts | size | pluralize: '', 'ów' }}</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="/projekty/pw-sat3/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">PW-Sat3 (Per Radio Ad Astra)</h5>
+                        <p class="card-text text-muted">Projekt budowy naziemnej stacji nadawczo-odbiorczej do dwustronnej łączności z satelitą PW-Sat3.</p>
+                        <span class="badge bg-primary">{{ pw_sat3_posts | size }} post{{ pw_sat3_posts | size | pluralize: '', 'ów' }}</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="/projekty/ariss/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">ARISS</h5>
+                        <p class="card-text text-muted">Pierwsza polska łączność radiowa z astronautami na Międzynarodowej Stacji Kosmicznej ISS w 2004 roku oraz kolejne sesje w ramach programu ARISS.</p>
+                        <span class="badge bg-primary">{{ ariss_posts | size }} post{{ ariss_posts | size | pluralize: '', 'ów' }}</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="/projekty/inne/" class="text-decoration-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Inne projekty</h5>
+                        <p class="card-text text-muted">Przemienniki, bramki APRS, stacje pogodowe SR0WX, systemy packet radio i inne inicjatywy klubowe.</p>
+                        <span class="badge bg-primary">{{ inne_count }} post{{ inne_count | pluralize: '', 'ów' }}</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
     </div>
 </div>
