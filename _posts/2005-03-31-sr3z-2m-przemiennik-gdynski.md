@@ -4,6 +4,7 @@ title: SR2Z - 2m Przemiennik Gdyński
 date: 2005-03-31
 author: Michał Lewczuk, SP2XDM
 category: projekty
+subcategory: przemienniki
 ---
 
 W roku 2005 klub nasz sfinansował, zbudował i zainstalował na jednym z 10 piętrowych budynków w Gdyni Witominie

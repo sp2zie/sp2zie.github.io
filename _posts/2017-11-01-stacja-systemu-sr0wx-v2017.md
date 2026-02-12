@@ -4,6 +4,7 @@ title: Stacja systemu SR0WX - v2017
 date: 2017-11-01
 author: Dariusz Mankiewicz, SP2HQY
 category: projekty
+subcategory: sr0wx
 ---
 
 Sieć stacji SR0WX ma za zadanie nadawanie lokalnych komunikatów radiowych zawierających informacje pogodowe i środowiskowe oraz innych ostrzeżeń na terenie całego kraju na zunifikowanej częstotliwości 144,950MHz w ramach służby radioamatorskiej. W roku 2017 podjęliśmy próbę zbudowania nowej wersji stacji systemy SR0WX.

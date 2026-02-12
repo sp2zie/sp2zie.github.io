@@ -4,6 +4,7 @@ title: Budowa stacji systemu SR0WX
 date: 2013-11-06
 author: Jędrzej Marsz, SQ2DK
 category: projekty
+subcategory: sr0wx
 ---
 
 Obecnie z siedziby klubu pracuje stacja systemu SR0WX.

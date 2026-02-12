@@ -4,6 +4,7 @@ title: Planowany odbiór ARISS TV – odsłona II
 date: 2015-11-04
 author: Dariusz Mankiewicz, SP2HQY
 category: projekty
+subcategory: isstv
 ---
 
 Po wykonaniu oświetlacza i zamontowaniu go na antenie offsetowej postanowiliśmy rozpocząć próby odbioru sygnałów w paśmie dedykowanym dla ARISS HamTV , czyli w paśmie 2,4 GHz. W tym celu antenę wyposażyliśmy w konwerter BT-480 produkcji Anhui Bowei Electronics Technology Co. Ltd., a następnie przenieśliśmy czaszę naszej anteny na nieduży maszt kratowy wraz z rotorem Az-El.

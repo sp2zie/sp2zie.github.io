@@ -4,6 +4,7 @@ title: Przemienniki SR2UVG, SR2GS i SR2GT
 date: 2012-01-07
 author: Michał Lewczuk, SP2XDM
 category: projekty
+subcategory: przemienniki
 ---
 
 

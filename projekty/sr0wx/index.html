@@ -1,0 +1,33 @@
+---
+layout: default
+permalink: /projekty/sr0wx/
+---
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12">
+            <a href="/projekty/" class="text-decoration-none">← Wróć do projektów</a>
+            <h1 class="h3 mt-3">SR0WX</h1>
+            <p class="text-muted">Stacje pogodowe systemu SR0WX nadające komunikaty pogodowe na częstotliwości 144.950 MHz z informacjami o bieżącej i prognozowanej pogodzie.</p>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        {% assign sr0wx_posts = site.posts | where: 'category', 'projekty' | where: 'subcategory', 'sr0wx' %}
+        {% for post in sr0wx_posts %}
+            <div class="col-12 mb-4">
+                <h2 class="h4">
+                    <a href="{{ post.url | relative_url }}" class="text-decoration-none">
+                        {{ post.title | escape }}
+                    </a>
+                </h2>
+                <div class="mb-2">
+                    <small class="text-muted">{{ post.date | date: site.date_format }}</small>
+                </div>
+                {% if site.show_excerpts %}
+                <p class="text-muted">{{ post.excerpt }}</p>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+</div>
