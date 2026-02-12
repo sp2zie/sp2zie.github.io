@@ -1,5 +1,5 @@
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"
-     style="max-height: 450px; overflow: hidden; position: relative;">
+<div id="carouselExampleAutoplaying" class="carousel slide carousel-responsive" data-bs-ride="carousel"
+     style="overflow: hidden; position: relative;">
     
     <style>
         .carousel-logo-panel {
@@ -17,6 +17,22 @@
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.28);
             backdrop-filter: blur(6px);
             -webkit-backdrop-filter: blur(6px);
+        }
+
+        .carousel-responsive {
+            --carousel-height: 450px;
+            max-height: var(--carousel-height);
+        }
+
+        .carousel-responsive .carousel-item img {
+            height: var(--carousel-height);
+            object-fit: cover;
+        }
+
+        @media (max-width: 767.98px) {
+            .carousel-responsive {
+                --carousel-height: clamp(220px, 56vw, 430px);
+            }
         }
 
         .carousel-logo-link {
@@ -60,6 +76,10 @@
             .carousel-logo-umg {
                 height: clamp(56px, 6.8vw, 78px);
             }
+
+            .carousel-responsive {
+                --carousel-height: 450px;
+            }
         }
 
         @media (hover: hover) {
@@ -85,8 +105,7 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <a href="/radio/" class="d-block position-relative">
-                <img src="/assets/images/carousel/c01.jpg" class="d-block w-100" alt="Radiostacja"
-                     style="object-fit: cover; height: 450px;">
+                <img src="/assets/images/carousel/c01.jpg" class="d-block w-100" alt="Radiostacja">
                 <div class="carousel-caption d-none d-md-block" style="background: rgba(0,0,0,0.6); border-radius: 8px; padding: 15px;">
                     <h5>Nasza radiostacja</h5>
                     <p>Kliknij, aby zobaczyć więcej</p>
@@ -95,8 +114,7 @@
         </div>
         <div class="carousel-item">
             <a href="/projekty/ariss/" class="d-block position-relative">
-                <img src="/assets/images/carousel/i01.jpg" class="d-block w-100" alt="ARISS"
-                     style="object-fit: cover; height: 450px;">
+                <img src="/assets/images/carousel/i01.jpg" class="d-block w-100" alt="ARISS">
                 <div class="carousel-caption d-none d-md-block" style="background: rgba(0,0,0,0.6); border-radius: 8px; padding: 15px;">
                     <h5>Łączność z ISS</h5>
                     <p>Projekt ARISS - kliknij po szczegóły</p>
@@ -105,8 +123,7 @@
         </div>
         <div class="carousel-item">
             <a href="/projekty/ariss/" class="d-block position-relative">
-                <img src="/assets/images/carousel/i02.jpg" class="d-block w-100" alt="ARISS"
-                     style="object-fit: cover; height: 450px;">
+                <img src="/assets/images/carousel/i02.jpg" class="d-block w-100" alt="ARISS">
                 <div class="carousel-caption d-none d-md-block" style="background: rgba(0,0,0,0.6); border-radius: 8px; padding: 15px;">
                     <h5>Łączność z ISS</h5>
                     <p>Projekt ARISS - kliknij po szczegóły</p>
@@ -115,8 +132,7 @@
         </div>
         <div class="carousel-item">
             <a href="/projekty/2011/03/18/krotko-o-technicznych-aspektach-zwiazanych-z-ais.html" class="d-block position-relative">
-                <img src="/assets/images/carousel/i03.jpg" class="d-block w-100" alt="AIS"
-                     style="object-fit: cover; height: 450px;">
+                <img src="/assets/images/carousel/i03.jpg" class="d-block w-100" alt="AIS">
                 <div class="carousel-caption d-none d-md-block" style="background: rgba(0,0,0,0.6); border-radius: 8px; padding: 15px;">
                     <h5>System AIS</h5>
                     <p>Techniczne aspekty AIS - kliknij po więcej</p>
@@ -125,8 +141,7 @@
         </div>
         <div class="carousel-item">
             <a href="/projekty/przemienniki/" class="d-block position-relative">
-                <img src="/assets/images/carousel/i04.jpg" class="d-block w-100" alt="Przemienniki"
-                     style="object-fit: cover; height: 450px;">
+                <img src="/assets/images/carousel/i04.jpg" class="d-block w-100" alt="Przemienniki">
                 <div class="carousel-caption d-none d-md-block" style="background: rgba(0,0,0,0.6); border-radius: 8px; padding: 15px;">
                     <h5>Przemienniki</h5>
                     <p>Nasze przemienniki - kliknij po szczegóły</p>
