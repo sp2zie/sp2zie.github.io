@@ -4,7 +4,6 @@ title: Klubowe loty balonowe
 date: 2026-01-20
 author: Paweł Skrzypkowski, SQ2IPS
 category: projekty
-subcategory: radiosondy
 ---
 
 Lista wykonanych przez klub lotów balonowych. Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowania rozwijanego oprogramowania amatorskiego do radiosond M20 https://github.com/sq2ips/m20-custom-firmware.
