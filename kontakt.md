@@ -15,7 +15,7 @@ Ponieważ klub znajduje się w akademiku, trzeba poinformować Panią recepcjoni
 że idzie się do klubu i wpisać się na listę. Niestety czasami spotkania nie odbywają się, 
 więc dla pewności najlepiej się z nami wcześniej skontaktować mailowo. 
 
-Mamy też stronę na [Facebooku](https://www.facebook.com/p/SP2ZIE-Morski-Klub-%C5%81%C4%85czno%C5%9Bci-Szkuner-100063558938156/?locale=pl_PL) 
+Mamy też stronę na [Facebooku]({{ site.facebook_url }}) 
 
 Morski Klub Łączności "Szkuner" SP2ZIE<br>
 ul. Beniowskiego 20-22<br>

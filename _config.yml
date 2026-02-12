@@ -7,5 +7,6 @@ baseurl: ""
 url: "https://www.sp2zie.pl"
 show_excerpts: true
 date_format: "%Y-%m-%d"
+facebook_url: https://www.facebook.com/profile.php?id=100063558938156
 plugins:
   - jekyll-sitemap
