@@ -10,7 +10,7 @@ title: Członkowie klubu
     </thead>
     <tbody>
         <tr><td>Dariusz Mankiewicz</td><td>SP2HQY</td><td>prezes</td></tr>
-        <tr><td>Michał Lewczuk</td><td>SP2XDM</td><td>członek, webmaster</td></tr>
+        <tr><td>Michał Lewczuk</td><td>SP2XDM</td><td>członek</td></tr>
         <tr><td>Daniel Adamowski</td><td>SQ4AFR</td><td>członek</td></tr>
         <tr><td>Krystian Górski</td><td>SQ2KL</td><td>członek</td></tr>
         <tr><td>Jędrzej Marsz</td><td>SQ2DK</td><td>członek</td></tr>
