@@ -14,11 +14,11 @@ Krótkofalarstwo to nie tylko to, co zostało opisane powyżej. Nasze hobby to s
 To właśnie pierwsza żarówka wynaleziona przez Thomasa A. Edison'a w 1879 roku, to pierwsza lampa (dioda) zbudowana przez Johna Ambrose Fleming'a w 1904 roku, to pierwsza lampa elektronowa (trioda) zbudowana przez Lee de Forest'a w 1906 roku no i radio zbudowane przez Guglielmo Marconiego w 1894 roku oraz czasy jego dynamicznego rozwoju dały początek wszystkim innym dziedzinom elektroniki, telewizji, informatyki, astronautyki, medycyny i wielu innych dziedzin naszego życia. Każdy z nas, kto posiada telefon komórkowy i z niego korzysta, poniekąd jest krótkofalowcem, gdyż komórka jest niczym innym jak zminiaturyzowaną radiostacją specjalistyczną pracującą w zakresie fal mikrofalowych.
 Wśród rzeszy ponad miliona aktywnych krótkofalowców na całym świecie są światowej klasy naukowcy, nawet laureaci nagrody Nobla, astronauci, lekarze, fizycy i chemicy, informatycy, politycy oraz nawet monarchowie. To krótkofalowcy dali początek wielu dzisiejszym wynalazkom, to krótkofalowcy wchodzą jako pierwsi w nowe coraz wyższe wycinki widma elektromagnetycznego, sprawdzają ich przydatność nie tylko do radiowych celów.
 
-Klub SP2ZIE związany jest bardzo blisko z morzem, wychowaniem morskim i Uniwersytetem Morskim w Gdyni (wcześniej WSM i AM), stąd też wywodzi się nazwa naszego klubu "Szkuner", jaką klub otrzymał przed laty. Pomieszczenia klubowe znajdują się na ostatnim piętrze jednego z domów studenckich UM w Gdyni. Członkami naszego klubu są absolwenci Wyższej Szkoły Morskiej, Akademii Morskiej w Gdyni a obecnie również absolwenci i studenci Uniwersytetu Morskiego w Gdyni, ale i Ty możesz do nas dołączyć, jak to zrobić dowiesz się więcej w dziale "członkowie". Członkowie naszego klubu są jednocześnie członkami Koła Naukowego Radioelektroniki Uniwersytetu Morskiego w Gdyni.
-Jako klub nie jesteśmy liderami w ilości przeprowadzonych łączności radiowych, lecz staramy się być liderem w ich jakości. To nasz klub we współpracy z Naukowym Kołem Radioelektroniki Akademii Morskiej w Gdyni, w pazdzierniku 2004 roku przeprowadził pierwszą łączność radioamatorską z astronautami na Międzynarodowej Stacji Kosmicznej w ramach programu ARISS, poprzedzoną dwuletnim etapem przygotowań.
-Od tego też czasu nasz klub zaczął specjalizować się w technikach łączności via satelity, choć w innych dziedzinach naszego hobby rónież staramy się nie pozostawać w tyle, o czym dowiesz się więcej w dziele "projekty".
+Klub SP2ZIE związany jest bardzo blisko z morzem, wychowaniem morskim i Uniwersytetem Morskim w Gdyni (wcześniej WSM i AM), stąd też wywodzi się nazwa naszego klubu "Szkuner", jaką klub otrzymał przed laty. Pomieszczenia klubowe znajdują się na ostatnim piętrze jednego z domów studenckich UM w Gdyni. Członkami naszego klubu są absolwenci Wyższej Szkoły Morskiej, Akademii Morskiej w Gdyni a obecnie również absolwenci i studenci Uniwersytetu Morskiego w Gdyni, ale i Ty możesz do nas dołączyć, jak to zrobić dowiesz się więcej w dziale "członkowie". Członkowie naszego klubu są jednocześnie członkami Koła Naukowego MKŁ SZKUNER SP2ZIE (wcześniej Koło Naukowe Radioelektroniki) Uniwersytetu Morskiego w Gdyni.
+Jako klub nie jesteśmy liderami w ilości przeprowadzonych łączności radiowych, lecz staramy się być liderem w ich jakości. To my jako pierwsi w Polsce, w pazdzierniku 2004 roku przeprowadziśmy pierwszą łączność radioamatorską z astronautami na Międzynarodowej Stacji Kosmicznej w ramach programu ARISS, poprzedzoną dwuletnim etapem przygotowań.
+Od tego też czasu nasz klub zaczął specjalizować się w technikach łączności via satelity, choć w innych dziedzinach naszego hobby również staramy się nie pozostawać w tyle, o czym dowiesz się więcej w dziele "projekty".
 
-Jesteśmy pasjonatami, chłonnymi wiedzy i nowych technicznych wrażeń.
+Jesteśmy pasjonatami, entuzjastami i poszukiwaczami chłonnymi wiedzy oraz nowych technicznych wrażeń.
 
 Jak przystało na dobrych krótkofalowców, nie zaniedbujemy fal krótkich, znajdujemy każdą dobrą okazję, aby być aktywnym na falach eteru przy okazji różnych uroczystości, jako klub czy też indywidualnie jako członkowie naszego klubu.
 
@@ -36,6 +36,7 @@ Oto znaki okolicznościowe, pod którymi można było nas usłyszeć na falach e
 - SP2ZIE/2 - wyprawa na latarnię morską w Rozewiu, Rozewie 2003
 - SP2ZIE/2 - wyprawa na latarnię morską w Helu, Hel 2004
 - SN2009TSR - Tall Ship's Races 2009 Gdynia
+- SN2WOSP - Wielka Orkiestra Świątecznej Pomocy, Gdynia od 2011 (razem z SP2YRY)
 - 3Z2LH - wyprawa na latarnię morską w Helu, Hel 2013
 - 3Z2LJ - wyprawa na latarnię morską w Jastarni, Jastarnia 2014
 - SN30R - 30 lecie Polskiego Klubu Radiovideografii, Gdynia 2014
@@ -45,6 +46,10 @@ Oto znaki okolicznościowe, pod którymi można było nas usłyszeć na falach e
 - HF100M - 100 lecie Ligi Morskiej i Rzecznej, Gdynia 2018
 - SN2JOTA - Jamboree On The Air, Gdynia od 2018
 - SN30WOSP - 30 Finał Wielkiej Orkiestry Świątecznej Pomocy, Gdynia 2022
+- SN200E - 200 lat Latarni Morskiej w Rozewiu, Rozewie 2022
 - SN550N - 550 rocznica urodzin Mikołaja Kopernika, Gdynia 2023
+- SN40RVG - 40 lecie Polskiego Klubu Radiowideografii, Gdynia 2024
+- SP2ZIE/2 - wyprawa na Mieliznę Rybitwa, Zatoka Pucka 2024
+- SN150LHC - 150 lecie Latarni Morskiej w Czołpinie, Czołpino 2025
 
 I Ty możesz realizować swoje pasje z nami, zapraszamy.
