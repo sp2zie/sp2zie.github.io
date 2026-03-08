@@ -52,4 +52,4 @@ Oto znaki okolicznościowe, pod którymi można było nas usłyszeć na falach e
 - SP2ZIE/2 - wyprawa na Mieliznę Rybitwa, Zatoka Pucka 2024
 - SN150LHC - 150 lecie Latarni Morskiej w Czołpinie, Czołpino 2025
 
-I Ty możesz realizować swoje pasje z nami, zapraszamy.
+I Ty możesz realizować swoje marzenia i pasje z nami, zapraszamy.
