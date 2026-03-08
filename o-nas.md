@@ -4,7 +4,7 @@ permalink: /o-nas/
 title: Klub krótkofalarski SP2ZIE "Szkuner" w Gdyni
 ---
 
-Witamy serdecznie na stronach serwisu internetowego klubu krótkofalarskiego SP2ZIE "Szkuner" z Gdyni.
+Witamy serdecznie na stronach serwisu internetowego Morkiego Klubu Łączności "SZKUNER" SP2ZIE "Szkuner" z Gdyni.
 
 Jeśli jesteś krótkofalowcem, to zapewne trafiłeś tutaj nie przypadkowo i poniższe wyjaśnienia nie są Ci zupełnie obce. Natomiast, jeśli jesteś tutaj, gdyż szukasz informacji i kontaktu, albo zupełnie przypadkowo i nie za dużo wiesz, o krótkofalarstwie, gorąco zachęcamy do przeczytania poniższego wprowadzenia oraz zapoznania się z treścią całego serwisu. Na wstępie, co kryje się pod hasłem "krótkofalarstwo" wg. internetowej encyklopedii WIKIPEDIA.PL®.
 
