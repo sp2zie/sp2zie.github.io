@@ -50,7 +50,7 @@ które może są Wam znane, a jeżeli nie to macie szansę ....
 - rok 2024 styczeń - zakończenie prac badawczych oraz budowy zdalnej stacji do łączności satelitarnej na potrzeby polskiego satelity studenckiego PW-Sat3,
 - rok 2024 sierpień - zorganizowaliśmy pierwszą polską wyprawę radiową na Mieliznę Rybita, po raz pierwszy amatorskie radio nadawało ze skrawka piasku wyłaniającego się na terenie Zatoki Puckiej, 
 - rok 2024 listopad - zostaliśmy gwaizdami telewizji śniadanowej za przyczyną programu Dzień dobry TVN ;-)
-- rok 2025 sierpień - uczciliśmy jubileusz 150 lecia Latarni Morskiej w Czołpinie organizując wyprawę radiową i aktywnośc pod znakiem SN 150LHC
+- rok 2025 sierpień - uczciliśmy jubileusz 150 lecia Latarni Morskiej w Czołpinie organizując wyprawę radiową i aktywność pod znakiem SN150LHC
 
 Są tacy, którzy patrząc na to powiedzą, że to nic wielkiego.
 Może... ale to, co znaleźliście powyżej, jest wynikiem naszej pracy, własnych fuduszy i osobistego zaangażowania,
