@@ -37,5 +37,6 @@ title: Członkowie klubu
         <tr><td>Dominik Sawa</td><td>SP2CIS</td><td>członek</td></tr>
         <tr><td>Krystian Wojciechowski</td><td>SP2OK</td><td>członek</td></tr>
         <tr><td>Piotr Eichler</td><td>SP2LQP</td><td>członek</td></tr>
+        <tr><td>Piotr Macuk</td><td>SP2IML</td><td>członek</td></tr>
     </tbody>
 </table>
