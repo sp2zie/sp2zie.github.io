@@ -38,5 +38,6 @@ title: Członkowie klubu
         <tr><td>Krystian Wojciechowski</td><td>SP2OK</td><td>członek</td></tr>
         <tr><td>Piotr Eichler</td><td>SP2LQP</td><td>członek</td></tr>
         <tr><td>Piotr Macuk</td><td>SP2IML</td><td>członek</td></tr>
+        <tr><td>Jacek Dybowski</td><td>SP2DYB</td><td>członek</td></tr>
     </tbody>
 </table>
