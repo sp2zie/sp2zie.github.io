@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.sp2zie.pl/sitemap.xml
+Sitemap: https://www.sp2zie.org/sitemap.xml
