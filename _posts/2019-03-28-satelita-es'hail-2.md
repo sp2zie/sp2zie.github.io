@@ -29,7 +29,7 @@ Wyjście tak zmodyfikowanej karty sieciowej zostało podłączone do nieco zmody
 
 ![phoca_thumb_l_wzm_wifi](/assets/images/phocagallery/2019-03-28-EsHail/thumbs/phoca_thumb_l_wzm_wifi.jpg)
  
-Jako oświetlacz paraboli wykonana została antena spiralna (heilkalna) obliczona przy pomocy [kalkulatora on-line](http://jcoppens.com/ant/helix/calc.en.php). Założono częstotliwość 2,4GHz oraz 5 zwojów. Po wykonaniu anteny okazało się, że minimalny SWR ma ona jednak na częstotliwości 2,5GHz, niemniej jednak SWR na 2,4GHz jest akceptowalny (<2). Jako zwierciadło paraboliczne zastosowano antenę satelitarną offsetową o średnicy około 1m. Po dokładnym naprowadzeniu anteny na satelitę na wykresie waterfall odbiornika pojawił się sygnał z własnej stacji o sile około 10dB ponad poziom tła. Czytelność sygnału bardzo dobra i śmiało można by prowadzić korespondencję.
+Jako oświetlacz paraboli wykonana została antena spiralna (heilkalna) obliczona przy pomocy [kalkulatora on-line](https://jcoppens.com/ant/helix/calc.en.php). Założono częstotliwość 2,4GHz oraz 5 zwojów. Po wykonaniu anteny okazało się, że minimalny SWR ma ona jednak na częstotliwości 2,5GHz, niemniej jednak SWR na 2,4GHz jest akceptowalny (<2). Jako zwierciadło paraboliczne zastosowano antenę satelitarną offsetową o średnicy około 1m. Po dokładnym naprowadzeniu anteny na satelitę na wykresie waterfall odbiornika pojawił się sygnał z własnej stacji o sile około 10dB ponad poziom tła. Czytelność sygnału bardzo dobra i śmiało można by prowadzić korespondencję.
 
 ![phoca_thumb_l_oswietlacz](/assets/images/phocagallery/2019-03-28-EsHail/thumbs/phoca_thumb_l_oswietlacz.jpg)
 
