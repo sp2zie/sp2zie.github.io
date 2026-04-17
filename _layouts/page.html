@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<article class="container my-5">
+    <header class="mb-4 pb-3 border-bottom">
+        <h1 class="display-6 fw-bold mb-3">{{ page.title | escape }}</h1>
+        <div class="text-muted">
+            {% if page.date %}
+            <small class="me-3">
+                <i class="bi bi-calendar3"></i>
+                <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time>
+            </small>
+            {% endif %}
+            {% if page.author %}
+            <small>
+                <i class="bi bi-person"></i>
+                {{ page.author }}
+            </small>
+            {% endif %}
+        </div>
+    </header>
+    <div class="content" style="max-width: 100%; overflow-x: auto;">
+        {{ content }}
+    </div>
+</article>
