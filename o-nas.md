@@ -30,7 +30,7 @@ Oto znaki okolicznościowe, pod którymi można było nas usłyszeć na falach e
 - 3Z60H - 60 rocznica Obrony Wybrzeża, Hel 1999
 - SN0FO - 30 lecie 3 Flotylli Okrętów Marynarki Wojennej RP, Gdynia 2001
 - SN0GDY - 75 lecie Miasta Gdyni, Gdynia 2001
-- SN0DO - 50 lecie II-go Dywizjonu Okrętów Transportowo - Minowych, Gdynia 2001
+- SN0DO - 50 lecie II Dywizjonu Okrętów Transportowo-Minowych, Gdynia 2001
 - SP2ZIE/2 - wyprawa na latarnię morską w Stilo, STILO 2002
 - SN0OSG - Operacja Żagiel (Tall Ships' Races) Gdynia, Gdynia 2003
 - SP2ZIE/2 - wyprawa na latarnię morską w Rozewiu, Rozewie 2003
