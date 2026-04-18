@@ -13,7 +13,7 @@ permalink: /projekty/balony/
         </div>
     </div>
     <div class="row">
-        {% assign ariss_posts = site.posts | where: 'category', 'projekty' | where: 'subcategory', 'balony' %}
+        {% assign balony_posts = site.posts | where: 'category', 'projekty' | where: 'subcategory', 'balony' %}
         {% for post in balony_posts %}
             <div class="col-12 mb-4">
                 <h2 class="h4">
