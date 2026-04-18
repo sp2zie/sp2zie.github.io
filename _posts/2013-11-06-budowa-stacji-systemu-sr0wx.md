@@ -7,13 +7,6 @@ category: projekty
 subcategory: sr0wx
 ---
 
-Obecnie z siedziby klubu pracuje stacja systemu SR0WX.
-Stacja ta, podaje tekstem bierzącą oraz prognozowaną pogodę oraz inne wybrane warunki dla naszego regionu na częstotliwości 144.950MHz (FM). Komunikaty podawane są co około 15 minut.
-Porgramowo stację przygotował i oprogramował Paweł SQ2IPS. Szczegóły programu oraz kod można uzyskać na stronie [github.com](https://github.com/sq2ips/sr0wx). Kod został mocno zmienony i unowocześniony w stosunku do orginalnego kodu systemu SR0WX. Dodane zostały też nowe moduły pozwalające na rozszerzenie spektrum komunikatów.
-Sprzętowo stacja oparta jest o Rapberry Pi 3B pracujące pod kontrolą systemu Linux. Nadajnik stanowi radiotelefon Motorola GM350. Antena Diamond X-300 na szycie około 4m masztu zamontowana jest na budynku Akademika, w którym mieści się siedziba klubu.
- 
- 
-A tak o ówczesnej stacji pisaliśmy przeszło 10 lat temu...
 W klubie trwają przygotowania do uruchomienia stacji nadającej fonią komunikaty pogodowe działającą w ramach systemu [SR0WX](https://vhf.com.pl/stacja-pogodowa-sr0wx-py).
 
 Sprzęt w części został już przygotowany i skonfigurowany.
