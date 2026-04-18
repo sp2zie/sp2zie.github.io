@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Budowa stacji systemu SR0WX
+title: Budowa stacji systemu SR0WX - v2013
 date: 2013-11-06
 author: Jędrzej Marsz, SQ2DK
 category: projekty
