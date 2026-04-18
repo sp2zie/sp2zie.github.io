@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Klubowe loty balonowe
-date: 2026-01-20
+title: Lista naszych lotów
+date: 2026-04-18
 author: Paweł Skrzypkowski, SQ2IPS
 category: projekty
+subcategory: balony
 ---
 
 Lista wykonanych przez klub lotów balonowych. Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowania rozwijanego oprogramowania amatorskiego do radiosond M20 https://github.com/sq2ips/m20-custom-firmware.
@@ -81,7 +82,7 @@ Lista wykonanych przez klub lotów balonowych. Loty są organizowane z okazji r�
         <td>standard</td>
         <td>M20 - Horus Binary V3, APRS; RPI Pico + RA-02 - SSTV</td>
         <td>Gdynia</td>
-        <td>Start balonu z dnia otwartego III LO w Gdyni. Emisja zestawu 12 obrazków SSTV. Na około 4700m (09:56 UTC) wyłączył się modulator SSTV, została tylko nośna. Przyczyna awarii nieznana, prawdopodobnie niska temperatura. Sygnał Horus przestał być demodulowany na około 18km, potem ponownie zaczął na podobnej wysokości. Prawdopodobnie częstotliwość nadajnika zaczęła być niestabilna przez temperaturę. Problemy z czasem ramek APRS (naprawiony, <a href="https://github.com/sq2ips/m20-custom-firmware/pull/35">PR GitHub</a>).</td>
+        <td>Start balonu z dnia otwartego III LO w Gdyni. Emisja zestawu 12 obrazków SSTV. Na około 4700m (09:56 UTC) wyłączył się modulator SSTV, została tylko nośna. Przyczyna awarii nieznana, prawdopodobnie niska temperatura. Sygnał Horus przestał być demodulowany na około 18km, potem ponownie zaczął na podobnej wysokości. Prawdopodobnie częstotliwość nadajnika zaczęła być niestabilna przez temperaturę. Problemy z czasem ramek APRS (naprawione, <a href="https://github.com/sq2ips/m20-custom-firmware/pull/35">PR GitHub</a>). Zakłuceń GPS mimo bliskości źródła niezarejestrowano.</td>
         <td>nie - lądowanie w okolicy Grudziądza</td>
         <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/goto/M8YhW-hvg?orgId=1">Horus</a>, <a href="https://grafana.v2.sondehub.org/goto/dEoTW-2vR?orgId=1">APRS</a></td>
       </tr>
