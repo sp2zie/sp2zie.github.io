@@ -43,7 +43,7 @@ Lista wykonanych przez klub lotów balonowych. Loty są organizowane z okazji r�
       <tr>
         <td>2025-12-04</td>
         <td>standard</td>
-        <td>M20 - Horus Binary V2</td>
+        <td>M20 - Horus Binary V2, APRS</td>
         <td>Gdynia</td>
         <td>Błąd w interpretacji wysokości z GPS - przepełnienie na 600m</td>
         <td>nie - Lądowanie w Bałtyku</td>
@@ -52,7 +52,7 @@ Lista wykonanych przez klub lotów balonowych. Loty są organizowane z okazji r�
       <tr>
         <td>2026-01-22</td>
         <td>floater</td>
-        <td>M20 - Horus Binary V3</td>
+        <td>M20 - Horus Binary V3, APRS</td>
         <td>Gdynia</td>
         <td>Utrata pozycji przez zakłócenia GPS</td>
         <td>nie - utrata namierzania</td>
@@ -61,11 +61,29 @@ Lista wykonanych przez klub lotów balonowych. Loty są organizowane z okazji r�
       <tr>
         <td>2026-01-25</td>
         <td>floater</td>
-        <td>M20 - Horus Binary V3</td>
+        <td>M20 - Horus Binary V3, APRS</td>
         <td>Chmielno</td>
         <td>Lot z okazji 34 finału WOŚP, kierunkowa antena GPS, prawdopodobne rozszczelnienie balonu lub jego oblodzenie. Opadanie po osiągnięciu ~3100m</td>
         <td>nie - lądowanie w lesie</td>
         <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/d/HJgOZLq7k/basic?orgId=1&from=2026-01-25T14:43:32.019Z&to=2026-01-25T18:38:52.165Z&timezone=utc&var-Payload=SN2WOSP&refresh=1m">Horus</a> (znak SN2WOSP), <a href="https://grafana.v2.sondehub.org/d/HJgOZLq7k/basic?orgId=1&from=2026-01-25T14:43:32.019Z&to=2026-01-25T18:38:52.165Z&timezone=utc&var-Payload=SP2ZIE-11&refresh=1m">APRS</a></td>
+      </tr>
+      <tr>
+        <td>2026-03-06</td>
+        <td>floater</td>
+        <td>M20 - Horus Binary V3, APRS</td>
+        <td>Gdynia</td>
+        <td>Lot balonu prezentowanego na dniu otwartym UMG, kierunkowa antena GPS, nieprawidłowe dobranie ilości gazu, maksymalna wysokość 4600m, rozszczelnienie balonu i opadanie. Zakłuceń GPS mimo bliskości źródła niezarejestrowano.</td>
+        <td>nie - lądowanie w Bałtyku</td>
+        <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/goto/sa40ma2vR?orgId=1">Horus</a>, <a href="https://grafana.v2.sondehub.org/goto/ofkJi-2vR?orgId=1">APRS</a></td>
+      </tr>
+      <tr>
+        <td>2026-04-11</td>
+        <td>standard</td>
+        <td>M20 - Horus Binary V3, APRS; RPI Pico + RA-02 - SSTV</td>
+        <td>Gdynia</td>
+        <td>Start balonu z dnia otwartego III LO w Gdyni. Emisja zestawu 12 obrazków SSTV. Na około 4700m (09:56 UTC) wyłączył się modulator SSTV, została tylko nośna. Przyczyna awarii nieznana, prawdopodobnie niska temperatura. Sygnał Horus przestał być demodulowany na około 18km, potem ponownie zaczął na podobnej wysokości. Prawdopodobnie częstotliwość nadajnika zaczęła być niestabilna przez temperaturę. Problemy z czasem ramek APRS (naprawiony, <a href="https://github.com/sq2ips/m20-custom-firmware/pull/35">PR GitHub</a>).</td>
+        <td>nie - lądowanie w okolicy Grudziądza</td>
+        <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/goto/M8YhW-hvg?orgId=1">Horus</a>, <a href="https://grafana.v2.sondehub.org/goto/dEoTW-2vR?orgId=1">APRS</a></td>
       </tr>
     </tbody>
   </table>
