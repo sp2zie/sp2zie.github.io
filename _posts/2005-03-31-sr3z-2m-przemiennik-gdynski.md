@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Przemiennik SR2Z: budowa i relokacja do Pomieczyna
+title: Przemiennik SR2Z -- budowa i relokacja do Pomieczyna
 date: 2005-03-31
 category: projekty
 subcategory: przemienniki

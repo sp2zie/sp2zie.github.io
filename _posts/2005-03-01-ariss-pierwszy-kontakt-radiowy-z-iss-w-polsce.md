@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ARISS: pierwszy polski kontakt radiowy z ISS
+title: ARISS -- pierwszy polski kontakt radiowy z ISS
 date: 2005-03-01
 category: projekty
 subcategory: ariss
