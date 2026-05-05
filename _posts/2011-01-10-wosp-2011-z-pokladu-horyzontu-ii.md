@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WOŚP 2011 -- łączności z pokładu Horyzontu II
+title: "WOŚP 2011: łączności z pokładu Horyzontu II"
 date: 2011-01-10
 category: radio
 subcategory: wosp
