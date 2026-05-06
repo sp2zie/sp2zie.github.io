@@ -4,7 +4,7 @@ title: Odebrane obrazki SSTV z misji balonowych
 date: 2026-05-06
 author: Paweł Skrzypkowski, SQ2IPS
 category: projekty
-subcategory: isstv
+subcategory: balony
 ---
 Lista odebranych przez klub obrazków na przestrzeni róźnych misji balonów stratosferycznych w formacie SSTV i nie tylko.
 
