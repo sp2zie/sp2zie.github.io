@@ -26,4 +26,7 @@ Lista odebranych przez klub obrazków na przestrzeni róźnych misji SSTV z ISS 
 # 2026 Expedition 74 Series 31 World Space Commemoration
 {% include image-gallery.html folder="assets/images/sstv/iss_2026_74_31_world_space_commemoration" %}
 
+# 2026 RS-38S - ARISS Series 30 25th Anniversart/Scouting
+{% include image-gallery.html folder="assets/images/sstv/rs38s_2025_30_25th_anniversary_jota" %}
+
 
