@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Per radio ad astra" - odbiór sygnałów PW-SAT2 w III LO w Gdyni
+title: „Per radio ad astra” - odbiór sygnałów PW-SAT2 w III LO w Gdyni
 date: 2018-03-13
 category: projekty
 subcategory: pw-sat2
