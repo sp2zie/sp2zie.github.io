@@ -8,14 +8,14 @@ subcategory: balony
 ---
 Lista odebranych przez klub obrazków na przestrzeni róźnych misji balonów stratosferycznych w formacie SSTV i nie tylko.
 
-# Balon noworoczny 2025 (obrazki cyfrowe)
-{% include image-gallery.html folder="assets/images/sstv/2025_nowy_rok" %}
-
 # Balon POLSY 2025
 {% include image-gallery.html folder="assets/images/sstv/2025_POLSA" %}
 
 # Balon WOŚP 2025
 {% include image-gallery.html folder="assets/images/sstv/2025_WOŚP" %}
+
+# Balon noworoczny 2025 (obrazki cyfrowe)
+{% include image-gallery.html folder="assets/images/sstv/2025_nowy_rok" %}
 
 # Balon Motocamp 2025
 {% include image-gallery.html folder="assets/images/sstv/motocamp_2025" %}
