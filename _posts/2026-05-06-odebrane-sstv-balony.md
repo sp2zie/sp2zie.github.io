@@ -8,6 +8,9 @@ subcategory: balony
 ---
 Lista odebranych przez klub obrazków na przestrzeni róźnych misji balonów stratosferycznych w formacie SSTV i nie tylko.
 
+# Balon SP2ZIE i SP2YWL GRYF 2025
+{% include image-gallery.html folder="assets/images/sstv/GRYF_2025" %}
+
 # Balon POLSY 2025
 {% include image-gallery.html folder="assets/images/sstv/2025_POLSA" %}
 
@@ -28,3 +31,6 @@ Lista odebranych przez klub obrazków na przestrzeni róźnych misji balonów st
 
 # Balon SP9MOA 2025
 {% include image-gallery.html folder="assets/images/sstv/SP9MOA_2025" %}
+
+# balon SP2ZIE z dnia otwartego 3 LO w Gdyni 2026
+{% include image-gallery.html folder="assets/images/sstv/3LO_2026" %}
