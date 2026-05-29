@@ -5,9 +5,12 @@ date: 2026-04-18
 author: Paweł Skrzypkowski, SQ2IPS
 category: projekty
 subcategory: balony
+pinned: true
 ---
 
-Lista wykonanych przez klub lotów balonowych. Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowania rozwijanego oprogramowania amatorskiego do radiosond M20 https://github.com/sq2ips/m20-custom-firmware.
+Lista wykonanych przez klub lotów balonowych.
+Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowania rozwijanego
+[oprogramowania amatorskiego do radiosond M20](https://github.com/sq2ips/m20-custom-firmware).
 
 <div class="table-responsive">
   <table class="table table-striped table-bordered table-hover">

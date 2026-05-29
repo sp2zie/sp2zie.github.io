@@ -14,7 +14,26 @@ permalink: /projekty/balony/
     </div>
     <div class="row">
         {% assign balony_posts = site.posts | where: 'category', 'projekty' | where: 'subcategory', 'balony' %}
-        {% for post in balony_posts %}
+        {% assign pinned_balony_posts = balony_posts | where: 'pinned', true %}
+        {% assign regular_balony_posts = balony_posts | where_exp: 'post', 'post.pinned != true' %}
+
+        {% for post in pinned_balony_posts %}
+            <div class="col-12 mb-4">
+                <h2 class="h4">
+                    <a href="{{ post.url | relative_url }}" class="text-decoration-none">
+                        {{ post.title | escape }}
+                    </a>
+                </h2>
+                <div class="mb-2">
+                    <small class="text-muted">Przypięty • {{ post.date | date: site.date_format }}</small>
+                </div>
+                {% if site.show_excerpts %}
+                <p class="text-muted">{{ post.excerpt }}</p>
+                {% endif %}
+            </div>
+        {% endfor %}
+
+        {% for post in regular_balony_posts %}
             <div class="col-12 mb-4">
                 <h2 class="h4">
                     <a href="{{ post.url | relative_url }}" class="text-decoration-none">
