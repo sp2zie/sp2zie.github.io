@@ -16,6 +16,7 @@ Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowan
   <table class="table table-striped table-bordered table-hover">
     <thead>
       <tr>
+        <th>numer</th>
         <th>data</th>
         <th>typ</th>
         <th>nadajniki</th>
@@ -27,6 +28,7 @@ Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowan
     </thead>
     <tbody>
       <tr>
+        <td>1</td>
         <td>2025-06-28</td>
         <td>floater</td>
         <td>M20 - Horus Binary V2</td>
@@ -36,6 +38,7 @@ Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowan
         <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/d/HJgOZLq7k/basic?var-Payload=SP2ZIE&from=2025-06-28T08:32:31.602Z&to=2025-06-29T06:03:40.592Z&orgId=1&refresh=1m&timezone=utc">Horus</a></td>
       </tr>
       <tr>
+        <td>2</td>
         <td>2025-07-26</td>
         <td>standard</td>
         <td>M20 - Horus Binary V2, RPI - Wenet - zdjęcia 4K z kamery</td>
@@ -45,6 +48,7 @@ Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowan
         <td><a href="https://drive.google.com/drive/folders/1-gJofc6rH-0COZwtlt6wIq1-d71SDL_y">zdjęcia z kamery</a>, SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/d/HJgOZLq7k/basic?var-Payload=SP2ZIE&from=2025-07-26T08:40:52.742Z&to=2025-07-26T14:27:55.041Z&orgId=1&refresh=1m&timezone=utc">Horus</a></td>
       </tr>
       <tr>
+        <td>3</td>
         <td>2025-12-04</td>
         <td>standard</td>
         <td>M20 - Horus Binary V2, APRS</td>
@@ -54,6 +58,7 @@ Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowan
         <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/d/HJgOZLq7k/basic?var-Payload=SP2ZIE&from=2025-12-04T16:15:28.826Z&to=2025-12-04T20:18:07.709Z&orgId=1&refresh=1m&timezone=utc">Horus</a>, <a href="https://grafana.v2.sondehub.org/d/HJgOZLq7k/basic?var-Payload=SP2ZIE-11&from=2025-12-04T16:15:28.826Z&to=2025-12-04T20:18:07.709Z&orgId=1&refresh=1m&timezone=utc">APRS</a></td>
       </tr>
       <tr>
+        <td>4</td>
         <td>2026-01-22</td>
         <td>floater</td>
         <td>M20 - Horus Binary V3, APRS</td>
@@ -63,6 +68,7 @@ Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowan
         <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/d/HJgOZLq7k/basic?orgId=1&from=2026-01-22T17:25:54.286Z&to=2026-01-23T03:13:32.560Z&timezone=utc&var-Payload=SP2ZIE&refresh=1m">Horus</a>, <a href="https://grafana.v2.sondehub.org/d/HJgOZLq7k/basic?orgId=1&from=2026-01-22T17:25:54.286Z&to=2026-01-23T03:13:32.560Z&timezone=utc&var-Payload=SP2ZIE-11&refresh=1m">APRS</a></td>
       </tr>
       <tr>
+        <td>5</td>
         <td>2026-01-25</td>
         <td>floater</td>
         <td>M20 - Horus Binary V3, APRS</td>
@@ -72,6 +78,7 @@ Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowan
         <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/d/HJgOZLq7k/basic?orgId=1&from=2026-01-25T14:43:32.019Z&to=2026-01-25T18:38:52.165Z&timezone=utc&var-Payload=SN2WOSP&refresh=1m">Horus</a> (znak SN2WOSP), <a href="https://grafana.v2.sondehub.org/d/HJgOZLq7k/basic?orgId=1&from=2026-01-25T14:43:32.019Z&to=2026-01-25T18:38:52.165Z&timezone=utc&var-Payload=SP2ZIE-11&refresh=1m">APRS</a></td>
       </tr>
       <tr>
+        <td>6</td>
         <td>2026-03-06</td>
         <td>floater</td>
         <td>M20 - Horus Binary V3, APRS</td>
@@ -81,6 +88,7 @@ Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowan
         <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/goto/sa40ma2vR?orgId=1">Horus</a>, <a href="https://grafana.v2.sondehub.org/goto/ofkJi-2vR?orgId=1">APRS</a></td>
       </tr>
       <tr>
+        <td>7</td>
         <td>2026-04-11</td>
         <td>standard</td>
         <td>M20 - Horus Binary V3, APRS; RPI Pico + RA-02 - SSTV</td>
@@ -88,6 +96,16 @@ Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowan
         <td>Start balonu z dnia otwartego III LO w Gdyni. Emisja zestawu 12 obrazków SSTV. Na około 4700m (09:56 UTC) wyłączył się modulator SSTV, została tylko nośna. Przyczyna awarii nieznana, prawdopodobnie niska temperatura. Sygnał Horus przestał być demodulowany na około 18km, potem ponownie zaczął na podobnej wysokości. Prawdopodobnie częstotliwość nadajnika zaczęła być niestabilna przez temperaturę. Problemy z czasem ramek APRS (naprawione, <a href="https://github.com/sq2ips/m20-custom-firmware/pull/35">PR GitHub</a>). Zakłuceń GPS mimo bliskości źródła niezarejestrowano.</td>
         <td>nie - lądowanie w okolicy Grudziądza</td>
         <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/goto/M8YhW-hvg?orgId=1">Horus</a>, <a href="https://grafana.v2.sondehub.org/goto/dEoTW-2vR?orgId=1">APRS</a></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>2026-06-13</td>
+        <td>float</td>
+        <td>M20 - Horus Binary V3, APRS</td>
+        <td>Piotrowo</td>
+        <td>Planowany balon z pikniku przyrodniczego w Piotrowie</td>
+        <td>-</td>
+        <td>-</td>
       </tr>
     </tbody>
   </table>
