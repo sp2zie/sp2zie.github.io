@@ -103,9 +103,9 @@ Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowan
         <td>float</td>
         <td>M20 - Horus Binary V3, APRS</td>
         <td>Piotrowo</td>
-        <td>Planowany balon z pikniku przyrodniczego w Piotrowie</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Start balonu z pikniku przyrodniczego w Piotrowie. Soofing GPS w okolicy Kaliningradu, sygnał odzyskany na terelie Litwy.</td>
+        <td>nie - prawdopodobnie rozszczelnienie i lądowanie w okolicy Łotwy</td>
+        <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/goto/PMmlnVavR?orgId=1">Horus</a>, <a href="https://grafana.v2.sondehub.org/goto/1vw_n4aDg?orgId=1">APRS</a></td>
       </tr>
     </tbody>
   </table>
