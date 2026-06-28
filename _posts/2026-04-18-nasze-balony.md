@@ -103,9 +103,19 @@ Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowan
         <td>float</td>
         <td>M20 - Horus Binary V3, APRS</td>
         <td>Piotrowo</td>
-        <td>Start balonu z pikniku przyrodniczego w Piotrowie. Soofing GPS w okolicy Kaliningradu, sygnał odzyskany na terelie Litwy.</td>
+        <td>Start balonu z pikniku przyrodniczego w Piotrowie. Spoofing GPS w okolicy Kaliningradu, sygnał odzyskany na terelie Litwy.</td>
         <td>nie - prawdopodobnie rozszczelnienie i lądowanie w okolicy Łotwy</td>
         <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/goto/PMmlnVavR?orgId=1">Horus</a>, <a href="https://grafana.v2.sondehub.org/goto/1vw_n4aDg?orgId=1">APRS</a></td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>2026-06-27</td>
+        <td>standard</td>
+        <td>M20 - Horus Binary V3, APRS; RPI Pico + RA-02 - SSTV</td>
+        <td>Człuchów</td>
+        <td>Start balonu z MSK Renifer w Człuchowie. Emisja zestawu 12 obrazków SSTV. Na około 4700m (09:56 UTC) wyłączył się modulator SSTV, została tylko nośna, identycznie jak w poprzednim locie z tym zestawem. Prawdopodobnym problemem jest przetwornica 3.3V w niskiej temperaturze. Nie zaobserwowano żadnych zakłuceń GPS. Błąd w interpretacji prędkości wznoszenia przy dużych wartościach.</td>
+        <td>tak - lądowanie relatywnie blisko miejsca startu, w polu</td>
+        <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/goto/YDlCaDfvR?orgId=1">Horus</a>, <a href="https://grafana.v2.sondehub.org/goto/v3ZqaDfDg?orgId=1">APRS</a></td>
       </tr>
     </tbody>
   </table>
