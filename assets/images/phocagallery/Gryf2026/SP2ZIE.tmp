@@ -1,0 +1,1287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <link rel="icon" type="image/png" href="/favicon.ico">
+ <link href="?feed=atom" type="application/atom+xml" rel="alternate" title="SSDV Atom feed" />
+ <style>
+
+body {
+	font-family: sans-serif;
+	font-size: 8pt;
+	background: #444;
+	margin-top: 45px;
+	color: #EEE;
+}
+
+a {
+	color: #DC3;
+	text-decoration: none;
+}
+
+#banner {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background: #333;
+	width: 100%;
+	padding: 10px;
+	font-size: 12pt;
+	color: #999;
+	
+	-moz-box-shadow: 0px 0px 10px #FFF;
+	-webkit-box-shadow: 0px 0px 10px #FFF;
+	box-shadow: 0px 0px 10px #FFF;
+}
+
+#status {
+	position: fixed;
+	
+	-moz-text-shadow: 1px 1px 1px #000;
+	-webkit-text-shadow: 1px 1px 1px #000;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#info {
+	position: fixed;
+	right: 5pt;
+	
+	-moz-text-shadow: 1px 1px 1px #000;
+	-webkit-text-shadow: 1px 1px 1px #000;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#images {
+	padding: 15px 0 0 0;
+	text-align: center;
+}
+
+#content {
+	padding: 15px 10px 10px 10px;
+	font-size: 14pt;
+}
+
+.json {
+	border: 2px solid #333;
+	background: #555;
+	font-family: monospace;
+	white-space: pre;
+	padding: 10pt;
+	margin: 10pt;
+	/* Yay standards */
+	-moz-tab-size: 2;
+	tab-size: 2;
+}
+
+.json .comment {
+	font-style: italic;
+	color: #AAA;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.parameters {
+	border: 2px solid #333;
+	background: #555;
+	padding: 10pt;
+	margin: 10pt;
+	text-align: left;
+}
+
+.parameters td, .parameters tr {
+	padding: 5pt;
+}
+
+.parameters td:first-child {
+	font-family: monospace;
+}
+
+.photo {
+	text-align: left;
+	padding: 10px;
+	margin: 10px;
+	display: inline-table;
+	background: #FFF;
+	color: #000;
+	
+	border: none;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	/*
+	-opera-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	*/
+	border-radius: 10px;
+	
+	-moz-box-shadow: #000 0px 0px 12px;
+	-webkit-box-shadow: #000 0px 0px 12px;
+	box-shadow: #000 0px 0px 12px;
+}
+
+.thumbnail {
+	border: 5px solid #FFF;
+	border-radius: 5px;
+	box-shadow: #000 0px 0px 6px;
+	margin: auto 5px auto 5px;
+}
+
+.sel_payload {
+	display: block;
+	border-radius: 10px;
+	padding: 2px 0px 10px 0px;
+	margin: 0px auto 0px auto;
+}
+
+.sel_payload:hover {
+	background: #555;
+}
+
+ </style>
+ <script type="text/javascript">
+
+var data_url = "\/update.php";
+var payload  = "SP2ZIE";
+var timezone = false;
+var last_id  = 131582035;
+var tseconds = 10;
+var status   = false;
+
+/* Preload Images */
+preload = new Image();
+preload.src = '/refresh.gif';
+
+function load()
+{
+	setTimeout(refresh, tseconds * 1000);
+}
+
+async function refresh()
+{
+	status = '<img src="/refresh.gif" style="width: 12px; height: 12px; vertical-align: middle;" alt=""> Refreshing ...';
+	document.querySelector('#status').innerHTML = status;
+	
+	try
+	{
+		const r = await fetch(data_url + '?format=json&request=update' + (payload ? '&payload=' + encodeURIComponent(payload) : '') + (timezone ? '&tz=' + encodeURIComponent(timezone) : '') + '&last_id=' + encodeURIComponent(last_id));
+		const j = await r.json();
+		update(j);
+	}
+	catch(error)
+	{
+		status = 'Error: ' + error;
+	}
+	
+	document.querySelector('#status').innerHTML = status;
+	setTimeout(refresh, tseconds * 1000);
+}
+
+function update(response)
+{
+	if(response == null)
+	{
+		status = 'No response from server';
+		return;
+	}
+	
+	tseconds = response.timer;
+	if(tseconds < 10)
+	{
+		tseconds = 10;
+	}
+	
+	var new_packets = response.last_id - last_id;
+	last_id = response.last_id;
+	
+	if(new_packets < 0)
+	{
+		/* Unreceived a packet?? Reload the page */
+		location.reload();
+		return;
+	}
+	
+	status = 'Received ' + new_packets + ' new packet' + (new_packets != 1 ? 's' : '') + (response.cache ? '' : ' *');
+	
+	if(new_packets == 0)
+	{
+		return;
+	}
+	
+	/* One or more images have been updated.. reload */
+	for(var i = response.images.length - 1; i >= 0; i--)
+	{
+		var image = response.images[i];
+		var id = '#photo_' + image.id;
+		
+		if(document.querySelector(id) === null)
+		{
+			var d = document.createElement("div");
+			d.innerHTML = image.html;
+			
+			var i = document.querySelector('#images');
+			i.insertBefore(d.firstChild, i.firstChild);
+		}
+		else
+		{
+			/* Update the image caption details */
+			document.querySelector(id + ' span.received').textContent = image.image_packets;
+			document.querySelector(id + ' span.receivedq').textContent = (image.image_packets == 1 ? 'packet' : 'packets');
+			document.querySelector(id + ' span.lost').textContent = image.lost_packets;
+			document.querySelector(id + ' span.receivers').textContent = image.receivers.join(', ');
+			
+			/* Force the image to refresh */
+			document.querySelector(id + ' img').src = image.image + '?u=' + image.image_packets;
+		}
+	}
+}
+
+ </script>
+ <title>SSDV Live Images</title>
+</head>
+<body onload="load();">
+
+<div id="banner">SSDV Live Images</div>
+<div id="status">Loaded 69 images</div>
+<div id="info">Live Tracking: <a href="https://amateur.sondehub.org/">amateur.sondehub.org</a></div><div id="images"><table class="photo" id="photo_305023" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--13-32-34-SP2ZIE-4A77F.jpeg?u=169" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305023
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 68</td>
+  <td style="text-align: right;">2026-07-11 13:32:34</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">169</span> <span class="receivedq">packets</span>, <span class="lost">6453+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305022" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--13-28-13-SP2ZIE-4A77E.jpeg?u=1460" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305022
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 67</td>
+  <td style="text-align: right;">2026-07-11 13:28:13</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">1460</span> <span class="receivedq">packets</span>, <span class="lost">3714+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305021" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--13-25-43-SP2ZIE-4A77D.jpeg?u=1544" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305021
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 66</td>
+  <td style="text-align: right;">2026-07-11 13:25:43</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">1544</span> <span class="receivedq">packets</span>, <span class="lost">3974+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305020" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--13-21-29-SP2ZIE-4A77C.jpeg?u=649" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305020
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 65</td>
+  <td style="text-align: right;">2026-07-11 13:21:29</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">649</span> <span class="receivedq">packets</span>, <span class="lost">4174+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305019" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--13-20-53-SP2ZIE-4A77B.jpeg?u=697" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305019
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 64</td>
+  <td style="text-align: right;">2026-07-11 13:20:53</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">697</span> <span class="receivedq">packets</span>, <span class="lost">4189+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE</span></td></tr>
+</table><table class="photo" id="photo_305018" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--13-18-16-SP2ZIE-4A77A.jpeg?u=368" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305018
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 63</td>
+  <td style="text-align: right;">2026-07-11 13:18:16</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">368</span> <span class="receivedq">packets</span>, <span class="lost">5520+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE</span></td></tr>
+</table><table class="photo" id="photo_305017" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--13-16-34-SP2ZIE-4A779.jpeg?u=109" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305017
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 62</td>
+  <td style="text-align: right;">2026-07-11 13:16:34</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">109</span> <span class="receivedq">packets</span>, <span class="lost">2197+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE</span></td></tr>
+</table><table class="photo" id="photo_305016" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--13-13-33-SP2ZIE-4A778.jpeg?u=1808" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305016
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 61</td>
+  <td style="text-align: right;">2026-07-11 13:13:33</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">1808</span> <span class="receivedq">packets</span>, <span class="lost">1811+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE</span></td></tr>
+</table><table class="photo" id="photo_305015" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--13-10-45-SP2ZIE-4A777.jpeg?u=1222" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305015
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 60</td>
+  <td style="text-align: right;">2026-07-11 13:10:45</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">1222</span> <span class="receivedq">packets</span>, <span class="lost">3585+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305014" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--13-07-49-SP2ZIE-4A776.jpeg?u=1807" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305014
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 59</td>
+  <td style="text-align: right;">2026-07-11 13:07:49</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">1807</span> <span class="receivedq">packets</span>, <span class="lost">2102+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305013" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--13-04-50-SP2ZIE-4A775.jpeg?u=3030" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305013
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 58</td>
+  <td style="text-align: right;">2026-07-11 13:04:50</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">3030</span> <span class="receivedq">packets</span>, <span class="lost">2394</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305012" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--13-02-13-SP2ZIE-4A774.jpeg?u=3204" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305012
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 57</td>
+  <td style="text-align: right;">2026-07-11 13:02:13</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">3204</span> <span class="receivedq">packets</span>, <span class="lost">2352</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305011" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-59-35-SP2ZIE-4A773.jpeg?u=1661" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305011
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 56</td>
+  <td style="text-align: right;">2026-07-11 12:59:35</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">1661</span> <span class="receivedq">packets</span>, <span class="lost">3497</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305010" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-57-10-SP2ZIE-4A772.jpeg?u=1149" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305010
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 55</td>
+  <td style="text-align: right;">2026-07-11 12:57:10</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">1149</span> <span class="receivedq">packets</span>, <span class="lost">4488+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305009" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-54-30-SP2ZIE-4A771.jpeg?u=1248" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305009
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 54</td>
+  <td style="text-align: right;">2026-07-11 12:54:30</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">1248</span> <span class="receivedq">packets</span>, <span class="lost">3428+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305008" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-52-05-SP2ZIE-4A770.jpeg?u=2276" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305008
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 53</td>
+  <td style="text-align: right;">2026-07-11 12:52:05</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">2276</span> <span class="receivedq">packets</span>, <span class="lost">3020+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE</span></td></tr>
+</table><table class="photo" id="photo_305007" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-49-17-SP2ZIE-4A76F.jpeg?u=1969" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305007
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 52</td>
+  <td style="text-align: right;">2026-07-11 12:49:17</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">1969</span> <span class="receivedq">packets</span>, <span class="lost">3573+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305006" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-46-33-SP2ZIE-4A76E.jpeg?u=747" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305006
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 51</td>
+  <td style="text-align: right;">2026-07-11 12:46:33</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">747</span> <span class="receivedq">packets</span>, <span class="lost">4833+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305005" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-43-45-SP2ZIE-4A76D.jpeg?u=2052" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305005
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 50</td>
+  <td style="text-align: right;">2026-07-11 12:43:45</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">2052</span> <span class="receivedq">packets</span>, <span class="lost">3030</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305004" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-41-20-SP2ZIE-4A76C.jpeg?u=2612" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305004
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 49</td>
+  <td style="text-align: right;">2026-07-11 12:41:20</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">2612</span> <span class="receivedq">packets</span>, <span class="lost">3097+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305003" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-38-32-SP2ZIE-4A76B.jpeg?u=1568" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305003
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 48</td>
+  <td style="text-align: right;">2026-07-11 12:38:32</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">1568</span> <span class="receivedq">packets</span>, <span class="lost">4070+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_305002" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-35-52-SP2ZIE-4A76A.jpeg?u=704" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305002
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 47</td>
+  <td style="text-align: right;">2026-07-11 12:35:52</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">704</span> <span class="receivedq">packets</span>, <span class="lost">4021+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE</span></td></tr>
+</table><table class="photo" id="photo_305001" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-33-04-SP2ZIE-4A769.jpeg?u=1239" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305001
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 46</td>
+  <td style="text-align: right;">2026-07-11 12:33:04</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">1239</span> <span class="receivedq">packets</span>, <span class="lost">4507</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_305000" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-30-18-SP2ZIE-4A768.jpeg?u=2114" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 305000
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 45</td>
+  <td style="text-align: right;">2026-07-11 12:30:18</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">2114</span> <span class="receivedq">packets</span>, <span class="lost">3900+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304999" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-27-24-SP2ZIE-4A767.jpeg?u=2739" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304999
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 44</td>
+  <td style="text-align: right;">2026-07-11 12:27:24</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">2739</span> <span class="receivedq">packets</span>, <span class="lost">3234</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304998" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-24-29-SP2ZIE-4A766.jpeg?u=3372" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304998
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 43</td>
+  <td style="text-align: right;">2026-07-11 12:24:29</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">3372</span> <span class="receivedq">packets</span>, <span class="lost">2422</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304997" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-21-44-SP2ZIE-4A765.jpeg?u=2813" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304997
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 42</td>
+  <td style="text-align: right;">2026-07-11 12:21:44</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">2813</span> <span class="receivedq">packets</span>, <span class="lost">2807</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304996" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-19-01-SP2ZIE-4A764.jpeg?u=1964" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304996
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 41</td>
+  <td style="text-align: right;">2026-07-11 12:19:01</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">1964</span> <span class="receivedq">packets</span>, <span class="lost">3580+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304995" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-16-30-SP2ZIE-4A763.jpeg?u=1889" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304995
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 40</td>
+  <td style="text-align: right;">2026-07-11 12:16:30</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">1889</span> <span class="receivedq">packets</span>, <span class="lost">3713+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304994" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-13-33-SP2ZIE-4A762.jpeg?u=3290" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304994
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 39</td>
+  <td style="text-align: right;">2026-07-11 12:13:33</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">3290</span> <span class="receivedq">packets</span>, <span class="lost">2502+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304993" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-10-46-SP2ZIE-4A761.jpeg?u=3116" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304993
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 38</td>
+  <td style="text-align: right;">2026-07-11 12:10:46</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">3116</span> <span class="receivedq">packets</span>, <span class="lost">2432</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304992" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-08-03-SP2ZIE-4A760.jpeg?u=3451" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304992
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 37</td>
+  <td style="text-align: right;">2026-07-11 12:08:03</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">3451</span> <span class="receivedq">packets</span>, <span class="lost">1787</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304991" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-05-35-SP2ZIE-4A75F.jpeg?u=3587" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304991
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 36</td>
+  <td style="text-align: right;">2026-07-11 12:05:35</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">3587</span> <span class="receivedq">packets</span>, <span class="lost">1705</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304990" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-03-04-SP2ZIE-4A75E.jpeg?u=3467" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304990
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 35</td>
+  <td style="text-align: right;">2026-07-11 12:03:04</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">3467</span> <span class="receivedq">packets</span>, <span class="lost">2248+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304989" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--12-00-12-SP2ZIE-4A75D.jpeg?u=3489" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304989
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 34</td>
+  <td style="text-align: right;">2026-07-11 12:00:12</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">3489</span> <span class="receivedq">packets</span>, <span class="lost">1872+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304988" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-57-42-SP2ZIE-4A75C.jpeg?u=3770" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304988
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 33</td>
+  <td style="text-align: right;">2026-07-11 11:57:42</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">3770</span> <span class="receivedq">packets</span>, <span class="lost">1482+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_304987" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-55-06-SP2ZIE-4A75B.jpeg?u=4142" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304987
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 32</td>
+  <td style="text-align: right;">2026-07-11 11:55:06</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">4142</span> <span class="receivedq">packets</span>, <span class="lost">1534</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304986" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-52-20-SP2ZIE-4A75A.jpeg?u=4064" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304986
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 31</td>
+  <td style="text-align: right;">2026-07-11 11:52:20</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">4064</span> <span class="receivedq">packets</span>, <span class="lost">1318+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_304985" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-49-43-SP2ZIE-4A759.jpeg?u=4283" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304985
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 30</td>
+  <td style="text-align: right;">2026-07-11 11:49:43</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">4283</span> <span class="receivedq">packets</span>, <span class="lost">1115+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE</span></td></tr>
+</table><table class="photo" id="photo_304984" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-47-04-SP2ZIE-4A758.jpeg?u=4255" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304984
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 29</td>
+  <td style="text-align: right;">2026-07-11 11:47:04</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">4255</span> <span class="receivedq">packets</span>, <span class="lost">1540</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304983" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-44-21-SP2ZIE-4A757.jpeg?u=5193" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304983
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 28</td>
+  <td style="text-align: right;">2026-07-11 11:44:21</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5193</span> <span class="receivedq">packets</span>, <span class="lost">927</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304982" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-41-20-SP2ZIE-4A756.jpeg?u=4346" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304982
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 27</td>
+  <td style="text-align: right;">2026-07-11 11:41:20</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">4346</span> <span class="receivedq">packets</span>, <span class="lost">1161</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304981" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-38-44-SP2ZIE-4A755.jpeg?u=3382" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304981
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 26</td>
+  <td style="text-align: right;">2026-07-11 11:38:44</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">3382</span> <span class="receivedq">packets</span>, <span class="lost">1536</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304980" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-36-20-SP2ZIE-4A754.jpeg?u=4206" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304980
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 25</td>
+  <td style="text-align: right;">2026-07-11 11:36:20</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">4206</span> <span class="receivedq">packets</span>, <span class="lost">723+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304979" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-33-58-SP2ZIE-4A753.jpeg?u=4186" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304979
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 24</td>
+  <td style="text-align: right;">2026-07-11 11:33:58</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">4186</span> <span class="receivedq">packets</span>, <span class="lost">1283</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304978" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-31-21-SP2ZIE-4A752.jpeg?u=4600" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304978
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 23</td>
+  <td style="text-align: right;">2026-07-11 11:31:21</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">4600</span> <span class="receivedq">packets</span>, <span class="lost">526</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304977" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-28-54-SP2ZIE-4A751.jpeg?u=5394" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304977
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 22</td>
+  <td style="text-align: right;">2026-07-11 11:28:54</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5394</span> <span class="receivedq">packets</span>, <span class="lost">200</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304976" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-26-11-SP2ZIE-4A750.jpeg?u=5084" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304976
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 21</td>
+  <td style="text-align: right;">2026-07-11 11:26:11</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5084</span> <span class="receivedq">packets</span>, <span class="lost">492+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304975" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-23-29-SP2ZIE-4A74F.jpeg?u=6325" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304975
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 20</td>
+  <td style="text-align: right;">2026-07-11 11:23:29</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">6325</span> <span class="receivedq">packets</span>, <span class="lost">78</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304974" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-20-26-SP2ZIE-4A74E.jpeg?u=5222" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304974
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 19</td>
+  <td style="text-align: right;">2026-07-11 11:20:26</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5222</span> <span class="receivedq">packets</span>, <span class="lost">466</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304973" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-17-44-SP2ZIE-4A74D.jpeg?u=5225" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304973
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 18</td>
+  <td style="text-align: right;">2026-07-11 11:17:44</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5225</span> <span class="receivedq">packets</span>, <span class="lost">269</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304972" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-15-04-SP2ZIE-4A74C.jpeg?u=5284" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304972
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 17</td>
+  <td style="text-align: right;">2026-07-11 11:15:04</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5284</span> <span class="receivedq">packets</span>, <span class="lost">274</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304971" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-09-56-SP2ZIE-4A74B.jpeg?u=5190" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304971
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 16</td>
+  <td style="text-align: right;">2026-07-11 11:09:56</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5190</span> <span class="receivedq">packets</span>, <span class="lost">98</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2YWL, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304970" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-07-42-SP2ZIE-4A74A.jpeg?u=5362" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304970
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 15</td>
+  <td style="text-align: right;">2026-07-11 11:07:42</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5362</span> <span class="receivedq">packets</span>, <span class="lost">32</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2YWL, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304969" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-07-14-SP2ZIE-4A749.jpeg?u=5184" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304969
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 14</td>
+  <td style="text-align: right;">2026-07-11 11:07:14</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5184</span> <span class="receivedq">packets</span>, <span class="lost">60+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304968" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-04-43-SP2ZIE-4A748.jpeg?u=4781" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304968
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 13</td>
+  <td style="text-align: right;">2026-07-11 11:04:43</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">4781</span> <span class="receivedq">packets</span>, <span class="lost">87</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304967" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-02-22-SP2ZIE-4A747.jpeg?u=3138" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304967
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 12</td>
+  <td style="text-align: right;">2026-07-11 11:02:22</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">3138</span> <span class="receivedq">packets</span>, <span class="lost">1414</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304966" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--11-00-13-SP2ZIE-4A746.jpeg?u=5876" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304966
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 11</td>
+  <td style="text-align: right;">2026-07-11 11:00:13</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5876</span> <span class="receivedq">packets</span>, <span class="lost">1326</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ABE, SP2ZIE, SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304965" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--10-56-49-SP2ZIE-4A745.jpeg?u=5262" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304965
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 10</td>
+  <td style="text-align: right;">2026-07-11 10:56:49</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5262</span> <span class="receivedq">packets</span>, <span class="lost">131</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304964" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--10-54-11-SP2ZIE-4A744.jpeg?u=4865" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304964
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 9</td>
+  <td style="text-align: right;">2026-07-11 10:54:11</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">4865</span> <span class="receivedq">packets</span>, <span class="lost">154</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304963" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--10-51-47-SP2ZIE-4A743.jpeg?u=5009" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304963
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 8</td>
+  <td style="text-align: right;">2026-07-11 10:51:47</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5009</span> <span class="receivedq">packets</span>, <span class="lost">51</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304962" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--10-49-18-SP2ZIE-4A742.jpeg?u=5590" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304962
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 7</td>
+  <td style="text-align: right;">2026-07-11 10:49:18</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5590</span> <span class="receivedq">packets</span>, <span class="lost">83</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304961" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--10-46-34-SP2ZIE-4A741.jpeg?u=5328" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304961
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 6</td>
+  <td style="text-align: right;">2026-07-11 10:46:34</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5328</span> <span class="receivedq">packets</span>, <span class="lost">171</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304960" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--10-43-58-SP2ZIE-4A740.jpeg?u=5550" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304960
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 5</td>
+  <td style="text-align: right;">2026-07-11 10:43:58</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5550</span> <span class="receivedq">packets</span>, <span class="lost">52</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304959" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--10-41-15-SP2ZIE-4A73F.jpeg?u=5085" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304959
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 4</td>
+  <td style="text-align: right;">2026-07-11 10:41:15</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">5085</span> <span class="receivedq">packets</span>, <span class="lost">124</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304958" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--10-38-45-SP2ZIE-4A73E.jpeg?u=7210" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304958
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 3</td>
+  <td style="text-align: right;">2026-07-11 10:38:45</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">7210</span> <span class="receivedq">packets</span>, <span class="lost">134</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304957" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--10-35-13-SP2ZIE-4A73D.jpeg?u=6706" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304957
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 2</td>
+  <td style="text-align: right;">2026-07-11 10:35:13</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">6706</span> <span class="receivedq">packets</span>, <span class="lost">121</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304956" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--10-31-55-SP2ZIE-4A73C.jpeg?u=4949" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304956
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: False
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 1</td>
+  <td style="text-align: right;">2026-07-11 10:31:55</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">4949</span> <span class="receivedq">packets</span>, <span class="lost">56+</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ZIE/2</span></td></tr>
+</table><table class="photo" id="photo_304955" style="max-width: 3280px;">
+ <tr><td colspan="2" style="text-align: center;"><img src="/images/2026/07/11/2026-07-11--10-29-31-SP2ZIE-4A73B.jpeg?u=4702" style="width: 100%; max-width: 3280px; height: auto; background: #888;" width="3280" height="2464" title="Server ID: 304955
+Resolution: 3280x2464
+MCU mode: 2x2
+Quality: 6
+Packet type: No FEC
+Packet length: 256
+EOI received: True
+" loading="lazy" /></td></tr>
+ <tr>
+  <td style="font-size: 120%; font-weight: bold;">SP2ZIE image 0</td>
+  <td style="text-align: right;">2026-07-11 10:29:31</td>
+ </tr>
+ <tr><td colspan="2"><b>Received:</b> <span class="received">4702</span> <span class="receivedq">packets</span>, <span class="lost">5</span> missing<br />
+<b>Receivers:</b> <span class="receivers">SP2ZIE/2</span></td></tr>
+</table></div>
+
+</body>
+</html>
+
