@@ -8,6 +8,9 @@ subcategory: balony
 ---
 Lista odebranych przez klub obrazków na przestrzeni róźnych misji balonów stratosferycznych w formacie SSTV i nie tylko.
 
+# Balon SP2ZIE i SP2YWL GRYF 2026
+{% include image-gallery.html folder="assets/images/sstv/GRYF_2026" %}
+
 # Balon SP2ZIE i SP2YWL GRYF 2025
 {% include image-gallery.html folder="assets/images/sstv/GRYF_2025" %}
 

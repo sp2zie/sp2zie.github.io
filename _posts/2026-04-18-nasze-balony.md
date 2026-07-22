@@ -117,6 +117,18 @@ Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowan
         <td>tak - lądowanie relatywnie blisko miejsca startu, w polu</td>
         <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/goto/YDlCaDfvR?orgId=1">Horus</a>, <a href="https://grafana.v2.sondehub.org/goto/v3ZqaDfDg?orgId=1">APRS</a></td>
       </tr>
+      <tr>
+        <td>10</td>
+        <td>2026-06-27</td>
+        <td>standard</td>
+        <td>M20 - Horus Binary V3, APRS; RPI 0 2 - Wenet v2 + SSTV, LoRa APRS</td>
+        <td>Czymanowo</td>
+        <td>W tym roku ponownie nasz klub miał okazję przygotować misję stratosferyczną z okazji corocznego spotkania GRYF. W tym roku ponownie misja obejmowała nadajnik obrazów z kamerą przesyłającą je w cyfrowym formacie Wenet (tym razem w wersji v2). Dodatkowo te same obrazki były emitowane za pomocą emisji SSTV. Tracker był tradycyjnie radiosondą M20, dodatkowo na pokładzie znalazł się tracker LoRa APRS. Niestety na etapie konstrukcji wystąpiły problemy z kompatybilnością elektromagnetyczną, nadajnik Wenet zakłucał moduł GPS sondy. W efekcie została ona przeniesiona poza obudowę. Niestety mimo tych zmian doszło do utraty sygnału GPS zarówno przez M20 jak i tracker LoRa przez co namierzanie balonu było niemożliwe. Spowodowało to też, że odbiór zdjęć był bardzo utrudniony z racji problemów z pozycjonowaniem anten kierunkowych. Odebrane zdjęcia są przez to niestety tylko fragmentaryczne.</td>
+        <td>częściowo - odnaleziono tracker M20 (w Sierakowie Słupskim) natomiast główny ładunek został utracony</td>
+        <td>SondeHub Grafana: b.d., <a href="/projekty/2026/05/06/odebrane-sstv-balony.html">zdjęcia</a></td>
+      </tr>
+
+
     </tbody>
   </table>
 </div>
