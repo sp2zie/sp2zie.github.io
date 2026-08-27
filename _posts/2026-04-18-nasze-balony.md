@@ -119,7 +119,7 @@ Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowan
       </tr>
       <tr>
         <td>10</td>
-        <td>2026-06-27</td>
+        <td>2026-07-11</td>
         <td>standard</td>
         <td>M20 - Horus Binary V3, APRS; RPI 0 2 - Wenet v2 + SSTV, LoRa APRS</td>
         <td>Czymanowo</td>
@@ -127,8 +127,16 @@ Loty są organizowane z okazji różnych wydarzeń lub też na potrzeby testowan
         <td>częściowo - odnaleziono tracker M20 (w Sierakowie Słupskim) natomiast główny ładunek został utracony</td>
         <td>SondeHub Grafana: b.d., <a href="/projekty/2026/05/06/odebrane-sstv-balony.html">zdjęcia</a></td>
       </tr>
-
-
+      <tr>
+        <td>11</td>
+        <td>2026-08-11</td>
+        <td>standard</td>
+        <td>M20 - Horus Binary V3</td>
+        <td>Somonino</td>
+        <td>Misja miała na celu pomiar poziomu promieniowania w stratosferze za pomocą licznika Geigera oraz wysokości na której jest ono największe. Utrata sygnału GPS na około 1200m. Wartość poziomu promieniowania raportowana jako ilość zliczeń wy cyklu co 30s. Tuba STS-5</td>
+        <td>nie - ładunek został odnaleziony po upadku ale nie został podjęty</td>
+        <td>SondeHub Grafana: <a href="https://grafana.v2.sondehub.org/goto/XxHBGGwDR?orgId=1">Horus</a></td>
+      </tr>
     </tbody>
   </table>
 </div>
