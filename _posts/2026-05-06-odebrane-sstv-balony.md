@@ -14,6 +14,10 @@ Lista odebranych przez klub obrazków na przestrzeni róźnych misji balonów st
 # Balon SP2ZIE i SP2YWL GRYF 2025
 {% include image-gallery.html folder="assets/images/sstv/GRYF_2025" %}
 
+# Balon SP2ZIE i SP2YWL GRYF 2025 odzyskane
+Po roku od misji udało się odzyskać ładunek i zgrać z niego wszystkie zdjęcia.
+{% include image-gallery.html folder="assets/images/sstv/GRYF_2025_recover" %}
+
 # Balon POLSY 2025
 {% include image-gallery.html folder="assets/images/sstv/2025_POLSA" %}
 
